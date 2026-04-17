@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VocabMaster - Học Tiếng Anh Thông Minh</title>
+    <meta name="description" content="Ứng dụng học từ vựng tiếng Anh thông minh với flashcard, phân loại chủ đề, nhắc nhở học tập và theo dõi tiến độ.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Inter: body text | Be Vietnam Pro: heading/title - hỗ trợ tiếng Việt đầy đủ kể cả weight 900 -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Be+Vietnam+Pro:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Notification Toast Container -->
+    <div id="toast-container" class="toast-container"></div>
+
+    <!-- Reminder Popup -->
+    <div id="reminder-popup" class="reminder-popup hidden">
+        <div class="reminder-inner">
+            <button class="reminder-close" id="reminder-close-btn"><i data-lucide="x"></i></button>
+            <div class="reminder-icon"><i data-lucide="bell-ring"></i></div>
+            <h3 class="reminder-title">Đến giờ ôn từ rồi! 🎯</h3>
+            <p class="reminder-msg" id="reminder-msg">Bạn đã học được <strong id="reminder-count">0</strong> từ hôm nay. Hãy ôn lại để không quên nhé!</p>
+            <div class="reminder-actions">
+                <button class="btn-remind-later" id="remind-later-btn">Nhắc lại sau 30 phút</button>
+                <button class="btn-remind-now" id="remind-now-btn">Học ngay!</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="app-container">
+        <!-- Sidebar -->
+        <aside id="sidebar" class="sidebar">
+            <!-- Sidebar Toggle Button -->
+            <button id="sidebar-toggle" class="sidebar-toggle-btn" title="Thu gọn menu">
+                <i data-lucide="chevron-left"></i>
+            </button>
+
+            <div class="sidebar-header">
+                <div class="logo-box">
+                    <i data-lucide="graduation-cap"></i>
+                </div>
+                <h1 class="logo-text font-outfit">VocabMaster</h1>
+            </div>
+
+            <nav class="sidebar-nav custom-scrollbar">
+                <!-- Nhóm chính -->
+                <div class="nav-group-label">Tổng quan</div>
+                <a href="#" class="nav-item active" data-tab="dashboard" id="nav-dashboard">
+                    <i data-lucide="layout-dashboard"></i>
+                    <span class="nav-text">Dashboard</span>
+                </a>
+                <a href="#" class="nav-item" data-tab="today" id="nav-today">
+                    <i data-lucide="calendar-check"></i>
+                    <span class="nav-text">Học hôm nay</span>
+                    <span class="nav-badge" id="today-nav-badge">0</span>
+                </a>
+
+                <!-- Nhóm học -->
+                <div class="nav-group-label">Học tập</div>
+                <a href="#" class="nav-item" data-tab="topics" id="nav-topics">
+                    <i data-lucide="layers"></i>
+                    <span class="nav-text">Chủ đề</span>
+                </a>
+                <a href="#" class="nav-item" data-tab="learn" id="nav-learn">
+                    <i data-lucide="book-open"></i>
+                    <span class="nav-text">Học từ mới</span>
+                </a>
+                <a href="#" class="nav-item" data-tab="quiz" id="nav-quiz">
+                    <i data-lucide="brain-circuit"></i>
+                    <span class="nav-text">Luyện tập</span>
+                </a>
+
+                <!-- Nhóm quản lý -->
+                <div class="nav-group-label">Quản lý</div>
+                <a href="#" class="nav-item" data-tab="bank" id="nav-bank">
+                    <i data-lucide="database"></i>
+                    <span class="nav-text">Kho từ vựng</span>
+                </a>
+                <a href="#" class="nav-item" data-tab="reminder" id="nav-reminder">
+                    <i data-lucide="bell"></i>
+                    <span class="nav-text">Nhắc nhở</span>
+                </a>
+            </nav>
+
+            <div class="sidebar-footer">
+                <div class="user-profile">
+                    <div class="avatar-circle">AD</div>
+                    <div class="user-info">
+                        <p class="user-name">Admin</p>
+                        <span class="plan-badge">Premium Plan</span>
+                    </div>
+                </div>
+                <div class="progress-section">
+                    <div class="progress-header">
+                        <span class="progress-label">Tiến độ tổng</span>
+                        <span class="progress-percentage" id="weekly-percent">0%</span>
+                    </div>
+                    <div class="progress-track">
+                        <div class="progress-bar" id="weekly-progress-bar" style="width: 0%"></div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Header -->
+            <header class="main-header">
+                <!-- Mobile: Logo + Hamburger -->
+                <button id="mobile-menu-btn" class="mobile-menu-btn">
+                    <i data-lucide="menu"></i>
+                </button>
+                <div class="search-container">
+                    <i data-lucide="search"></i>
+                    <input type="text" id="global-search" placeholder="Tìm kiếm từ vựng..." class="search-input">
+                    <span class="search-clear hidden" id="search-clear">✕</span>
+                </div>
+                <div class="header-actions">
+                    <button class="icon-btn" id="btn-reminder-bell" title="Nhắc nhở học tập">
+                        <i data-lucide="bell"></i>
+                        <span class="bell-dot hidden" id="bell-dot"></span>
+                    </button>
+                    <button class="icon-btn theme-toggle" id="theme-toggle-btn" title="Chuyển giao diện tối/sáng">
+                        <i data-lucide="moon"></i>
+                    </button>
+                </div>
+            </header>
+
+            <!-- Content Area -->
+            <div id="content-area" class="content-scroll custom-scrollbar">
+
+                <!-- ===================== DASHBOARD TAB ===================== -->
+                <section id="tab-dashboard" class="tab-content">
+                    <div class="page-header">
+                        <div>
+                            <h2 class="page-title font-outfit">Chào bạn, Admin! 👋</h2>
+                            <p class="page-subtitle" id="greeting-subtitle">Hôm nay là một ngày tuyệt vời để học thêm từ mới.</p>
+                        </div>
+                        <div class="streak-badge" id="streak-display">
+                            <i data-lucide="flame"></i>
+                            <span id="streak-count">0</span>
+                            <span>ngày liên tiếp</span>
+                        </div>
+                    </div>
+
+                    <!-- Stats Grid -->
+                    <div class="stats-grid">
+                        <div class="stat-card" onclick="app.switchTab('bank')">
+                            <div class="stat-icon-wrap" style="background:linear-gradient(135deg,#6366f1,#818cf8)">
+                                <i data-lucide="layers"></i>
+                            </div>
+                            <div class="stat-content">
+                                <span class="stat-label">Tổng kho từ</span>
+                                <h3 class="stat-value" id="stat-total">0</h3>
+                            </div>
+                            <div class="stat-arrow"><i data-lucide="chevron-right"></i></div>
+                        </div>
+                        <div class="stat-card" onclick="app.switchTab('today')">
+                            <div class="stat-icon-wrap" style="background:linear-gradient(135deg,#10b981,#34d399)">
+                                <i data-lucide="check-circle-2"></i>
+                            </div>
+                            <div class="stat-content">
+                                <span class="stat-label">Đã học hôm nay</span>
+                                <h3 class="stat-value" id="stat-today">0</h3>
+                            </div>
+                            <div class="stat-arrow"><i data-lucide="chevron-right"></i></div>
+                        </div>
+                        <div class="stat-card" onclick="app.switchTab('learn')">
+                            <div class="stat-icon-wrap" style="background:linear-gradient(135deg,#f59e0b,#fbbf24)">
+                                <i data-lucide="clock-3"></i>
+                            </div>
+                            <div class="stat-content">
+                                <span class="stat-label">Cần ôn lại</span>
+                                <h3 class="stat-value" id="stat-review">0</h3>
+                            </div>
+                            <div class="stat-arrow"><i data-lucide="chevron-right"></i></div>
+                        </div>
+                        <div class="stat-card" onclick="app.switchTab('topics')">
+                            <div class="stat-icon-wrap" style="background:linear-gradient(135deg,#8b5cf6,#a78bfa)">
+                                <i data-lucide="folder-open"></i>
+                            </div>
+                            <div class="stat-content">
+                                <span class="stat-label">Tổng đã học</span>
+                                <h3 class="stat-value" id="stat-learned">0</h3>
+                            </div>
+                            <div class="stat-arrow"><i data-lucide="chevron-right"></i></div>
+                        </div>
+                    </div>
+
+                    <!-- Today Progress Card -->
+                    <div class="today-progress-card">
+                        <div class="today-prog-header">
+                            <div>
+                                <h3 class="today-prog-title">Mục tiêu hôm nay</h3>
+                                <p class="today-prog-sub">Học đủ <strong id="daily-goal-text">20</strong> từ mỗi ngày để tiến bộ nhanh</p>
+                            </div>
+                            <button class="btn-start-today" onclick="app.switchTab('learn')">
+                                <i data-lucide="play"></i>
+                                <span>Học ngay</span>
+                            </button>
+                        </div>
+                        <div class="today-prog-bar-wrap">
+                            <div class="today-prog-bar" id="today-prog-bar" style="width:0%"></div>
+                        </div>
+                        <div class="today-prog-meta">
+                            <span id="today-prog-label">0 / 20 từ đã học hôm nay</span>
+                            <span id="today-prog-percent">0%</span>
+                        </div>
+                    </div>
+
+                    <!-- Quick Topics -->
+                    <div class="section-box">
+                        <div class="section-box-header">
+                            <h3 class="section-box-title">Chủ đề nổi bật</h3>
+                            <button class="btn-see-all" onclick="app.switchTab('topics')">
+                                Xem tất cả <i data-lucide="arrow-right"></i>
+                            </button>
+                        </div>
+                        <div id="quick-topics-grid" class="quick-topics-grid">
+                            <!-- Rendered via JS -->
+                        </div>
+                    </div>
+
+                    <!-- Featured words today -->
+                    <div class="section-box">
+                        <div class="section-box-header">
+                            <h3 class="section-box-title">Gợi ý từ vựng hôm nay</h3>
+                            <button id="btn-shuffle-featured" class="btn-shuffle">
+                                <i data-lucide="shuffle"></i>
+                                <span>Xáo trộn</span>
+                            </button>
+                        </div>
+                        <div id="featured-words" class="word-grid">
+                            <!-- Rendered via JS -->
+                        </div>
+                    </div>
+                </section>
+
+                <!-- ===================== TODAY TAB ===================== -->
+                <section id="tab-today" class="tab-content hidden">
+                    <div class="page-header">
+                        <div>
+                            <h2 class="page-title font-outfit">📅 Đã học hôm nay</h2>
+                            <p class="page-subtitle" id="today-date-display">Thứ 2, 15/04/2026</p>
+                        </div>
+                        <div class="today-summary-badge">
+                            <span id="today-learned-count">0</span> từ
+                        </div>
+                    </div>
+
+                    <!-- Today Stats Mini -->
+                    <div class="today-mini-stats">
+                        <div class="mini-stat">
+                            <span class="mini-stat-val" id="today-duration">0 phút</span>
+                            <span class="mini-stat-label">Thời gian học</span>
+                        </div>
+                        <div class="mini-stat-divider"></div>
+                        <div class="mini-stat">
+                            <span class="mini-stat-val" id="today-accuracy">-</span>
+                            <span class="mini-stat-label">Tỷ lệ thuộc</span>
+                        </div>
+                        <div class="mini-stat-divider"></div>
+                        <div class="mini-stat">
+                            <span class="mini-stat-val" id="today-sessions">0</span>
+                            <span class="mini-stat-label">Phiên học</span>
+                        </div>
+                    </div>
+
+                    <!-- Filter by topic -->
+                    <div class="today-filters">
+                        <button class="today-filter-btn active" data-filter="all">Tất cả</button>
+                        <button class="today-filter-btn" data-filter="learned">Đã thuộc ✓</button>
+                        <button class="today-filter-btn" data-filter="review">Cần ôn lại</button>
+                    </div>
+
+                    <!-- Today word list -->
+                    <div id="today-word-list" class="today-word-list">
+                        <!-- Rendered via JS -->
+                    </div>
+
+                    <!-- Empty state if no words today -->
+                    <div id="today-empty" class="empty-state hidden">
+                        <div class="empty-icon"><i data-lucide="book-marked"></i></div>
+                        <h3 class="empty-text">Chưa học từ nào hôm nay</h3>
+                        <p class="empty-subtext">Hãy bắt đầu học để xem danh sách ở đây</p>
+                        <button class="btn-primary-action" onclick="app.switchTab('learn')">
+                            <i data-lucide="play"></i> Bắt đầu học
+                        </button>
+                    </div>
+                </section>
+
+                <!-- ===================== TOPICS TAB ===================== -->
+                <section id="tab-topics" class="tab-content hidden">
+                    <div class="page-header">
+                        <div>
+                            <h2 class="page-title font-outfit">📚 Học theo chủ đề</h2>
+                            <p class="page-subtitle">Chọn chủ đề phù hợp để học tập hiệu quả hơn</p>
+                        </div>
+                    </div>
+
+                    <!-- Topics grid -->
+                    <div id="topics-grid" class="topics-grid">
+                        <!-- Rendered via JS -->
+                    </div>
+                </section>
+
+                <!-- ===================== TOPIC DETAIL (học từ theo chủ đề) ===================== -->
+                <section id="tab-topic-detail" class="tab-content hidden">
+                    <div class="page-header">
+                        <button class="btn-back" id="btn-back-topics" onclick="app.switchTab('topics')">
+                            <i data-lucide="arrow-left"></i>
+                            <span>Quay lại</span>
+                        </button>
+                        <div class="topic-detail-header" id="topic-detail-header">
+                            <!-- Filled by JS -->
+                        </div>
+                    </div>
+
+                    <!-- Sub-tabs: Học flashcard / Danh sách từ -->
+                    <div class="subtab-bar">
+                        <button class="subtab-btn active" data-subtab="flashcard" id="subtab-flash">
+                            <i data-lucide="layers"></i> Học Flashcard
+                        </button>
+                        <button class="subtab-btn" data-subtab="wordlist" id="subtab-list">
+                            <i data-lucide="list"></i> Danh sách từ
+                        </button>
+                    </div>
+
+                    <!-- Flashcard sub-section -->
+                    <div id="topic-flashcard-section" class="topic-flashcard-section">
+                        <div class="learn-header-premium">
+                            <div class="progress-meta">
+                                <span class="meta-label">Tiến trình chủ đề</span>
+                                <span class="meta-count" id="topic-learn-counter">1/0</span>
+                            </div>
+                            <div class="modern-progress">
+                                <div id="topic-progress-bar" class="modern-progress-bar"></div>
+                            </div>
+                        </div>
+                        <div id="topic-flashcard-container" class="flashcard-anchor"></div>
+                        <div class="learn-controls" id="topic-learn-controls">
+                            <button id="topic-btn-again" class="ctrl-btn">
+                                <div class="ctrl-icon-box"><i data-lucide="rotate-ccw"></i></div>
+                                <span class="ctrl-label">Xem lại</span>
+                            </button>
+                            <button id="topic-btn-easy" class="ctrl-btn easy">
+                                <div class="ctrl-icon-box"><i data-lucide="check"></i></div>
+                                <span class="ctrl-label">Đã thuộc</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Wordlist sub-section -->
+                    <div id="topic-wordlist-section" class="hidden">
+                        <div id="topic-word-grid" class="word-grid-bank"></div>
+                    </div>
+                </section>
+
+                <!-- ===================== LEARN TAB (Học từ mới - Tất cả) ===================== -->
+                <section id="tab-learn" class="tab-content hidden">
+                    <div class="learn-container">
+                        <div class="learn-bg-deco deco-top"></div>
+                        <div class="learn-bg-deco deco-bottom"></div>
+
+                        <div class="learn-header-premium">
+                            <h2 class="learn-title-main font-outfit">Học từ mới</h2>
+                            <div class="progress-meta">
+                                <span class="meta-label">Tiến trình hôm nay</span>
+                                <span class="meta-count" id="learn-counter">1/20</span>
+                            </div>
+                            <div class="modern-progress">
+                                <div id="learn-progress-bar" class="modern-progress-bar"></div>
+                            </div>
+                        </div>
+
+                        <div id="flashcard-container" class="flashcard-anchor"></div>
+
+                        <div id="learn-controls" class="learn-controls">
+                            <button id="btn-again" class="ctrl-btn">
+                                <div class="ctrl-icon-box"><i data-lucide="rotate-ccw"></i></div>
+                                <span class="ctrl-label">Xem lại</span>
+                            </button>
+                            <button id="btn-easy" class="ctrl-btn easy">
+                                <div class="ctrl-icon-box"><i data-lucide="check"></i></div>
+                                <span class="ctrl-label">Đã thuộc</span>
+                            </button>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- ===================== QUIZ TAB ===================== -->
+                <section id="tab-quiz" class="tab-content hidden">
+                    <!-- Quiz sẽ được render bởi JS -->
+                    <div id="quiz-content"></div>
+                </section>
+
+                <!-- ===================== WORD BANK TAB ===================== -->
+                <section id="tab-bank" class="tab-content hidden">
+                    <div class="page-header">
+                        <h2 class="page-title font-outfit">Kho từ vựng</h2>
+                        <div class="filter-group">
+                            <select id="filter-topic" class="premium-select">
+                                <option value="all">Tất cả chủ đề</option>
+                            </select>
+                            <select id="filter-difficulty" class="premium-select">
+                                <option value="all">Tất cả trình độ</option>
+                                <option value="1">Cơ bản</option>
+                                <option value="2">Trung bình</option>
+                                <option value="3">Nâng cao</option>
+                            </select>
+                            <select id="filter-status" class="premium-select">
+                                <option value="all">Tất cả từ</option>
+                                <option value="learned">Đã học</option>
+                                <option value="new">Chưa học</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="bank-count-bar">
+                        <span id="bank-count-label">Đang hiển thị 0 từ</span>
+                        <button class="btn-reset-filter" id="btn-reset-filter">
+                            <i data-lucide="refresh-ccw"></i> Reset bộ lọc
+                        </button>
+                    </div>
+                    <div id="word-list-grid" class="word-grid-bank custom-scrollbar">
+                        <!-- Rendered via JS -->
+                    </div>
+                </section>
+
+                <!-- ===================== REMINDER TAB ===================== -->
+                <section id="tab-reminder" class="tab-content hidden">
+                    <div class="page-header">
+                        <div>
+                            <h2 class="page-title font-outfit">🔔 Cài đặt nhắc nhở</h2>
+                            <p class="page-subtitle">Cài đặt lịch nhắc nhở để không bỏ quên việc học</p>
+                        </div>
+                    </div>
+
+                    <div class="reminder-settings-grid">
+                        <!-- Nhắc nhở hàng ngày -->
+                        <div class="reminder-card">
+                            <div class="reminder-card-header">
+                                <div class="reminder-card-icon" style="background:linear-gradient(135deg,#6366f1,#a855f7)">
+                                    <i data-lucide="alarm-clock"></i>
+                                </div>
+                                <div>
+                                    <h3 class="reminder-card-title">Nhắc nhở hàng ngày</h3>
+                                    <p class="reminder-card-sub">Nhắc bạn học vào giờ cố định mỗi ngày</p>
+                                </div>
+                                <label class="toggle-switch">
+                                    <input type="checkbox" id="daily-reminder-toggle">
+                                    <span class="toggle-slider"></span>
+                                </label>
+                            </div>
+                            <div class="reminder-card-body" id="daily-reminder-body">
+                                <div class="time-picker-group">
+                                    <label class="form-label">Giờ học buổi sáng</label>
+                                    <input type="time" class="time-input" id="morning-time" value="08:00">
+                                </div>
+                                <div class="time-picker-group">
+                                    <label class="form-label">Giờ ôn buổi tối</label>
+                                    <input type="time" class="time-input" id="evening-time" value="20:00">
+                                </div>
+                                <div class="day-picker-group">
+                                    <label class="form-label">Ngày học trong tuần</label>
+                                    <div class="day-picker" id="day-picker">
+                                        <button class="day-btn active" data-day="1">T2</button>
+                                        <button class="day-btn active" data-day="2">T3</button>
+                                        <button class="day-btn active" data-day="3">T4</button>
+                                        <button class="day-btn active" data-day="4">T5</button>
+                                        <button class="day-btn active" data-day="5">T6</button>
+                                        <button class="day-btn" data-day="6">T7</button>
+                                        <button class="day-btn" data-day="0">CN</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Mục tiêu hàng ngày -->
+                        <div class="reminder-card">
+                            <div class="reminder-card-header">
+                                <div class="reminder-card-icon" style="background:linear-gradient(135deg,#10b981,#34d399)">
+                                    <i data-lucide="target"></i>
+                                </div>
+                                <div>
+                                    <h3 class="reminder-card-title">Mục tiêu học tập</h3>
+                                    <p class="reminder-card-sub">Đặt số từ cần học mỗi ngày</p>
+                                </div>
+                            </div>
+                            <div class="reminder-card-body">
+                                <div class="goal-picker">
+                                    <label class="form-label">Số từ mục tiêu mỗi ngày</label>
+                                    <div class="goal-options">
+                                        <button class="goal-opt" data-goal="10">10 từ</button>
+                                        <button class="goal-opt active" data-goal="20">20 từ</button>
+                                        <button class="goal-opt" data-goal="30">30 từ</button>
+                                        <button class="goal-opt" data-goal="50">50 từ</button>
+                                    </div>
+                                    <div class="goal-custom-group">
+                                        <label class="form-label">Hoặc tùy chỉnh:</label>
+                                        <input type="number" class="goal-custom-input" id="goal-custom" placeholder="Nhập số từ..." min="1" max="200">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Nhắc ôn lại -->
+                        <div class="reminder-card">
+                            <div class="reminder-card-header">
+                                <div class="reminder-card-icon" style="background:linear-gradient(135deg,#f59e0b,#fbbf24)">
+                                    <i data-lucide="rotate-ccw"></i>
+                                </div>
+                                <div>
+                                    <h3 class="reminder-card-title">Nhắc ôn lại từ cũ</h3>
+                                    <p class="reminder-card-sub">Nhắc bạn ôn lại từ trong phiên học</p>
+                                </div>
+                                <label class="toggle-switch">
+                                    <input type="checkbox" id="review-reminder-toggle" checked>
+                                    <span class="toggle-slider"></span>
+                                </label>
+                            </div>
+                            <div class="reminder-card-body">
+                                <div class="time-picker-group">
+                                    <label class="form-label">Nhắc ôn lại sau mỗi (phút)</label>
+                                    <div class="interval-options">
+                                        <button class="interval-btn" data-interval="15">15 phút</button>
+                                        <button class="interval-btn active" data-interval="30">30 phút</button>
+                                        <button class="interval-btn" data-interval="60">1 giờ</button>
+                                        <button class="interval-btn" data-interval="120">2 giờ</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Lịch sử thông báo -->
+                        <div class="reminder-card">
+                            <div class="reminder-card-header">
+                                <div class="reminder-card-icon" style="background:linear-gradient(135deg,#8b5cf6,#c084fc)">
+                                    <i data-lucide="history"></i>
+                                </div>
+                                <div>
+                                    <h3 class="reminder-card-title">Lịch sử học tập</h3>
+                                    <p class="reminder-card-sub">Xem lại thống kê các ngày trước</p>
+                                </div>
+                            </div>
+                            <div class="reminder-card-body">
+                                <div id="history-list" class="history-list">
+                                    <!-- Rendered by JS -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="btn-save-settings" id="btn-save-settings">
+                        <i data-lucide="save"></i>
+                        Lưu cài đặt
+                    </button>
+                </section>
+
+            </div><!-- end content-area -->
+        </main>
+    </div>
+
+    <!-- Word Details Modal -->
+    <div id="word-modal" class="modal-overlay hidden">
+        <div class="modal-content">
+            <!-- Filled by JS -->
+        </div>
+    </div>
+
+    <!-- Mobile sidebar overlay -->
+    <div id="sidebar-overlay" class="sidebar-overlay hidden"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
