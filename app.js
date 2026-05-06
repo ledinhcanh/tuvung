@@ -156,13 +156,14 @@ class VocabApp {
                 const deg = gradientVariants[cnt % gradientVariants.length];
                 const baseColor = setInfo.base;
 
-                // Tạo màu thứ cấp nhẹ hơn bằng cách điều chỉnh hex
+                // Lưu sortKey từ mapping để sắp xếp đúng thứ tự chude.json
                 this.topicMeta[groupKey] = {
                     id: groupKey,
                     name: mapInfo.test_name,
                     setName: mapInfo.set_name,
                     emoji: setInfo.emoji,
                     gradient: `linear-gradient(${deg}, ${baseColor}, ${baseColor}cc)`,
+                    sortKey: mapInfo.sort_key || 999999,  // sort_key từ topic_mapping.json
                     count: 0,   // cập nhật sau
                     words: []
                 };
@@ -170,30 +171,35 @@ class VocabApp {
         });
 
         // Cập nhật count và words cho topicMeta
+        const palettes = [
+            { gradient: 'linear-gradient(135deg,#6366f1,#8b5cf6)', emoji: '🎯' },
+            { gradient: 'linear-gradient(135deg,#10b981,#34d399)', emoji: '🌿' },
+            { gradient: 'linear-gradient(135deg,#f59e0b,#fbbf24)', emoji: '⭐' },
+        ];
         Object.keys(this.topics).forEach((groupKey, idx) => {
             const words = this.topics[groupKey];
             if (this.topicMeta[groupKey]) {
                 this.topicMeta[groupKey].count = words.length;
                 this.topicMeta[groupKey].words = words;
             } else {
-                // Fallback cho part_id không có trong mapping
-                const palettes = [
-                    { gradient: 'linear-gradient(135deg,#6366f1,#8b5cf6)', emoji: '🎯' },
-                    { gradient: 'linear-gradient(135deg,#10b981,#34d399)', emoji: '🌿' },
-                    { gradient: 'linear-gradient(135deg,#f59e0b,#fbbf24)', emoji: '⭐' },
-                ];
+                // Fallback cho part_id không có trong mapping — hiển thị sau cùng
                 const p = palettes[idx % palettes.length];
                 this.topicMeta[groupKey] = {
                     id: groupKey,
-                    name: `Chủ đề ${idx + 1}`,
-                    setName: '',
+                    name: `Chủ đề ?`,
+                    setName: 'Khác',
                     emoji: p.emoji,
                     gradient: p.gradient,
+                    sortKey: 999999 + idx,   // Hiển thị sau cùng
                     count: words.length,
                     words: words
                 };
             }
         });
+
+        // Sắp xếp topicMeta theo sort_key từ mapping (đúng thứ tự chude.json)
+        this.topicMetaSorted = Object.values(this.topicMeta)
+            .sort((a, b) => (a.sortKey || 999999) - (b.sortKey || 999999));
 
         // Cập nhật select filter topic ở Word Bank
         const select = document.getElementById('filter-topic');
@@ -201,19 +207,23 @@ class VocabApp {
             // Xóa các option cũ (trừ option đầu "Tất cả")
             while (select.options.length > 1) select.remove(1);
 
-            // Nhóm theo set_name để tạo optgroup
+            // Nhóm theo set_name, giữ nguyên thứ tự sort_key
             const bySet = {};
-            Object.values(this.topicMeta).forEach(t => {
+            const setOrder = [];
+            this.topicMetaSorted.forEach(t => {
                 const key = t.setName || 'Khác';
-                if (!bySet[key]) bySet[key] = [];
+                if (!bySet[key]) {
+                    bySet[key] = [];
+                    setOrder.push(key);
+                }
                 bySet[key].push(t);
             });
 
-            // Render optgroup theo từng bộ đề
-            Object.entries(bySet).forEach(([setName, topics]) => {
+            // Render optgroup theo đúng thứ tự bộ đề
+            setOrder.forEach(setName => {
                 const group = document.createElement('optgroup');
                 group.label = setName;
-                topics.forEach(t => {
+                bySet[setName].forEach(t => {
                     const opt = document.createElement('option');
                     opt.value = t.id;
                     opt.textContent = `${t.emoji} ${t.name} (${t.count})`;
@@ -775,7 +785,9 @@ class VocabApp {
         const grid = document.getElementById('topics-grid');
         if (!grid) return;
 
-        grid.innerHTML = Object.values(this.topicMeta).map(t => {
+        // Dùng topicMetaSorted đã sắp xếp đúng thứ tự chude.json
+        const topicsToRender = this.topicMetaSorted || Object.values(this.topicMeta);
+        grid.innerHTML = topicsToRender.map(t => {
             const learned = t.words.filter(w => this.learnedIds.includes(w.id)).length;
             const pct = Math.round((learned / t.count) * 100);
             // Hiển thị tên bộ đề dưới tên chủ đề để người dùng biết nguồn gốc
