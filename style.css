@@ -3492,3 +3492,32 @@ a {
     width: 20px;
     height: 20px;
 }
+
+/* ===========================
+   TOPIC SET BADGE
+   Badge hiển thị tên bộ đề trên thẻ chủ đề (600 TỪ VỰNG TOEIC, ETS 2026...)
+   =========================== */
+.topic-set-badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: var(--r-full);
+    font-size: 0.6rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin-bottom: 4px;
+    background: rgba(99, 102, 241, 0.12);
+    color: var(--primary);
+    border: 1px solid rgba(99, 102, 241, 0.2);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+}
+
+[data-theme="dark"] .topic-set-badge {
+    background: rgba(99, 102, 241, 0.2);
+    color: var(--primary-light);
+    border-color: rgba(99, 102, 241, 0.3);
+}
+

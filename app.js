@@ -11,8 +11,9 @@ class VocabApp {
     constructor() {
         // Dữ liệu từ vựng
         this.words = [];
-        this.topics = {};          // Nhóm từ theo part_id
-        this.topicMeta = {};       // Tên chủ đề (phát sinh tự động từ dữ liệu)
+        this.topics = {};          // Nhóm từ theo test_id (gộp nhiều part cùng chủ đề)
+        this.topicMeta = {};       // Tên chủ đề lấy từ topic_mapping.json
+        this.topicMapping = {};    // Mapping part_id -> { set_name, test_name, test_id, ... }
 
         // Trạng thái học tập - lưu trữ lâu dài qua localStorage
         this.learnedIds = this.loadStorage('vocab_learned_ids', []);
@@ -78,80 +79,147 @@ class VocabApp {
     }
 
     /**
-     * Tải dữ liệu từ vựng từ file JSON
+     * Tải dữ liệu từ vựng và file mapping chủ đề
      */
     async loadData() {
         try {
-            // Tải dữ liệu từ vựng mới
+            // Tải dữ liệu từ vựng chính
             const vocabRes = await fetch('tuvungnew.json');
             this.words = await vocabRes.json();
-
             this.filteredWords = [...this.words];
             console.log(`✅ Đã tải ${this.words.length} từ vựng.`);
         } catch (err) {
-            console.error('❌ Không thể tải dữ liệu:', err);
+            console.error('❌ Không thể tải dữ liệu từ vựng:', err);
             this.showToast('Lỗi tải dữ liệu', 'Không thể tải tuvungnew.json', 'warning');
+        }
+
+        try {
+            // Tải file mapping chủ đề: part_id -> { set_name, test_name, test_id }
+            const mappingRes = await fetch('topic_mapping.json');
+            const mappingData = await mappingRes.json();
+            // Lưu mapping để buildTopics sử dụng
+            this.topicMapping = mappingData.mapping || {};
+            console.log(`✅ Đã tải mapping chủ đề: ${Object.keys(this.topicMapping).length} parts.`);
+        } catch (err) {
+            // Không bắt buộc - app vẫn chạy được với tên mặc định
+            console.warn('⚠️ Không thể tải topic_mapping.json, dùng tên mặc định.', err);
+            this.topicMapping = {};
         }
     }
 
     /**
-     * Nhóm từ vựng theo part_id để tạo các chủ đề
+     * Nhóm từ vựng theo chủ đề (test_id) dựa trên topic_mapping.json
+     * Các part cùng test_id được gộp lại thành một chủ đề duy nhất
      */
     buildTopics() {
-        // Bảng màu gradient và emoji cho các chủ đề (vòng lặp nếu quá số lượng)
-        const palettes = [
-            { gradient: 'linear-gradient(135deg,#6366f1,#8b5cf6)', emoji: '💼' },
-            { gradient: 'linear-gradient(135deg,#10b981,#34d399)', emoji: '🌿' },
-            { gradient: 'linear-gradient(135deg,#f59e0b,#fbbf24)', emoji: '⭐' },
-            { gradient: 'linear-gradient(135deg,#ef4444,#f87171)', emoji: '🔥' },
-            { gradient: 'linear-gradient(135deg,#3b82f6,#60a5fa)', emoji: '💡' },
-            { gradient: 'linear-gradient(135deg,#a855f7,#c084fc)', emoji: '🎯' },
-            { gradient: 'linear-gradient(135deg,#14b8a6,#2dd4bf)', emoji: '🌊' },
-            { gradient: 'linear-gradient(135deg,#f97316,#fb923c)', emoji: '🚀' },
-            { gradient: 'linear-gradient(135deg,#ec4899,#f472b6)', emoji: '🎨' },
-            { gradient: 'linear-gradient(135deg,#6366f1,#06b6d4)', emoji: '📚' },
-            { gradient: 'linear-gradient(135deg,#84cc16,#a3e635)', emoji: '🏆' },
-            { gradient: 'linear-gradient(135deg,#f43f5e,#fb7185)', emoji: '❤️' },
+        // Bảng màu gradient và emoji theo bộ đề
+        const setEmojis = {
+            '600 TỪ VỰNG TOEIC': { emoji: '💼', base: '#6366f1' },
+            'ETS 2026':          { emoji: '🔥', base: '#ef4444' },
+            'ETS 2024':          { emoji: '⭐', base: '#f59e0b' },
+            'ETS 2023':          { emoji: '📚', base: '#3b82f6' },
+            'TOEIC MASTER':      { emoji: '🏆', base: '#10b981' },
+        };
+
+        // Bảng gradient phụ để phân biệt các test trong cùng bộ
+        const gradientVariants = [
+            '135deg', '120deg', '150deg', '160deg', '110deg',
+            '145deg', '125deg', '155deg', '115deg', '140deg',
         ];
 
-        this.topics = {};
+        this.topics = {};   // test_id -> [words]
         this.topicMeta = {};
 
-        // Nhóm các từ theo part_id
+        // Bộ đếm để tạo màu biến thể cho mỗi test trong cùng bộ
+        const setCounter = {};
+
+        // Gộp từ vựng theo test_id (thay vì part_id)
         this.words.forEach(word => {
             const pid = word.part_id;
             if (!pid) return;
-            if (!this.topics[pid]) {
-                this.topics[pid] = [];
+
+            // Lấy thông tin chủ đề từ mapping
+            const mapInfo = this.topicMapping[pid];
+            // Dùng test_id làm key chủ đề; nếu không có mapping thì dùng part_id
+            const groupKey = mapInfo ? mapInfo.test_id : pid;
+
+            if (!this.topics[groupKey]) {
+                this.topics[groupKey] = [];
             }
-            this.topics[pid].push(word);
+            this.topics[groupKey].push(word);
+
+            // Lưu thông tin metadata nếu chưa có
+            if (!this.topicMeta[groupKey] && mapInfo) {
+                const setInfo = setEmojis[mapInfo.set_name] || { emoji: '🎯', base: '#a855f7' };
+                const cnt = setCounter[mapInfo.set_name] || 0;
+                setCounter[mapInfo.set_name] = cnt + 1;
+                const deg = gradientVariants[cnt % gradientVariants.length];
+                const baseColor = setInfo.base;
+
+                // Tạo màu thứ cấp nhẹ hơn bằng cách điều chỉnh hex
+                this.topicMeta[groupKey] = {
+                    id: groupKey,
+                    name: mapInfo.test_name,
+                    setName: mapInfo.set_name,
+                    emoji: setInfo.emoji,
+                    gradient: `linear-gradient(${deg}, ${baseColor}, ${baseColor}cc)`,
+                    count: 0,   // cập nhật sau
+                    words: []
+                };
+            }
         });
 
-        // Gán tên và style cho từng chủ đề
-        const keys = Object.keys(this.topics);
-        keys.forEach((pid, idx) => {
-            const palette = palettes[idx % palettes.length];
-            // Sử dụng tên mặc định vì không có file mapping chủ đề
-            const realName = `Chủ đề ${idx + 1}`;
-
-            this.topicMeta[pid] = {
-                id: pid,
-                name: realName,
-                emoji: palette.emoji,
-                gradient: palette.gradient,
-                count: this.topics[pid].length,
-                words: this.topics[pid]
-            };
+        // Cập nhật count và words cho topicMeta
+        Object.keys(this.topics).forEach((groupKey, idx) => {
+            const words = this.topics[groupKey];
+            if (this.topicMeta[groupKey]) {
+                this.topicMeta[groupKey].count = words.length;
+                this.topicMeta[groupKey].words = words;
+            } else {
+                // Fallback cho part_id không có trong mapping
+                const palettes = [
+                    { gradient: 'linear-gradient(135deg,#6366f1,#8b5cf6)', emoji: '🎯' },
+                    { gradient: 'linear-gradient(135deg,#10b981,#34d399)', emoji: '🌿' },
+                    { gradient: 'linear-gradient(135deg,#f59e0b,#fbbf24)', emoji: '⭐' },
+                ];
+                const p = palettes[idx % palettes.length];
+                this.topicMeta[groupKey] = {
+                    id: groupKey,
+                    name: `Chủ đề ${idx + 1}`,
+                    setName: '',
+                    emoji: p.emoji,
+                    gradient: p.gradient,
+                    count: words.length,
+                    words: words
+                };
+            }
         });
 
         // Cập nhật select filter topic ở Word Bank
         const select = document.getElementById('filter-topic');
         if (select) {
+            // Xóa các option cũ (trừ option đầu "Tất cả")
+            while (select.options.length > 1) select.remove(1);
+
+            // Nhóm theo set_name để tạo optgroup
+            const bySet = {};
             Object.values(this.topicMeta).forEach(t => {
-                const opt = document.createElement('option');
-                opt.value = t.id;
-                opt.textContent = `${t.emoji} ${t.name} (${t.count})`;
-                select.appendChild(opt);
+                const key = t.setName || 'Khác';
+                if (!bySet[key]) bySet[key] = [];
+                bySet[key].push(t);
+            });
+
+            // Render optgroup theo từng bộ đề
+            Object.entries(bySet).forEach(([setName, topics]) => {
+                const group = document.createElement('optgroup');
+                group.label = setName;
+                topics.forEach(t => {
+                    const opt = document.createElement('option');
+                    opt.value = t.id;
+                    opt.textContent = `${t.emoji} ${t.name} (${t.count})`;
+                    group.appendChild(opt);
+                });
+                select.appendChild(group);
             });
         }
     }
@@ -710,12 +778,17 @@ class VocabApp {
         grid.innerHTML = Object.values(this.topicMeta).map(t => {
             const learned = t.words.filter(w => this.learnedIds.includes(w.id)).length;
             const pct = Math.round((learned / t.count) * 100);
+            // Hiển thị tên bộ đề dưới tên chủ đề để người dùng biết nguồn gốc
+            const setLabel = t.setName
+                ? `<span class="topic-set-badge">${t.setName}</span>`
+                : '';
             return `
                 <div class="topic-card" onclick="app.openTopicDetail('${t.id}')">
                     <div class="topic-card-banner" style="background:${t.gradient}">
                         <span style="filter:drop-shadow(0 2px 4px rgba(0,0,0,0.2))">${t.emoji}</span>
                     </div>
                     <div class="topic-card-body">
+                        ${setLabel}
                         <div class="topic-card-name">${t.name}</div>
                         <div class="topic-card-meta">${t.count} từ vựng • ${learned} đã học</div>
                         <div class="topic-card-progress">

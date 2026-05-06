@@ -3,7 +3,7 @@
     "id": "442a366c-c09f-4395-bcd5-d2496c6c17c4",
     "part_id": "1862b0b6-44b7-47a9-b6bc-3f541c20f196",
     "word": "Capture",
-    "ipa": "/ˈkæp.t͡ʃɚ/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -17,7 +17,7 @@
     "created_at": "2026-03-18T07:55:44.44504+00:00",
     "updated_at": "2026-03-18T07:55:44.44504+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/capture-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -40,7 +40,7 @@
     "created_at": "2026-03-21T07:40:28.045562+00:00",
     "updated_at": "2026-03-21T07:40:28.045562+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/thi/thirst-quenching/thirst-quenching__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -49,7 +49,7 @@
     "id": "519ac7f2-d3ce-4d28-9fd1-f6e355d8c3cb",
     "part_id": "b0fb534a-728f-4f55-b7c2-9b3a3875532b",
     "word": "raising ",
-    "ipa": "/ˈɹeɪzɪŋ/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -86,7 +86,7 @@
     "created_at": "2026-05-05T13:26:01.161757+00:00",
     "updated_at": "2026-05-05T13:26:01.161757+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/objective-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -109,7 +109,7 @@
     "created_at": "2026-05-05T13:34:25.747557+00:00",
     "updated_at": "2026-05-05T13:34:25.747557+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/expansion-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -132,7 +132,7 @@
     "created_at": "2026-05-05T13:26:49.643575+00:00",
     "updated_at": "2026-05-05T13:26:49.643575+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/budget-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -141,7 +141,7 @@
     "id": "cae36072-9170-428c-85e2-7e447583001e",
     "part_id": "1862b0b6-44b7-47a9-b6bc-3f541c20f196",
     "word": "Snowmobile",
-    "ipa": "/ˈsnoʊmoʊbiːl/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -155,7 +155,7 @@
     "created_at": "2026-03-14T14:21:58.76083+00:00",
     "updated_at": "2026-03-14T14:21:58.76083+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sno/snowmobile/snowmobile__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -164,7 +164,7 @@
     "id": "994b7e7c-e3b6-4b7f-b780-0b5f67506acc",
     "part_id": "6463f180-0f83-441e-b026-800849e7efea",
     "word": "recover",
-    "ipa": "/ɹɪˈkʌvɚ/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -178,7 +178,7 @@
     "created_at": "2026-03-16T06:44:33.783329+00:00",
     "updated_at": "2026-03-16T06:44:33.783329+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/recover-1-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -187,7 +187,7 @@
     "id": "e228fbf9-49ca-4705-a507-72e1d3c697f7",
     "part_id": "1e1dd1e1-d762-417c-9a61-fc0d7440ef6e",
     "word": "sorting / organizing",
-    "ipa": "/ˈsɔːrtɪŋ ɔːrɡənaɪzɪŋ/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -201,7 +201,7 @@
     "created_at": "2026-03-12T02:53:59.955721+00:00",
     "updated_at": "2026-03-12T02:53:59.955721+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/sort-au.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -224,7 +224,7 @@
     "created_at": "2026-05-05T13:28:00.191166+00:00",
     "updated_at": "2026-05-05T13:28:00.191166+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/forecast-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -233,7 +233,7 @@
     "id": "c9f25cb9-4c80-40ec-a171-7b8c58b6f432",
     "part_id": "6463f180-0f83-441e-b026-800849e7efea",
     "word": "streamline",
-    "ipa": "/ˈstriːmlaɪn/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -247,7 +247,7 @@
     "created_at": "2026-03-16T05:32:16.210754+00:00",
     "updated_at": "2026-03-16T05:32:16.210754+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/str/streamline/streamline__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -256,7 +256,7 @@
     "id": "e53df0ac-4550-4140-9595-0219606a9352",
     "part_id": "43ade795-45b4-456e-a086-bff5d924b194",
     "word": "detailed",
-    "ipa": "/dɪˈteɪld/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -270,7 +270,7 @@
     "created_at": "2026-03-12T17:07:24.962793+00:00",
     "updated_at": "2026-03-12T17:07:24.962793+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/detailed-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -279,7 +279,7 @@
     "id": "6ab38c7d-4adb-4352-836f-5a04e2fd31f4",
     "part_id": "7f528cd9-7bd9-45f3-b237-552a3c7ce697",
     "word": "Halt",
-    "ipa": "/hɔːlt/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -293,7 +293,7 @@
     "created_at": "2026-05-06T02:16:48.487676+00:00",
     "updated_at": "2026-05-06T02:16:48.487676+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/halt-uk.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -316,7 +316,7 @@
     "created_at": "2026-03-30T13:41:42.053552+00:00",
     "updated_at": "2026-03-30T13:41:42.053552+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/hello-au.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -339,7 +339,7 @@
     "created_at": "2026-03-12T08:36:12.567276+00:00",
     "updated_at": "2026-03-12T08:36:12.567276+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/economy-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -348,7 +348,7 @@
     "id": "383e333c-3cce-4a9f-88bc-0b3fd4c3e970",
     "part_id": "1e1dd1e1-d762-417c-9a61-fc0d7440ef6e",
     "word": "filling in",
-    "ipa": "[ˈfɪɫlɪŋ]",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -362,7 +362,7 @@
     "created_at": "2026-03-12T02:52:14.248325+00:00",
     "updated_at": "2026-03-12T02:52:14.248325+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/filling-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -371,7 +371,7 @@
     "id": "33e83414-1e5d-453a-a70c-9a8cf6852b0f",
     "part_id": "6463f180-0f83-441e-b026-800849e7efea",
     "word": "in accordance with",
-    "ipa": "/ɪn/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -385,7 +385,7 @@
     "created_at": "2026-03-17T07:36:19.500391+00:00",
     "updated_at": "2026-03-17T07:36:19.500391+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/in-us-stressed.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -394,7 +394,7 @@
     "id": "c1f7cc50-1815-4285-982f-c1452c6a76dc",
     "part_id": "6463f180-0f83-441e-b026-800849e7efea",
     "word": "delightful",
-    "ipa": "[dəˈlaɪ̯t̚.fəɫ]",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -408,7 +408,7 @@
     "created_at": "2026-03-16T06:46:54.164062+00:00",
     "updated_at": "2026-03-16T06:46:54.164062+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/delightful-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -417,7 +417,7 @@
     "id": "63e4d39e-aa6a-475c-b2e3-b8ee4316c427",
     "part_id": "43ade795-45b4-456e-a086-bff5d924b194",
     "word": "accent",
-    "ipa": "/ˈak.sənt/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -431,7 +431,7 @@
     "created_at": "2026-03-12T18:05:18.29337+00:00",
     "updated_at": "2026-03-12T18:05:18.29337+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/accent-1-uk.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -454,7 +454,7 @@
     "created_at": "2026-03-19T13:22:06.224046+00:00",
     "updated_at": "2026-03-19T13:22:06.224046+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/contemplate-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -463,7 +463,7 @@
     "id": "fada3a7b-34c4-4ae8-8eb3-c1d6524b23a6",
     "part_id": "b0fb534a-728f-4f55-b7c2-9b3a3875532b",
     "word": "pulling",
-    "ipa": "/ˈpʊlɪŋ/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -477,7 +477,7 @@
     "created_at": "2026-03-10T01:20:58.690259+00:00",
     "updated_at": "2026-03-10T01:20:58.690259+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/pulling-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -486,7 +486,7 @@
     "id": "3f889cb3-7bbd-4668-b815-155d71bebbf0",
     "part_id": "b0fb534a-728f-4f55-b7c2-9b3a3875532b",
     "word": "lifting",
-    "ipa": "/ˈlɪft.ɪŋ/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -500,7 +500,7 @@
     "created_at": "2026-03-10T01:14:19.355469+00:00",
     "updated_at": "2026-03-10T01:14:19.355469+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/lifting-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -509,7 +509,7 @@
     "id": "4a025caf-70a8-45a4-986b-6b9abdf91a48",
     "part_id": "6463f180-0f83-441e-b026-800849e7efea",
     "word": "incentive",
-    "ipa": "/ɪnˈsɛntɪv/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -523,7 +523,7 @@
     "created_at": "2026-03-16T04:56:44.592786+00:00",
     "updated_at": "2026-03-16T04:56:44.592786+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/incentive-uk.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -532,7 +532,7 @@
     "id": "0a9b0d06-d4e5-45ff-bc3c-459399ae8732",
     "part_id": "43ade795-45b4-456e-a086-bff5d924b194",
     "word": "Hesitation",
-    "ipa": "/hɛzɪˈteɪʃən/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -546,7 +546,7 @@
     "created_at": "2026-03-13T09:43:44.797637+00:00",
     "updated_at": "2026-03-13T09:43:44.797637+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/hesitation-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -555,7 +555,7 @@
     "id": "c7d6d3ad-053b-451c-845d-78915b523eb8",
     "part_id": "a1349c0f-1649-4b09-bb35-ac250a47d28a",
     "word": "remain, stay, keep",
-    "ipa": "/ɹɪˈmeɪn/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -569,7 +569,7 @@
     "created_at": "2026-04-15T07:30:08.194946+00:00",
     "updated_at": "2026-04-15T07:30:08.194946+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/remain-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -578,7 +578,7 @@
     "id": "ee0e65a2-b5a0-477a-9b5b-f8e411eeeef2",
     "part_id": "034c4a4a-4ff2-434f-b2f4-2704b6733d29",
     "word": "Regarding",
-    "ipa": "/ɹɪˈɡɑɹdɪŋ/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -592,7 +592,7 @@
     "created_at": "2026-03-18T07:26:53.359725+00:00",
     "updated_at": "2026-03-18T07:26:53.359725+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/regarding-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -601,7 +601,7 @@
     "id": "82b8cdcb-8e68-4a2f-b2e2-812cc8d31e6d",
     "part_id": "7f528cd9-7bd9-45f3-b237-552a3c7ce697",
     "word": "abondon",
-    "ipa": "/əˈbændən/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -615,7 +615,7 @@
     "created_at": "2026-05-06T02:27:31.169903+00:00",
     "updated_at": "2026-05-06T02:27:31.169903+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/abo/abondon/abondon__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -624,7 +624,7 @@
     "id": "ec479f0a-1fe1-43d8-8b86-8e250e2efda1",
     "part_id": "1862b0b6-44b7-47a9-b6bc-3f541c20f196",
     "word": "Engage",
-    "ipa": "/ɛnˈɡeɪdʒ/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -638,7 +638,7 @@
     "created_at": "2026-03-18T07:52:36.177407+00:00",
     "updated_at": "2026-03-19T04:22:33.970913+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/engage-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -647,7 +647,7 @@
     "id": "38ceb95d-ffdf-48b4-a776-a4e9346f04d2",
     "part_id": "7f528cd9-7bd9-45f3-b237-552a3c7ce697",
     "word": "briefly",
-    "ipa": "/ˈbɹiːfli/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -661,7 +661,7 @@
     "created_at": "2026-05-06T02:10:23.954096+00:00",
     "updated_at": "2026-05-06T02:10:23.954096+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/briefly-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -670,7 +670,7 @@
     "id": "9956d7f6-00e4-459d-bd9b-0921d2974477",
     "part_id": "1862b0b6-44b7-47a9-b6bc-3f541c20f196",
     "word": "Go out of business",
-    "ipa": "/ɡoʊ/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -684,7 +684,7 @@
     "created_at": "2026-03-14T14:17:01.732766+00:00",
     "updated_at": "2026-03-14T14:17:01.732766+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/go-1-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -693,7 +693,7 @@
     "id": "3deef0f2-5de6-4091-935e-f2cf686dcc17",
     "part_id": "ef4b210b-66b1-4827-aaa8-6d61549aa357",
     "word": "leaning against/ on ",
-    "ipa": "/ˈliːnɪŋ/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -716,7 +716,7 @@
     "id": "27412a68-387a-4b7a-8239-b7f29ad69272",
     "part_id": "43ade795-45b4-456e-a086-bff5d924b194",
     "word": "pastrie",
-    "ipa": "/ˈpeɪstri/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -730,7 +730,7 @@
     "created_at": "2026-03-11T18:08:02.623242+00:00",
     "updated_at": "2026-03-11T18:08:02.623242+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pas/pastrie/pastrie__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -739,7 +739,7 @@
     "id": "5cc11877-15ba-4d6b-b913-1edb0eca9953",
     "part_id": "9e993d08-4fa6-489f-8ac7-bbcc9507b59b",
     "word": "Furthermore",
-    "ipa": "/ˈfɜː(ɹ).ðə(ɹ).mɔː(ɹ)/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -753,7 +753,7 @@
     "created_at": "2026-05-03T08:12:06.168144+00:00",
     "updated_at": "2026-05-03T08:12:06.168144+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/furthermore-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -762,7 +762,7 @@
     "id": "af328986-da5a-4e4b-b9f5-0410ab7059fd",
     "part_id": "9e993d08-4fa6-489f-8ac7-bbcc9507b59b",
     "word": "Nevertheless ",
-    "ipa": "/ˈnɛvəðəlɛs/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -776,7 +776,7 @@
     "created_at": "2026-05-06T02:44:00.425231+00:00",
     "updated_at": "2026-05-06T02:44:00.425231+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/nevertheless-uk.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -785,7 +785,7 @@
     "id": "41e79176-1c0e-4407-96ad-24a3f0ed083e",
     "part_id": "1862b0b6-44b7-47a9-b6bc-3f541c20f196",
     "word": "Thermostat",
-    "ipa": "/ˈθɝmoʊstæt/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -799,7 +799,7 @@
     "created_at": "2026-03-14T14:19:45.800551+00:00",
     "updated_at": "2026-03-14T14:19:45.800551+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/the/thermostat/thermostat__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -808,7 +808,7 @@
     "id": "e6f01c21-47f5-4e56-a828-7f0cea82d960",
     "part_id": "034c4a4a-4ff2-434f-b2f4-2704b6733d29",
     "word": "Suspense",
-    "ipa": "/səˈspɛns/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -822,7 +822,7 @@
     "created_at": "2026-03-19T05:33:13.704497+00:00",
     "updated_at": "2026-03-19T05:33:13.704497+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/suspense-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -831,7 +831,7 @@
     "id": "1b374fdb-1e36-4d49-906e-52a846d05cb2",
     "part_id": "1862b0b6-44b7-47a9-b6bc-3f541c20f196",
     "word": "Get rid of",
-    "ipa": "/ɡɛt rɪd ʌv/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -845,7 +845,7 @@
     "created_at": "2026-03-14T14:15:35.59923+00:00",
     "updated_at": "2026-03-14T14:15:35.59923+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/get%20rid%20of-au.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -854,7 +854,7 @@
     "id": "3560b996-3d0c-454d-8f60-aff9c0db54fe",
     "part_id": "efabee5a-d1a0-47b7-9394-f15dfc2c856a",
     "word": "tying / lacing up",
-    "ipa": "/ˈtaɪ.ɪŋ/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -892,7 +892,7 @@
     "created_at": "2026-03-28T03:42:54.57989+00:00",
     "updated_at": "2026-03-28T03:42:54.57989+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/tying-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": [
@@ -928,7 +928,7 @@
     "id": "ddfb20c1-39af-4233-85ed-410e93948225",
     "part_id": "ef4b210b-66b1-4827-aaa8-6d61549aa357",
     "word": "turning around",
-    "ipa": "[ˈtɝ.nɪŋ]",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -942,7 +942,7 @@
     "created_at": "2026-03-10T10:10:49.513323+00:00",
     "updated_at": "2026-03-10T10:10:49.513323+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/turning-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -951,7 +951,7 @@
     "id": "01c96b3a-553c-45d1-9f63-bc77d491b1d9",
     "part_id": "6463f180-0f83-441e-b026-800849e7efea",
     "word": "Transmission",
-    "ipa": "/tɹænsˈmɪʃən/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -965,7 +965,7 @@
     "created_at": "2026-03-17T08:05:04.715834+00:00",
     "updated_at": "2026-03-17T08:05:04.715834+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/tra/transmission/transmission__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -988,7 +988,7 @@
     "created_at": "2026-03-09T07:02:40.753919+00:00",
     "updated_at": "2026-03-09T07:02:40.753919+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/asset-au.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -997,7 +997,7 @@
     "id": "3dc9a6db-280f-4d7f-913e-3dc0229495f6",
     "part_id": "b6814a2a-7785-48af-870f-4855be105cf9",
     "word": "cch lm bi tp cm danh t",
-    "ipa": "/ˈɡræmər ˈnoʊt/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -1012,7 +1012,7 @@
     "created_at": "2026-04-24T10:02:36.425081+00:00",
     "updated_at": "2026-04-24T10:02:36.425081+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/cch/cch/cch__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -1021,7 +1021,7 @@
     "id": "aa4de2c6-bc92-4f32-96dd-0df9f96f33ca",
     "part_id": "034c4a4a-4ff2-434f-b2f4-2704b6733d29",
     "word": "Enormously",
-    "ipa": "/ɪˈnɔːrməsli/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -1035,7 +1035,7 @@
     "created_at": "2026-03-18T07:24:50.782617+00:00",
     "updated_at": "2026-03-18T07:24:50.782617+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/eno/enormously/enormously__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -1058,7 +1058,7 @@
     "created_at": "2026-05-05T13:35:09.713363+00:00",
     "updated_at": "2026-05-05T13:35:09.713363+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/m/mil/milestone/milestone__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -1067,7 +1067,7 @@
     "id": "32181c61-d186-4aa3-9c2a-8f77c0f38d63",
     "part_id": "1862b0b6-44b7-47a9-b6bc-3f541c20f196",
     "word": "reliance",
-    "ipa": "/ɹɪˈlaɪəns/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -1081,7 +1081,7 @@
     "created_at": "2026-03-16T00:40:59.051478+00:00",
     "updated_at": "2026-03-16T00:40:59.051478+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/reliance-uk.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -1090,7 +1090,7 @@
     "id": "b2fae980-6206-4368-80db-4b09c4aba4a1",
     "part_id": "1862b0b6-44b7-47a9-b6bc-3f541c20f196",
     "word": "Accumulate",
-    "ipa": "/ə.ˈkjum.jə.ˌleɪt/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -1104,7 +1104,7 @@
     "created_at": "2026-03-18T07:54:55.218766+00:00",
     "updated_at": "2026-03-18T07:54:55.218766+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/accumulate-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -1113,7 +1113,7 @@
     "id": "001ab140-46c3-475d-ae34-b6975af7fc94",
     "part_id": "9e993d08-4fa6-489f-8ac7-bbcc9507b59b",
     "word": "Even so",
-    "ipa": "/ˈivn̩/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -1127,7 +1127,7 @@
     "created_at": "2026-05-03T08:15:53.938109+00:00",
     "updated_at": "2026-05-03T08:15:53.938109+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/even-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -1136,7 +1136,7 @@
     "id": "f54f92c4-91f9-479f-9ea0-a6d99982f18b",
     "part_id": "1862b0b6-44b7-47a9-b6bc-3f541c20f196",
     "word": "Nevertheless",
-    "ipa": "/ˈnɛvəðəlɛs/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -1150,7 +1150,7 @@
     "created_at": "2026-03-15T08:45:45.049817+00:00",
     "updated_at": "2026-03-19T03:51:13.977657+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/nevertheless-uk.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -1159,7 +1159,7 @@
     "id": "ca5153d1-eb23-4531-a2fc-d8146aceaf9e",
     "part_id": "034c4a4a-4ff2-434f-b2f4-2704b6733d29",
     "word": "Commensurate + with/to",
-    "ipa": "/kəˈmɛnʃəɹət/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -1173,7 +1173,7 @@
     "created_at": "2026-03-19T07:57:35.154327+00:00",
     "updated_at": "2026-03-19T07:57:35.154327+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/com/commensurate/commensurate__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -1182,7 +1182,7 @@
     "id": "df1b253c-df72-4e0e-a60e-53fb51b8a97d",
     "part_id": "6463f180-0f83-441e-b026-800849e7efea",
     "word": "arise",
-    "ipa": "/əˈɹaɪz/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -1196,7 +1196,7 @@
     "created_at": "2026-03-16T15:30:56.399331+00:00",
     "updated_at": "2026-03-16T15:30:56.399331+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/arise-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -1205,7 +1205,7 @@
     "id": "b5735f4c-306f-4a7e-9cfc-32b8ec71a81a",
     "part_id": "1862b0b6-44b7-47a9-b6bc-3f541c20f196",
     "word": "Absorb",
-    "ipa": "/æbˈsɔɹb/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -1219,7 +1219,7 @@
     "created_at": "2026-03-18T07:51:09.98349+00:00",
     "updated_at": "2026-03-18T07:51:09.98349+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/absorb-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -1228,7 +1228,7 @@
     "id": "3cd8486a-9087-4c77-b158-258c6b182a08",
     "part_id": "6463f180-0f83-441e-b026-800849e7efea",
     "word": "Apparently",
-    "ipa": "/əˈpæɹ.ɨnt.li/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -1242,7 +1242,7 @@
     "created_at": "2026-03-16T05:20:52.988425+00:00",
     "updated_at": "2026-03-16T05:20:52.988425+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/apparently-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -1251,7 +1251,7 @@
     "id": "d4138483-c750-43f0-8276-dcd8b4792898",
     "part_id": "034c4a4a-4ff2-434f-b2f4-2704b6733d29",
     "word": "Steward",
-    "ipa": "/ˈstuɚd/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -1265,7 +1265,7 @@
     "created_at": "2026-03-19T13:23:41.592904+00:00",
     "updated_at": "2026-03-19T13:23:41.592904+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/steward-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -1274,7 +1274,7 @@
     "id": "11f4c0a1-0f48-4541-9ba8-0ba345321db8",
     "part_id": "43ade795-45b4-456e-a086-bff5d924b194",
     "word": "add here to , obey, abide by, comply with",
-    "ipa": "/æd/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -1288,7 +1288,7 @@
     "created_at": "2026-03-13T10:39:49.397108+00:00",
     "updated_at": "2026-03-13T10:39:49.397108+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/add-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -1297,7 +1297,7 @@
     "id": "ff7f698f-fa95-49bf-b583-353402e49dd1",
     "part_id": "6463f180-0f83-441e-b026-800849e7efea",
     "word": "abundance",
-    "ipa": "/əˈbn̩.dn̩s/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -1311,7 +1311,7 @@
     "created_at": "2026-03-16T08:01:59.014737+00:00",
     "updated_at": "2026-03-16T08:01:59.014737+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/abundance-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -1320,7 +1320,7 @@
     "id": "c9b53ecd-8e4f-4138-a083-eb2ad3e3fc1b",
     "part_id": "9e993d08-4fa6-489f-8ac7-bbcc9507b59b",
     "word": "Therefore",
-    "ipa": "/ˈðɛəɹfɔɹ/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -1334,7 +1334,7 @@
     "created_at": "2026-05-03T08:13:23.704961+00:00",
     "updated_at": "2026-05-03T08:13:23.704961+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/therefore-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -1343,7 +1343,7 @@
     "id": "b99c6eaa-4400-4ef8-8efa-67d4b2bc5439",
     "part_id": "43ade795-45b4-456e-a086-bff5d924b194",
     "word": "venture",
-    "ipa": "/ˈvɛn.t͡ʃɚ/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -1357,7 +1357,7 @@
     "created_at": "2026-03-13T09:50:43.592185+00:00",
     "updated_at": "2026-03-13T09:50:43.592185+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/venture-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -1366,7 +1366,7 @@
     "id": "30ae1961-7a9c-42fe-b204-569095152429",
     "part_id": "1862b0b6-44b7-47a9-b6bc-3f541c20f196",
     "word": "thoughtful",
-    "ipa": "/ˈθɔtfəl/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -1380,7 +1380,7 @@
     "created_at": "2026-03-19T14:41:45.07906+00:00",
     "updated_at": "2026-03-19T14:41:45.07906+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/thoughtful-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -1389,7 +1389,7 @@
     "id": "50b41333-d4a6-44e9-97a4-d1559c576946",
     "part_id": "9e993d08-4fa6-489f-8ac7-bbcc9507b59b",
     "word": "Instead",
-    "ipa": "/ɪnˈstɛd/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -1403,7 +1403,7 @@
     "created_at": "2026-05-03T08:12:55.782747+00:00",
     "updated_at": "2026-05-03T08:12:55.782747+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/instead-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -1412,7 +1412,7 @@
     "id": "c736c3e4-99af-428e-bc44-ee54bf362763",
     "part_id": "6463f180-0f83-441e-b026-800849e7efea",
     "word": "Eatery",
-    "ipa": "/ˈiːtəɹi/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -1426,7 +1426,7 @@
     "created_at": "2026-03-16T13:51:19.470307+00:00",
     "updated_at": "2026-03-16T13:51:19.470307+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/eat/eatery/eatery__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -1435,7 +1435,7 @@
     "id": "e01d787a-19eb-4ac7-849e-592bc148eec2",
     "part_id": "1862b0b6-44b7-47a9-b6bc-3f541c20f196",
     "word": "Case",
-    "ipa": "/keɪs/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -1449,7 +1449,7 @@
     "created_at": "2026-03-14T14:14:25.154958+00:00",
     "updated_at": "2026-03-14T14:14:25.154958+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/case-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -1458,7 +1458,7 @@
     "id": "ee038f13-2d2b-4a39-885c-ab2e92169808",
     "part_id": "7f528cd9-7bd9-45f3-b237-552a3c7ce697",
     "word": "consistent with/ in",
-    "ipa": "/kənˈsɪstənt/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -1472,7 +1472,7 @@
     "created_at": "2026-05-06T02:21:30.432701+00:00",
     "updated_at": "2026-05-06T02:21:30.432701+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/consistent-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -1481,7 +1481,7 @@
     "id": "284925c4-cbb3-4b72-8c44-212682bdb6e6",
     "part_id": "034c4a4a-4ff2-434f-b2f4-2704b6733d29",
     "word": "abundant",
-    "ipa": "/əˈbn̩.dn̩t/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -1495,7 +1495,7 @@
     "created_at": "2026-03-19T08:04:43.568765+00:00",
     "updated_at": "2026-03-19T08:04:43.568765+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/abundant-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -1504,7 +1504,7 @@
     "id": "2c198486-0b29-4f53-9295-738766c211c9",
     "part_id": "7f528cd9-7bd9-45f3-b237-552a3c7ce697",
     "word": "precisely",
-    "ipa": "/pɹɪˈsaɪsli/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -1518,7 +1518,7 @@
     "created_at": "2026-05-06T02:09:56.277963+00:00",
     "updated_at": "2026-05-06T02:09:56.277963+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/precisely-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -1527,7 +1527,7 @@
     "id": "0ce99d27-4661-4879-9b18-4d1d5549bc68",
     "part_id": "9e993d08-4fa6-489f-8ac7-bbcc9507b59b",
     "word": "whether",
-    "ipa": "/ˈwɛðə(ɹ)/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -1541,7 +1541,7 @@
     "created_at": "2026-05-06T02:17:52.917488+00:00",
     "updated_at": "2026-05-06T02:17:52.917488+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/whether-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -1550,7 +1550,7 @@
     "id": "fd9f7fbb-4eb6-4fc8-a94d-69368d08d7df",
     "part_id": "6463f180-0f83-441e-b026-800849e7efea",
     "word": "deceptive",
-    "ipa": "/dɪ.ˈsɛp.tɪv/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -1564,7 +1564,7 @@
     "created_at": "2026-03-16T08:13:49.510065+00:00",
     "updated_at": "2026-03-16T08:13:49.510065+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/deceptive-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -1573,7 +1573,7 @@
     "id": "021810e3-465c-4823-ba48-a1352a8afadb",
     "part_id": "6463f180-0f83-441e-b026-800849e7efea",
     "word": "Family-oriented",
-    "ipa": "/ˈfæməli ˈɔːriɛntɪd/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -1587,7 +1587,7 @@
     "created_at": "2026-03-16T13:53:32.019364+00:00",
     "updated_at": "2026-03-16T13:53:32.019364+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/fam/family-oriented/family-oriented__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -1596,7 +1596,7 @@
     "id": "0a900c9a-ee91-422c-8724-618c545a8d27",
     "part_id": "b0fb534a-728f-4f55-b7c2-9b3a3875532b",
     "word": "Handing out",
-    "ipa": "/ˈhændɪŋ/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -1619,7 +1619,7 @@
     "id": "d119f797-953b-4acd-a01b-768872e6036d",
     "part_id": "9e993d08-4fa6-489f-8ac7-bbcc9507b59b",
     "word": "whereas",
-    "ipa": "/(h)wɛɹˈæz/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -1633,7 +1633,7 @@
     "created_at": "2026-04-15T07:26:11.554493+00:00",
     "updated_at": "2026-05-03T08:21:17.886223+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/whereas-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -1642,7 +1642,7 @@
     "id": "e985b15c-7b7e-45b4-87d5-c7c196efe88f",
     "part_id": "034c4a4a-4ff2-434f-b2f4-2704b6733d29",
     "word": "marvelous",
-    "ipa": "/ˈmɑɹvələs/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -1656,7 +1656,7 @@
     "created_at": "2026-03-19T08:22:52.943218+00:00",
     "updated_at": "2026-03-19T08:22:52.943218+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/marvelous-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -1665,7 +1665,7 @@
     "id": "d54a5182-1712-4048-bc1c-9b53b34b604a",
     "part_id": "6463f180-0f83-441e-b026-800849e7efea",
     "word": "evenly",
-    "ipa": "/ˈiːvənli/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -1679,7 +1679,7 @@
     "created_at": "2026-03-16T06:38:41.833588+00:00",
     "updated_at": "2026-03-16T06:38:41.833588+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/eve/evenly/evenly__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -1688,7 +1688,7 @@
     "id": "e0bab6ac-b59a-468b-b886-37f34ce15bc8",
     "part_id": "efabee5a-d1a0-47b7-9394-f15dfc2c856a",
     "word": "wearing",
-    "ipa": "/ˈwɛɹɪŋ/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -1725,7 +1725,7 @@
     "created_at": "2026-04-26T12:53:42.917893+00:00",
     "updated_at": "2026-04-26T12:53:42.917893+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/acc/accurately/accurately__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -1748,7 +1748,7 @@
     "created_at": "2026-05-05T13:33:19.524037+00:00",
     "updated_at": "2026-05-05T13:33:19.524037+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/growth-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -1771,7 +1771,7 @@
     "created_at": "2026-03-09T06:43:05.04449+00:00",
     "updated_at": "2026-03-09T06:43:05.04449+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/hello-au.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -1794,7 +1794,7 @@
     "created_at": "2026-05-05T13:29:34.874517+00:00",
     "updated_at": "2026-05-05T13:29:34.874517+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/profit-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -1803,7 +1803,7 @@
     "id": "c72dee6c-1183-4e80-8311-b114a3b30f6a",
     "part_id": "6463f180-0f83-441e-b026-800849e7efea",
     "word": "Apparently",
-    "ipa": "/əˈpæɹ.ɨnt.li/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -1817,7 +1817,7 @@
     "created_at": "2026-03-22T04:17:26.914793+00:00",
     "updated_at": "2026-03-22T04:20:42.434244+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/apparently-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -1826,7 +1826,7 @@
     "id": "235762a5-faf8-4e6c-8601-f115d6400a9a",
     "part_id": "43ade795-45b4-456e-a086-bff5d924b194",
     "word": "real estate",
-    "ipa": "/ˈɹiːl əˌsteɪt/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -1849,7 +1849,7 @@
     "id": "ab383a00-d796-4383-9672-efde7db22f1b",
     "part_id": "6463f180-0f83-441e-b026-800849e7efea",
     "word": "formerly",
-    "ipa": "/ˈfɔɹmɚli/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -1863,7 +1863,7 @@
     "created_at": "2026-03-16T08:00:35.842057+00:00",
     "updated_at": "2026-03-16T08:00:35.842057+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/formerly-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -1872,7 +1872,7 @@
     "id": "8907697e-b7d2-4e8b-b779-9c764f40b517",
     "part_id": "1862b0b6-44b7-47a9-b6bc-3f541c20f196",
     "word": "Biodegradable",
-    "ipa": "/baɪoʊdəˈɡɹeɪdəbl̩/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -1886,7 +1886,7 @@
     "created_at": "2026-03-14T14:13:46.167343+00:00",
     "updated_at": "2026-03-14T14:13:46.167343+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/b/bio/biodegradable/biodegradable__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -1895,7 +1895,7 @@
     "id": "d05bac00-92e4-4c6f-9c3b-13173327218b",
     "part_id": "7f528cd9-7bd9-45f3-b237-552a3c7ce697",
     "word": "Interval",
-    "ipa": "/ˈɪntɚvəl/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -1909,7 +1909,7 @@
     "created_at": "2026-05-06T02:35:43.191587+00:00",
     "updated_at": "2026-05-06T02:35:43.191587+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/interval-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -1918,7 +1918,7 @@
     "id": "672745f1-1355-4e52-a897-05e7df4dafcd",
     "part_id": "034c4a4a-4ff2-434f-b2f4-2704b6733d29",
     "word": "in response (to something)",
-    "ipa": "/ɪn/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -1932,7 +1932,7 @@
     "created_at": "2026-03-19T05:23:57.06886+00:00",
     "updated_at": "2026-03-19T05:23:57.06886+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/in-us-stressed.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -1941,7 +1941,7 @@
     "id": "d6fcf44c-1b28-407e-a6a4-a63471ee3eab",
     "part_id": "034c4a4a-4ff2-434f-b2f4-2704b6733d29",
     "word": "unearth",
-    "ipa": "/ˌʌnˈɜːrθ/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -1955,7 +1955,7 @@
     "created_at": "2026-03-19T13:15:51.410965+00:00",
     "updated_at": "2026-03-19T13:15:51.410965+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/u/une/unearth/unearth__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -1964,7 +1964,7 @@
     "id": "5428d15b-839d-4396-992c-848225cf4262",
     "part_id": "7f528cd9-7bd9-45f3-b237-552a3c7ce697",
     "word": "Even (trạng từ)",
-    "ipa": "/ˈivn̩/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -1978,7 +1978,7 @@
     "created_at": "2026-05-06T02:14:47.092236+00:00",
     "updated_at": "2026-05-06T02:14:47.092236+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/even-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -1987,7 +1987,7 @@
     "id": "5c077758-6d15-4a22-bd99-e221eb316892",
     "part_id": "6463f180-0f83-441e-b026-800849e7efea",
     "word": "revoke",
-    "ipa": "/rɪˈvoʊk/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -2001,7 +2001,7 @@
     "created_at": "2026-03-16T08:19:04.226008+00:00",
     "updated_at": "2026-03-16T08:19:04.226008+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/rev/revoke/revoke__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -2010,7 +2010,7 @@
     "id": "3a5a667b-873b-4f4e-926e-a119cbd98832",
     "part_id": "7f528cd9-7bd9-45f3-b237-552a3c7ce697",
     "word": "eject",
-    "ipa": "/ɪˈdʒɛkt/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -2024,7 +2024,7 @@
     "created_at": "2026-05-06T02:28:00.819225+00:00",
     "updated_at": "2026-05-06T02:28:00.819225+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/eject-1-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -2033,7 +2033,7 @@
     "id": "49d98f4c-f02c-464c-9a39-7dbccbd9e4b8",
     "part_id": "034c4a4a-4ff2-434f-b2f4-2704b6733d29",
     "word": "decisive",
-    "ipa": "/dɪˈsaɪsɪv/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -2047,7 +2047,7 @@
     "created_at": "2026-03-18T06:45:29.670002+00:00",
     "updated_at": "2026-03-18T06:45:29.670002+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/dec/decisive/decisive__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -2056,7 +2056,7 @@
     "id": "b47e3031-ae96-4fa6-97c6-94e03ede4edf",
     "part_id": "ef4b210b-66b1-4827-aaa8-6d61549aa357",
     "word": "climbing (up)",
-    "ipa": "/ˈklaɪ̯mɪŋ/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -2070,7 +2070,7 @@
     "created_at": "2026-03-10T10:12:15.040488+00:00",
     "updated_at": "2026-03-10T10:12:15.040488+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/climb-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -2079,7 +2079,7 @@
     "id": "a2591479-0ae5-4e55-805c-d07f75524906",
     "part_id": "9e993d08-4fa6-489f-8ac7-bbcc9507b59b",
     "word": "Once",
-    "ipa": "/wʌn(t)s/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -2093,7 +2093,7 @@
     "created_at": "2026-05-03T08:23:41.608226+00:00",
     "updated_at": "2026-05-03T08:23:41.608226+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/once-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -2102,7 +2102,7 @@
     "id": "e72bc430-df53-4224-9137-a67f072d5dbc",
     "part_id": "c3651c78-6aa6-4a54-b657-0d017b5d941d",
     "word": "when he heard the news",
-    "ipa": "/wɛn/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -2117,7 +2117,7 @@
     "created_at": "2026-04-12T07:34:14.316103+00:00",
     "updated_at": "2026-04-12T07:34:14.316103+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/when-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -2140,7 +2140,7 @@
     "created_at": "2026-05-05T13:30:09.771433+00:00",
     "updated_at": "2026-05-05T13:30:09.771433+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/cost-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -2149,7 +2149,7 @@
     "id": "0ea52b46-fc84-4360-b1f0-7f4eb1b09cd7",
     "part_id": "b0fb534a-728f-4f55-b7c2-9b3a3875532b",
     "word": "passing",
-    "ipa": "/ˈpɑːsɪŋ/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -2186,7 +2186,7 @@
     "created_at": "2026-05-05T13:31:15.33684+00:00",
     "updated_at": "2026-05-05T13:31:15.33684+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/market-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -2195,7 +2195,7 @@
     "id": "0ed29b67-c7c5-4a8a-8606-7e3f99fc8957",
     "part_id": "efabee5a-d1a0-47b7-9394-f15dfc2c856a",
     "word": "trying on",
-    "ipa": "/ˈtɹaɪ.ɪŋ/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -2218,7 +2218,7 @@
     "id": "c96d3172-4b25-4a88-aeb9-7c8d9c93920c",
     "part_id": "034c4a4a-4ff2-434f-b2f4-2704b6733d29",
     "word": "Stumble",
-    "ipa": "/ˈstʌmbəl/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -2232,7 +2232,7 @@
     "created_at": "2026-03-19T13:18:23.887751+00:00",
     "updated_at": "2026-03-19T13:18:23.887751+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/stumble-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -2241,7 +2241,7 @@
     "id": "7b4a334f-6480-4c51-8cee-1a589be4bf50",
     "part_id": "a1349c0f-1649-4b09-bb35-ac250a47d28a",
     "word": "become, get, grow, turn",
-    "ipa": "/bɪˈkʌm, ɡɛt, ɡroʊ, tɜːrn/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -2255,7 +2255,7 @@
     "created_at": "2026-04-15T07:29:43.174537+00:00",
     "updated_at": "2026-04-15T07:29:43.174537+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/become-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -2264,7 +2264,7 @@
     "id": "1160f74e-94a8-428f-b0e8-10cc6f16b131",
     "part_id": "43ade795-45b4-456e-a086-bff5d924b194",
     "word": "quite thorough ",
-    "ipa": "/kwaɪt/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -2278,7 +2278,7 @@
     "created_at": "2026-03-10T10:52:45.341906+00:00",
     "updated_at": "2026-03-10T10:52:45.341906+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/quite-1-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -2287,7 +2287,7 @@
     "id": "4d2c9961-913b-4158-a24b-297236ef8993",
     "part_id": "1862b0b6-44b7-47a9-b6bc-3f541c20f196",
     "word": "Extraordinary",
-    "ipa": "/ɪksˈtɹɔː(ɹ)dɪnəɹi/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -2301,7 +2301,7 @@
     "created_at": "2026-03-14T15:52:54.081574+00:00",
     "updated_at": "2026-03-14T15:52:54.081574+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/extraordinary-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -2310,7 +2310,7 @@
     "id": "271e5c39-1630-4a01-8f2b-5a603fb2c4a3",
     "part_id": "b0fb534a-728f-4f55-b7c2-9b3a3875532b",
     "word": "setting down",
-    "ipa": "/ˈsɛtɪŋ/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -2324,7 +2324,7 @@
     "created_at": "2026-03-10T01:18:37.263737+00:00",
     "updated_at": "2026-03-10T01:18:37.263737+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/setting-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -2356,7 +2356,7 @@
     "id": "d061c0df-0a78-4358-b91a-911fc44d761c",
     "part_id": "b0fb534a-728f-4f55-b7c2-9b3a3875532b",
     "word": "placing",
-    "ipa": "/ˈpleɪsɪŋ/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -2370,7 +2370,7 @@
     "created_at": "2026-03-10T01:18:11.368712+00:00",
     "updated_at": "2026-03-10T01:18:11.368712+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/place-uk.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -2379,7 +2379,7 @@
     "id": "dceb2b99-39b1-46af-927c-887a421b4189",
     "part_id": "1862b0b6-44b7-47a9-b6bc-3f541c20f196",
     "word": "consensus",
-    "ipa": "/kənˈsɛnsəs/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -2393,7 +2393,7 @@
     "created_at": "2026-03-15T08:50:43.748869+00:00",
     "updated_at": "2026-03-21T15:33:48.09154+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/con/consensus/consensus__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -2402,7 +2402,7 @@
     "id": "1b30ffc5-ce5a-4259-9ecb-6a2ec7a5c243",
     "part_id": "6463f180-0f83-441e-b026-800849e7efea",
     "word": "overturn",
-    "ipa": "/ˌoʊvərˈtɜːrn/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -2416,7 +2416,7 @@
     "created_at": "2026-03-16T08:18:15.125461+00:00",
     "updated_at": "2026-04-02T02:51:59.545555+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/o/ove/overturn/overturn__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -2439,7 +2439,7 @@
     "created_at": "2026-03-21T03:53:30.180587+00:00",
     "updated_at": "2026-03-21T03:53:30.180587+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/address-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -2462,7 +2462,7 @@
     "created_at": "2026-03-21T04:41:53.772143+00:00",
     "updated_at": "2026-03-21T04:41:53.772143+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/access-1-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -2471,7 +2471,7 @@
     "id": "46c78864-2d0f-4816-b8a4-e26933aa3231",
     "part_id": "9e993d08-4fa6-489f-8ac7-bbcc9507b59b",
     "word": "Furthermore= Moreover = In addition ",
-    "ipa": "/ˌfɜːrðərˈmɔːr/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -2485,7 +2485,7 @@
     "created_at": "2026-04-15T07:21:20.917824+00:00",
     "updated_at": "2026-05-03T08:11:36.286251+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/fur/furthermore/furthermore__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -2494,7 +2494,7 @@
     "id": "eef70e53-d4af-4c47-a4ac-72d407095c01",
     "part_id": "1862b0b6-44b7-47a9-b6bc-3f541c20f196",
     "word": "Conduct a trial run",
-    "ipa": "/ˈkɒndʌkt/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -2508,7 +2508,7 @@
     "created_at": "2026-03-14T15:16:59.031322+00:00",
     "updated_at": "2026-03-14T15:16:59.031322+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/conduct-ca-noun.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -2517,7 +2517,7 @@
     "id": "4160fdc9-23fb-4ddd-85b9-59f0a2c74e8b",
     "part_id": "b0fb534a-728f-4f55-b7c2-9b3a3875532b",
     "word": "carrying ",
-    "ipa": "/ˈkæɹiɪŋ/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -2540,7 +2540,7 @@
     "id": "7f9da141-9a83-42a0-9ebb-7d23cdf9c1a5",
     "part_id": "43ade795-45b4-456e-a086-bff5d924b194",
     "word": "lying across",
-    "ipa": "/ˈlaɪ.ɪŋ/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -2554,7 +2554,7 @@
     "created_at": "2026-02-15T10:11:09.949169+00:00",
     "updated_at": "2026-02-15T10:11:09.949169+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/lying-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -2563,7 +2563,7 @@
     "id": "2b9549c3-d7b2-4dda-8c3b-3e68a3ba3d27",
     "part_id": "43ade795-45b4-456e-a086-bff5d924b194",
     "word": "cabinet ",
-    "ipa": "/ˈkæ.bɪ.nɪt/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -2577,7 +2577,7 @@
     "created_at": "2026-02-15T10:06:11.388277+00:00",
     "updated_at": "2026-02-15T10:06:11.388277+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/cabinet-uk.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -2586,7 +2586,7 @@
     "id": "7c1f4d4d-7039-48b7-bd9f-519a292dcfd9",
     "part_id": "9e993d08-4fa6-489f-8ac7-bbcc9507b59b",
     "word": "As long as",
-    "ipa": "/æz lɔːŋ æz/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -2600,7 +2600,7 @@
     "created_at": "2026-05-03T08:22:21.744779+00:00",
     "updated_at": "2026-05-03T08:22:21.744779+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/as%20long%20as-au.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -2609,7 +2609,7 @@
     "id": "709bede3-1c51-46ee-82cc-7db5da84492b",
     "part_id": "6463f180-0f83-441e-b026-800849e7efea",
     "word": "Itemized",
-    "ipa": "/ˈaɪtəmaɪzd/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -2623,7 +2623,7 @@
     "created_at": "2026-03-17T06:36:14.205868+00:00",
     "updated_at": "2026-03-17T06:36:14.205868+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/ite/itemized/itemized__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -2632,7 +2632,7 @@
     "id": "ba6b9b7f-d064-4530-acef-0e156b166ba3",
     "part_id": "ef4b210b-66b1-4827-aaa8-6d61549aa357",
     "word": "standing up",
-    "ipa": "/ˈstændɪŋ/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -2646,7 +2646,7 @@
     "created_at": "2026-03-10T10:10:21.700682+00:00",
     "updated_at": "2026-03-10T10:10:21.700682+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/standing-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -2655,7 +2655,7 @@
     "id": "3ccb1c4f-b622-487b-aea8-b31b26ab3961",
     "part_id": "1862b0b6-44b7-47a9-b6bc-3f541c20f196",
     "word": "Frustration",
-    "ipa": "/fɹʌsˈtɹeɪʃən/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -2669,7 +2669,7 @@
     "created_at": "2026-03-14T15:19:50.038715+00:00",
     "updated_at": "2026-03-19T03:58:36.64141+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/fru/frustration/frustration__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -2678,7 +2678,7 @@
     "id": "44c8e14c-9d63-44c8-8d97-50298c3a07be",
     "part_id": "7f528cd9-7bd9-45f3-b237-552a3c7ce697",
     "word": "Massive",
-    "ipa": "/ˈmæs.ɪv/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -2692,7 +2692,7 @@
     "created_at": "2026-05-06T02:34:37.278339+00:00",
     "updated_at": "2026-05-06T02:34:37.278339+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/massive-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -2701,7 +2701,7 @@
     "id": "871b48f2-d5be-40df-aa09-46140c02f493",
     "part_id": "efabee5a-d1a0-47b7-9394-f15dfc2c856a",
     "word": "hanging up",
-    "ipa": "/ˈhæŋɪŋ/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -2715,7 +2715,7 @@
     "created_at": "2026-03-10T09:44:22.19353+00:00",
     "updated_at": "2026-03-10T09:44:22.19353+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/hanging-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -2724,7 +2724,7 @@
     "id": "24092be0-8767-4ed5-a6b8-2e9837c8e7b3",
     "part_id": "7f528cd9-7bd9-45f3-b237-552a3c7ce697",
     "word": "Transition (V/N) ",
-    "ipa": "/tɹænˈzɪʃən/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -2738,7 +2738,7 @@
     "created_at": "2026-05-06T02:17:17.575262+00:00",
     "updated_at": "2026-05-06T02:17:17.575262+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/tra/transition/transition__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -2747,7 +2747,7 @@
     "id": "222f984a-0fb5-42f0-8771-2405577830a5",
     "part_id": "1862b0b6-44b7-47a9-b6bc-3f541c20f196",
     "word": "Hand out",
-    "ipa": "/hænd aʊt/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -2761,7 +2761,7 @@
     "created_at": "2026-03-14T14:14:06.88397+00:00",
     "updated_at": "2026-03-14T14:14:06.88397+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/hand%20out-au.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -2770,7 +2770,7 @@
     "id": "a4588502-d11d-4aa7-ab91-fd419b1144de",
     "part_id": "7f528cd9-7bd9-45f3-b237-552a3c7ce697",
     "word": "Each + danh từ số ít + động từ số ít",
-    "ipa": "/it͡ʃ/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -2784,7 +2784,7 @@
     "created_at": "2026-05-06T02:13:07.084351+00:00",
     "updated_at": "2026-05-06T02:13:07.084351+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/each-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -2793,7 +2793,7 @@
     "id": "8616485c-8e11-48ca-af81-5aa1649a5589",
     "part_id": "43ade795-45b4-456e-a086-bff5d924b194",
     "word": "sew",
-    "ipa": "/soʊ/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -2807,7 +2807,7 @@
     "created_at": "2026-03-13T10:24:40.212903+00:00",
     "updated_at": "2026-03-13T10:24:40.212903+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/sew-1-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -2816,7 +2816,7 @@
     "id": "4e2681d0-1af3-456a-b801-944a02bd0952",
     "part_id": "1862b0b6-44b7-47a9-b6bc-3f541c20f196",
     "word": "Dispose of",
-    "ipa": "/dɪsˈpoʊz/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -2830,7 +2830,7 @@
     "created_at": "2026-03-14T14:15:52.291228+00:00",
     "updated_at": "2026-03-14T14:15:52.291228+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/dispose-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -2839,7 +2839,7 @@
     "id": "c33d0036-81f5-44e4-b9fd-00de47117a83",
     "part_id": "b0fb534a-728f-4f55-b7c2-9b3a3875532b",
     "word": "pushing",
-    "ipa": "/ˈpʊʃɪŋ/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -2862,7 +2862,7 @@
     "id": "e70ead37-61e0-40bd-8918-eac1172a5f65",
     "part_id": "6463f180-0f83-441e-b026-800849e7efea",
     "word": "Generally",
-    "ipa": "/d͡ʒɛn.əɹ.ə.li/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -2876,7 +2876,7 @@
     "created_at": "2026-03-16T08:04:13.795521+00:00",
     "updated_at": "2026-03-16T08:04:13.795521+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/generally-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -2899,7 +2899,7 @@
     "created_at": "2026-02-13T13:51:25.032806+00:00",
     "updated_at": "2026-02-13T13:51:25.032806+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/drawer-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -2922,7 +2922,7 @@
     "created_at": "2026-03-03T02:49:39.193801+00:00",
     "updated_at": "2026-03-03T02:49:39.193801+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sfs/sfsa/sfsa__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -2931,7 +2931,7 @@
     "id": "9686c8da-d90e-43e2-82fa-285df0232a36",
     "part_id": "1862b0b6-44b7-47a9-b6bc-3f541c20f196",
     "word": "Deduction",
-    "ipa": "/dɪˈdʌkʃən/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -2945,7 +2945,7 @@
     "created_at": "2026-03-19T15:32:46.294513+00:00",
     "updated_at": "2026-03-21T15:37:06.194413+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/deduction-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -2954,7 +2954,7 @@
     "id": "73e1426f-4386-4ef3-b86b-e844dad46c82",
     "part_id": "43ade795-45b4-456e-a086-bff5d924b194",
     "word": "adequate",
-    "ipa": "/ˈædɪkwɪt/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -2968,7 +2968,7 @@
     "created_at": "2026-03-13T10:46:38.77865+00:00",
     "updated_at": "2026-03-13T10:46:38.77865+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/ade/adequate/adequate__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -2977,7 +2977,7 @@
     "id": "430cc2de-6a45-4a50-8482-e7cb57b2cee8",
     "part_id": "1862b0b6-44b7-47a9-b6bc-3f541c20f196",
     "word": "Nursery",
-    "ipa": "/ˈnɜːsəɹi/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -2991,7 +2991,7 @@
     "created_at": "2026-03-15T08:47:24.468964+00:00",
     "updated_at": "2026-03-15T08:47:24.468964+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/nursery-uk.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -3014,7 +3014,7 @@
     "created_at": "2026-05-05T13:28:36.443803+00:00",
     "updated_at": "2026-05-05T13:28:36.443803+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/revenue-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -3023,7 +3023,7 @@
     "id": "9aec8e2b-d9b6-4a66-a440-edf2dfeb061a",
     "part_id": "1862b0b6-44b7-47a9-b6bc-3f541c20f196",
     "word": "somehow",
-    "ipa": "/ˈsʌmhaʊ/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -3037,7 +3037,7 @@
     "created_at": "2026-03-15T08:45:55.825215+00:00",
     "updated_at": "2026-03-15T08:45:55.825215+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/somehow-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -3046,7 +3046,7 @@
     "id": "1463a183-fedf-4ee0-9725-0e5c8ce7765b",
     "part_id": "1862b0b6-44b7-47a9-b6bc-3f541c20f196",
     "word": "Shredded ",
-    "ipa": "/ˈʃrɛdɪd/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -3060,7 +3060,7 @@
     "created_at": "2026-03-14T14:11:25.486238+00:00",
     "updated_at": "2026-03-14T14:11:25.486238+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/shr/shredded/shredded__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -3069,7 +3069,7 @@
     "id": "9bb028bb-8519-49cb-ba1a-7f3c3e44ba3c",
     "part_id": "1e1dd1e1-d762-417c-9a61-fc0d7440ef6e",
     "word": "filling out",
-    "ipa": "[ˈfɪɫlɪŋ]",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -3083,7 +3083,7 @@
     "created_at": "2026-03-12T02:52:00.917591+00:00",
     "updated_at": "2026-03-12T02:52:00.917591+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/filling-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -3092,7 +3092,7 @@
     "id": "a1e8b56c-bdb0-4482-92ed-509e4a3a8cce",
     "part_id": "1862b0b6-44b7-47a9-b6bc-3f541c20f196",
     "word": "Downtown",
-    "ipa": "/ˈdaʊntaʊn/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -3106,7 +3106,7 @@
     "created_at": "2026-03-14T15:00:46.1987+00:00",
     "updated_at": "2026-03-14T15:00:46.1987+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/dow/downtown/downtown__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -3115,7 +3115,7 @@
     "id": "1a5ab671-d9f1-495f-95e8-399df3443a7e",
     "part_id": "6463f180-0f83-441e-b026-800849e7efea",
     "word": "Driveway",
-    "ipa": "/ˈdraɪvweɪ/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -3129,7 +3129,7 @@
     "created_at": "2026-03-16T13:55:04.989245+00:00",
     "updated_at": "2026-03-16T13:55:04.989245+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/dri/driveway/driveway__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -3138,7 +3138,7 @@
     "id": "35014b08-fb2c-46cb-b6aa-e7cdafdf0bc6",
     "part_id": "6463f180-0f83-441e-b026-800849e7efea",
     "word": "drainage",
-    "ipa": "/ˈdɹeɪnədʒ/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -3152,7 +3152,7 @@
     "created_at": "2026-03-16T14:09:29.688195+00:00",
     "updated_at": "2026-03-16T14:09:29.688195+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/dra/drainage/drainage__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -3161,7 +3161,7 @@
     "id": "4419aaf1-548e-4199-ae24-b0bfc1b6f6ed",
     "part_id": "b0fb534a-728f-4f55-b7c2-9b3a3875532b",
     "word": "reaching",
-    "ipa": "/ˈɹiːtʃɪŋ/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -3184,7 +3184,7 @@
     "id": "08a20f34-bb8d-43db-b3d1-8f8434cb2344",
     "part_id": "ef4b210b-66b1-4827-aaa8-6d61549aa357",
     "word": "sitting down",
-    "ipa": "/ˈsɪtɪŋ/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -3198,7 +3198,7 @@
     "created_at": "2026-03-10T10:09:54.248038+00:00",
     "updated_at": "2026-03-10T10:09:54.248038+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/sitting-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -3207,7 +3207,7 @@
     "id": "c2ba19ae-99ea-4252-b968-c1e6573cfc1a",
     "part_id": "6463f180-0f83-441e-b026-800849e7efea",
     "word": "brick-and-mortar",
-    "ipa": "/brɪk ænd ˈmɔːrtər/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -3221,7 +3221,7 @@
     "created_at": "2026-03-16T04:49:02.352575+00:00",
     "updated_at": "2026-03-16T04:49:02.352575+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/b/bri/brick-and-mortar/brick-and-mortar__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -3230,7 +3230,7 @@
     "id": "499b5e53-8617-4041-8991-069acded4e3c",
     "part_id": "1862b0b6-44b7-47a9-b6bc-3f541c20f196",
     "word": "Apartment complex",
-    "ipa": "/əˈpɑɹt.mənt/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -3244,7 +3244,7 @@
     "created_at": "2026-03-14T14:20:00.811717+00:00",
     "updated_at": "2026-03-14T14:20:00.811717+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/apartment-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -3253,7 +3253,7 @@
     "id": "3e3dbc90-c952-49f7-b99d-2e72898feb1d",
     "part_id": "7f528cd9-7bd9-45f3-b237-552a3c7ce697",
     "word": "Much + danh từ không đếm được",
-    "ipa": "/mʌt͡ʃ/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -3267,7 +3267,7 @@
     "created_at": "2026-05-06T02:14:13.269293+00:00",
     "updated_at": "2026-05-06T02:14:13.269293+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/much-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -3276,7 +3276,7 @@
     "id": "6ab74789-de42-4b3c-9f9a-49c43a43a1f6",
     "part_id": "9e993d08-4fa6-489f-8ac7-bbcc9507b59b",
     "word": "Otherwise",
-    "ipa": "/ˈʌð.əˌwaɪz/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -3290,7 +3290,7 @@
     "created_at": "2026-05-03T08:12:28.716231+00:00",
     "updated_at": "2026-05-03T08:12:28.716231+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/otherwise-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -3299,7 +3299,7 @@
     "id": "83e1cdbd-e393-4093-99fe-71b55eee71ec",
     "part_id": "1862b0b6-44b7-47a9-b6bc-3f541c20f196",
     "word": "Feasible",
-    "ipa": "/ˈfiːzəbəl/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -3313,7 +3313,7 @@
     "created_at": "2026-03-14T15:14:04.892488+00:00",
     "updated_at": "2026-03-14T15:14:04.892488+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/feasible-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -3322,7 +3322,7 @@
     "id": "77ecdb38-a358-4a61-813a-652a7d92f9f7",
     "part_id": "1862b0b6-44b7-47a9-b6bc-3f541c20f196",
     "word": "lecture",
-    "ipa": "/ˈlɛk.t͡ʃɚ/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -3336,7 +3336,7 @@
     "created_at": "2026-03-15T09:29:16.16303+00:00",
     "updated_at": "2026-03-15T09:29:16.16303+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/lecture-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -3345,7 +3345,7 @@
     "id": "dc6620e6-0408-4d4e-8372-7a43f50a03e5",
     "part_id": "1862b0b6-44b7-47a9-b6bc-3f541c20f196",
     "word": "For instance",
-    "ipa": "/fɔːr ˈɪnstəns/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -3359,7 +3359,7 @@
     "created_at": "2026-03-15T09:29:38.180864+00:00",
     "updated_at": "2026-03-15T09:29:38.180864+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/for%20instance-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -3382,7 +3382,7 @@
     "created_at": "2026-03-19T13:19:52.123586+00:00",
     "updated_at": "2026-03-19T13:19:52.123586+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/delicate-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -3391,7 +3391,7 @@
     "id": "cae721eb-1425-47e9-9b90-943e43441046",
     "part_id": "b0fb534a-728f-4f55-b7c2-9b3a3875532b",
     "word": "putting down ",
-    "ipa": "[ˈpʰʊɾɪŋ]",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -3414,7 +3414,7 @@
     "id": "285d6c46-d6fc-4bc6-a3df-0da5c3fd492a",
     "part_id": "b0fb534a-728f-4f55-b7c2-9b3a3875532b",
     "word": "picking up",
-    "ipa": "/ˈpɪkɪŋ/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -3428,7 +3428,7 @@
     "created_at": "2026-03-10T01:09:00.564226+00:00",
     "updated_at": "2026-03-10T01:09:00.564226+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pic/picking/picking__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -3437,7 +3437,7 @@
     "id": "ca66f413-e781-4941-895e-ee6f85ef98a2",
     "part_id": "b0fb534a-728f-4f55-b7c2-9b3a3875532b",
     "word": "pouring",
-    "ipa": "/ˈpɔːɹɪŋ/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -3451,7 +3451,7 @@
     "created_at": "2026-03-10T01:21:37.73678+00:00",
     "updated_at": "2026-03-10T01:21:37.73678+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/pouring-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -3460,7 +3460,7 @@
     "id": "d0d9245c-47dc-4f10-beef-a5af7872a6f4",
     "part_id": "6463f180-0f83-441e-b026-800849e7efea",
     "word": "unscented",
-    "ipa": "/ˌʌnˈsɛntɪd/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -3474,7 +3474,7 @@
     "created_at": "2026-03-16T13:11:49.736332+00:00",
     "updated_at": "2026-03-16T13:11:49.736332+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/u/uns/unscented/unscented__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -3497,7 +3497,7 @@
     "created_at": "2026-03-18T12:51:11.270046+00:00",
     "updated_at": "2026-03-18T12:51:11.270046+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/apply-1-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -3506,7 +3506,7 @@
     "id": "42c9c515-640e-497e-adb0-bee29b60b17a",
     "part_id": "6463f180-0f83-441e-b026-800849e7efea",
     "word": "endorse",
-    "ipa": "/ɪnˈdɔːs/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -3520,7 +3520,7 @@
     "created_at": "2026-03-16T05:11:23.366033+00:00",
     "updated_at": "2026-03-16T05:11:23.366033+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/endorse-uk.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -3529,7 +3529,7 @@
     "id": "1696a063-0ccf-45f7-a47d-73756eadcc7e",
     "part_id": "6463f180-0f83-441e-b026-800849e7efea",
     "word": "Exclude",
-    "ipa": "/ɪksˈkluːd/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -3543,7 +3543,7 @@
     "created_at": "2026-03-16T05:31:10.773925+00:00",
     "updated_at": "2026-03-16T05:31:10.773925+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/exclude-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -3566,7 +3566,7 @@
     "created_at": "2026-03-21T03:53:00.994544+00:00",
     "updated_at": "2026-03-21T03:53:00.994544+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/almost-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -3590,7 +3590,7 @@
     "created_at": "2026-03-21T12:25:17.476525+00:00",
     "updated_at": "2026-03-21T12:25:17.476525+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/hall-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -3599,7 +3599,7 @@
     "id": "81a25c51-a6aa-43b8-bceb-126142b14227",
     "part_id": "5988fbfa-ad6d-40a0-8d9b-59451965e993",
     "word": "all makes",
-    "ipa": "/ɔl/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -3613,7 +3613,7 @@
     "created_at": "2026-04-24T08:44:26.772857+00:00",
     "updated_at": "2026-04-24T08:44:26.772857+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/all-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -3622,7 +3622,7 @@
     "id": "e061bda3-888f-49b1-b728-a9ad2dd6e612",
     "part_id": "ef4b210b-66b1-4827-aaa8-6d61549aa357",
     "word": "bending down",
-    "ipa": "/ˈbɛndɪŋ/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -3636,7 +3636,7 @@
     "created_at": "2026-03-10T10:03:45.141371+00:00",
     "updated_at": "2026-03-10T10:03:45.141371+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/b/ben/bending/bending__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -3645,7 +3645,7 @@
     "id": "846722dc-2fdc-406d-b86e-9c3411255b05",
     "part_id": "a1349c0f-1649-4b09-bb35-ac250a47d28a",
     "word": "feel, look, sound, taste, smell",
-    "ipa": "/fiːl/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -3659,7 +3659,7 @@
     "created_at": "2026-04-15T07:29:05.398284+00:00",
     "updated_at": "2026-04-15T07:29:05.398284+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/feel-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -3668,7 +3668,7 @@
     "id": "fafcf486-760e-45e0-b01e-09b6058f537e",
     "part_id": "9e993d08-4fa6-489f-8ac7-bbcc9507b59b",
     "word": "Likewise",
-    "ipa": "/ˈlaɪkˌwaɪz/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -3682,7 +3682,7 @@
     "created_at": "2026-04-15T07:23:36.086459+00:00",
     "updated_at": "2026-04-15T07:23:36.086459+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/likewise-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -3691,7 +3691,7 @@
     "id": "7b310e47-b9f5-4c8d-900f-84857969d1ce",
     "part_id": "1e1dd1e1-d762-417c-9a61-fc0d7440ef6e",
     "word": "presenting ",
-    "ipa": "/prɪˈzɛntɪŋ/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -3705,7 +3705,7 @@
     "created_at": "2026-03-12T02:55:28.217643+00:00",
     "updated_at": "2026-03-12T02:55:28.217643+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/presenting-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -3714,7 +3714,7 @@
     "id": "49f5d711-ac59-433f-bfa6-24748e730a33",
     "part_id": "9e993d08-4fa6-489f-8ac7-bbcc9507b59b",
     "word": "Consequently",
-    "ipa": "/ˈkɑːnsəˌkwɛntli/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -3728,7 +3728,7 @@
     "created_at": "2026-05-03T08:14:25.587257+00:00",
     "updated_at": "2026-05-03T08:14:25.587257+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/consequently-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -3737,7 +3737,7 @@
     "id": "3bdb739b-3397-4707-acdc-cdcb57f21535",
     "part_id": "6463f180-0f83-441e-b026-800849e7efea",
     "word": "Scout",
-    "ipa": "[skʌʊt]",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -3751,7 +3751,7 @@
     "created_at": "2026-03-16T05:05:49.700724+00:00",
     "updated_at": "2026-03-16T05:05:49.700724+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/scout-au.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -3760,7 +3760,7 @@
     "id": "6adec691-9f11-4cf5-9598-f00db00c9abf",
     "part_id": "1e1dd1e1-d762-417c-9a61-fc0d7440ef6e",
     "word": "stacking",
-    "ipa": "/ˈstækɪŋ/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -3774,7 +3774,7 @@
     "created_at": "2026-03-12T02:54:32.405169+00:00",
     "updated_at": "2026-03-12T02:54:32.405169+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/stack-au.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -3783,7 +3783,7 @@
     "id": "7b1580a4-80d8-45f0-b4ca-f1af5e9d5346",
     "part_id": "ef4b210b-66b1-4827-aaa8-6d61549aa357",
     "word": "kneeling (down)",
-    "ipa": "/ˈniːlɪŋ/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -3797,7 +3797,7 @@
     "created_at": "2026-03-10T10:09:11.73661+00:00",
     "updated_at": "2026-03-10T10:09:11.73661+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/kneeling-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -3806,7 +3806,7 @@
     "id": "c15c3571-6438-428c-9a57-6c9b83f7f0d2",
     "part_id": "034c4a4a-4ff2-434f-b2f4-2704b6733d29",
     "word": "Regain",
-    "ipa": "/ɹiːˈɡeɪn/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -3820,7 +3820,7 @@
     "created_at": "2026-03-19T07:22:08.903243+00:00",
     "updated_at": "2026-03-19T07:22:08.903243+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/reg/regain/regain__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -3829,7 +3829,7 @@
     "id": "3f298108-dc0e-428c-a334-e13ba613d5ae",
     "part_id": "034c4a4a-4ff2-434f-b2f4-2704b6733d29",
     "word": "Hastily",
-    "ipa": "/ˈheɪstɪli/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -3843,7 +3843,7 @@
     "created_at": "2026-03-18T07:24:17.13224+00:00",
     "updated_at": "2026-03-19T05:30:21.518419+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/hastily-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -3852,7 +3852,7 @@
     "id": "61c01041-d1ee-4fe3-a639-30a7af86af76",
     "part_id": "034c4a4a-4ff2-434f-b2f4-2704b6733d29",
     "word": "aside from",
-    "ipa": "/əˈsaɪd/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -3866,7 +3866,7 @@
     "created_at": "2026-03-18T06:47:26.07839+00:00",
     "updated_at": "2026-03-18T06:47:26.07839+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/aside-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -3875,7 +3875,7 @@
     "id": "9435b49d-1aa8-4467-a376-53a140dca761",
     "part_id": "1e1dd1e1-d762-417c-9a61-fc0d7440ef6e",
     "word": "reviewing ",
-    "ipa": "/rɪˈvjuːɪŋ/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -3889,7 +3889,7 @@
     "created_at": "2026-03-12T02:56:38.999885+00:00",
     "updated_at": "2026-03-12T02:56:38.999885+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/review-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -3898,7 +3898,7 @@
     "id": "a1ca34d6-faaf-419e-a65e-040ef7e77724",
     "part_id": "1e1dd1e1-d762-417c-9a61-fc0d7440ef6e",
     "word": "filing",
-    "ipa": "/faɪ.lɪŋ/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -3921,7 +3921,7 @@
     "id": "4ed4a43d-09da-4f6b-b4b2-383eeccc5db6",
     "part_id": "6463f180-0f83-441e-b026-800849e7efea",
     "word": "Excessive",
-    "ipa": "/ɪkˈsɛsɪv/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -3935,7 +3935,7 @@
     "created_at": "2026-03-16T08:07:19.082272+00:00",
     "updated_at": "2026-03-16T08:07:19.082272+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/exc/excessive/excessive__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -3944,7 +3944,7 @@
     "id": "9f342ee3-da61-4650-8908-a3d64ae1795e",
     "part_id": "6463f180-0f83-441e-b026-800849e7efea",
     "word": "keep up with",
-    "ipa": "/kiːp/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -3958,7 +3958,7 @@
     "created_at": "2026-03-16T04:58:01.765824+00:00",
     "updated_at": "2026-03-16T04:58:01.765824+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/keep-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -3967,7 +3967,7 @@
     "id": "27b97cbf-a693-42bd-825c-7d811acf062e",
     "part_id": "034c4a4a-4ff2-434f-b2f4-2704b6733d29",
     "word": "Whereas",
-    "ipa": "/(h)wɛɹˈæz/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -3981,7 +3981,7 @@
     "created_at": "2026-03-18T07:26:24.676728+00:00",
     "updated_at": "2026-03-18T07:26:24.676728+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/whereas-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -3990,7 +3990,7 @@
     "id": "420906c7-30fa-45ee-9f1d-ef4287b7a400",
     "part_id": "6463f180-0f83-441e-b026-800849e7efea",
     "word": "especially",
-    "ipa": "/əˈspɛʃ(ə)li/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -4004,7 +4004,7 @@
     "created_at": "2026-03-16T04:51:15.823492+00:00",
     "updated_at": "2026-03-16T04:51:15.823492+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/especially-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -4028,7 +4028,7 @@
     "created_at": "2026-04-05T15:00:55.161167+00:00",
     "updated_at": "2026-04-05T15:00:55.161167+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/even%20though.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [
       {
@@ -4048,7 +4048,7 @@
     "id": "a1cbd524-6a5d-4e7b-8dfe-66af642d5539",
     "part_id": "6463f180-0f83-441e-b026-800849e7efea",
     "word": "toward",
-    "ipa": "/tʊ.ˈwɔɹd/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -4062,7 +4062,7 @@
     "created_at": "2026-03-16T08:05:18.987065+00:00",
     "updated_at": "2026-03-16T08:05:18.987065+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/toward-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -4071,7 +4071,7 @@
     "id": "c8bbc07d-5dc4-4a17-ab6b-9a32dd9f2d5f",
     "part_id": "ef4b210b-66b1-4827-aaa8-6d61549aa357",
     "word": "walking toward",
-    "ipa": "/ˈwɔkɪŋ/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -4094,7 +4094,7 @@
     "id": "c5787a93-c833-422f-bc7d-27792eb7cfc7",
     "part_id": "1beabded-dbf6-4d99-964a-b69a078ad177",
     "word": "new",
-    "ipa": "/n(j)u/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -4108,7 +4108,7 @@
     "created_at": "2026-05-02T08:23:55.355853+00:00",
     "updated_at": "2026-05-02T08:23:55.355853+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/new-us.ogg",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -4117,7 +4117,7 @@
     "id": "588914da-2b17-438d-a289-602d437c5de7",
     "part_id": "034c4a4a-4ff2-434f-b2f4-2704b6733d29",
     "word": "Literally",
-    "ipa": "/ˈlɪ.ɾɚ.ə.li/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -4131,7 +4131,7 @@
     "created_at": "2026-03-19T13:17:05.469472+00:00",
     "updated_at": "2026-03-19T13:17:05.469472+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/literally-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -4140,7 +4140,7 @@
     "id": "04fd5d25-938d-43a5-98e9-82d884e9a5dd",
     "part_id": "6463f180-0f83-441e-b026-800849e7efea",
     "word": "Sleek",
-    "ipa": "/sliːk/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -4154,7 +4154,7 @@
     "created_at": "2026-03-17T08:05:34.580594+00:00",
     "updated_at": "2026-03-17T08:05:34.580594+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sle/sleek/sleek__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -4163,7 +4163,7 @@
     "id": "8486e1d6-2946-4487-9e78-3ef69a0924df",
     "part_id": "6463f180-0f83-441e-b026-800849e7efea",
     "word": "redeem",
-    "ipa": "/ɹɪˈdiːm/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -4177,7 +4177,7 @@
     "created_at": "2026-03-17T07:09:03.029191+00:00",
     "updated_at": "2026-03-17T07:09:03.029191+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/red/redeem/redeem__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -4201,7 +4201,7 @@
     "created_at": "2026-04-14T14:26:12.660206+00:00",
     "updated_at": "2026-04-14T14:26:12.660206+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/roughly-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": [
@@ -4215,7 +4215,7 @@
     "id": "c9918f28-cec3-4f76-be35-147c026d6654",
     "part_id": "1e1dd1e1-d762-417c-9a61-fc0d7440ef6e",
     "word": "demonstrating",
-    "ipa": "/ˈdɛmənstreɪtɪŋ/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -4229,7 +4229,7 @@
     "created_at": "2026-03-12T02:55:40.590054+00:00",
     "updated_at": "2026-03-12T02:55:40.590054+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/demonstrate-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -4238,7 +4238,7 @@
     "id": "96358e79-d685-4725-a4df-79a63ef214cd",
     "part_id": "034c4a4a-4ff2-434f-b2f4-2704b6733d29",
     "word": "Regardless (of + danh từ)",
-    "ipa": "/ɹɪˈɡɑːd.lɪs/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -4252,7 +4252,7 @@
     "created_at": "2026-03-18T07:32:06.430065+00:00",
     "updated_at": "2026-03-18T07:32:06.430065+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/reg/regardless/regardless__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -4276,7 +4276,7 @@
     "created_at": "2026-03-19T13:35:21.809525+00:00",
     "updated_at": "2026-03-19T13:35:21.809525+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/climbing-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -4285,7 +4285,7 @@
     "id": "9ffb3e83-cb03-4a4b-a6e0-05c575d13da0",
     "part_id": "6463f180-0f83-441e-b026-800849e7efea",
     "word": "rebate",
-    "ipa": "/ɹəˈbeɪt/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -4299,7 +4299,7 @@
     "created_at": "2026-03-16T04:54:58.558406+00:00",
     "updated_at": "2026-03-16T04:54:58.558406+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/reb/rebate/rebate__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -4308,7 +4308,7 @@
     "id": "320e2640-e4b3-453d-bbdd-640c746ea84c",
     "part_id": "034c4a4a-4ff2-434f-b2f4-2704b6733d29",
     "word": "Vast",
-    "ipa": "/væst/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -4322,7 +4322,7 @@
     "created_at": "2026-03-19T07:34:31.871987+00:00",
     "updated_at": "2026-03-19T07:34:31.871987+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/vast-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -4331,7 +4331,7 @@
     "id": "c8f3205a-d8c9-48e4-aa40-db48f59a3c12",
     "part_id": "ef4b210b-66b1-4827-aaa8-6d61549aa357",
     "word": "crouching ",
-    "ipa": "/ˈkɹaʊtʃɪŋ/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -4345,7 +4345,7 @@
     "created_at": "2026-03-10T10:08:30.122004+00:00",
     "updated_at": "2026-03-10T10:08:30.122004+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/crouching-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -4354,7 +4354,7 @@
     "id": "4505d6a0-9b46-43c6-81f6-69cf8211a72e",
     "part_id": "6463f180-0f83-441e-b026-800849e7efea",
     "word": "spike",
-    "ipa": "/spaɪk/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -4368,7 +4368,7 @@
     "created_at": "2026-03-16T04:54:03.182295+00:00",
     "updated_at": "2026-03-16T04:54:03.182295+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/spike-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -4377,7 +4377,7 @@
     "id": "e5878679-d9f7-4cd9-ba15-d2068006cd4a",
     "part_id": "1e1dd1e1-d762-417c-9a61-fc0d7440ef6e",
     "word": "piling up",
-    "ipa": "[ˈpʰaɪ̯ɫlɪŋ]",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -4391,7 +4391,7 @@
     "created_at": "2026-03-12T02:54:51.287533+00:00",
     "updated_at": "2026-03-12T02:54:51.287533+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/pile-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -4400,7 +4400,7 @@
     "id": "fea0007d-db53-4265-b706-00bf651d4b5e",
     "part_id": "43ade795-45b4-456e-a086-bff5d924b194",
     "word": "laid out ",
-    "ipa": "/leɪd/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -4414,7 +4414,7 @@
     "created_at": "2026-02-15T10:02:04.346543+00:00",
     "updated_at": "2026-02-15T10:02:04.346543+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/laid-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -4437,7 +4437,7 @@
     "created_at": "2026-03-21T03:59:38.507518+00:00",
     "updated_at": "2026-03-21T03:59:38.507518+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/coincide-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -4446,7 +4446,7 @@
     "id": "6ae06fc9-0a50-4750-813e-795a125874e6",
     "part_id": "efabee5a-d1a0-47b7-9394-f15dfc2c856a",
     "word": "taking off",
-    "ipa": "/ˈteɪkɪŋ/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -4469,7 +4469,7 @@
     "id": "0e8909e8-42b2-4998-a61e-31183c1bee55",
     "part_id": "6463f180-0f83-441e-b026-800849e7efea",
     "word": "abruptly",
-    "ipa": "/ə.ˈbɹʌpt.li/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -4483,7 +4483,7 @@
     "created_at": "2026-03-16T08:00:03.149394+00:00",
     "updated_at": "2026-03-16T08:00:03.149394+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/abruptly-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -4492,7 +4492,7 @@
     "id": "b1d6a7de-27f2-426c-ae21-7af29b48a0a5",
     "part_id": "1862b0b6-44b7-47a9-b6bc-3f541c20f196",
     "word": "Overwhelm",
-    "ipa": "/ˌovɚˈʍɛlm/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -4506,7 +4506,7 @@
     "created_at": "2026-03-18T07:51:56.431493+00:00",
     "updated_at": "2026-03-19T03:55:41.738051+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/o/ove/overwhelm/overwhelm__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -4515,7 +4515,7 @@
     "id": "c555aa3b-9a84-4728-b645-d2dd22431022",
     "part_id": "6bed9821-846d-4369-87e3-82179da2a542",
     "word": "dog",
-    "ipa": "/dɔɡ/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -4529,7 +4529,7 @@
     "created_at": "2026-04-15T07:27:19.958681+00:00",
     "updated_at": "2026-04-15T07:27:19.958681+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/dog-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -4538,7 +4538,7 @@
     "id": "dc39fd6c-f29c-49b5-b44b-332000efcccc",
     "part_id": "034c4a4a-4ff2-434f-b2f4-2704b6733d29",
     "word": "decisive",
-    "ipa": "/dɪˈsaɪsɪv/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -4552,7 +4552,7 @@
     "created_at": "2026-03-19T05:17:28.300662+00:00",
     "updated_at": "2026-04-10T11:33:54.005497+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/dec/decisive/decisive__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -4576,7 +4576,7 @@
     "created_at": "2026-04-05T10:42:55.977916+00:00",
     "updated_at": "2026-04-05T10:42:55.977916+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/backpack-uk.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [
       {
@@ -4596,7 +4596,7 @@
     "id": "3aa0d940-8334-4152-bf81-5668651603e8",
     "part_id": "1e1dd1e1-d762-417c-9a61-fc0d7440ef6e",
     "word": "typing",
-    "ipa": "/ˈtaɪpɪŋ/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -4610,7 +4610,7 @@
     "created_at": "2026-03-12T02:53:25.905908+00:00",
     "updated_at": "2026-03-12T02:53:25.905908+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/type-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -4619,7 +4619,7 @@
     "id": "55baefbe-5389-4aa9-8893-3ecf4ea0003e",
     "part_id": "b0fb534a-728f-4f55-b7c2-9b3a3875532b",
     "word": "handing ",
-    "ipa": "/ˈhændɪŋ/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -4633,7 +4633,7 @@
     "created_at": "2026-03-10T01:17:35.023767+00:00",
     "updated_at": "2026-03-10T01:17:35.023767+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/hand-uk.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -4642,7 +4642,7 @@
     "id": "95623d4f-e277-4c15-938c-84b678faff39",
     "part_id": "034c4a4a-4ff2-434f-b2f4-2704b6733d29",
     "word": "courtyard",
-    "ipa": "/ˈkɔɹt.jɑɹd/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -4656,7 +4656,7 @@
     "created_at": "2026-03-18T04:54:13.96794+00:00",
     "updated_at": "2026-03-18T04:54:13.96794+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/courtyard-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -4679,7 +4679,7 @@
     "created_at": "2026-03-19T13:12:45.273072+00:00",
     "updated_at": "2026-03-19T13:12:45.273072+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/archaeologist-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -4702,7 +4702,7 @@
     "created_at": "2026-03-19T16:42:29.088689+00:00",
     "updated_at": "2026-03-19T16:42:29.088689+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/appliance-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -4711,7 +4711,7 @@
     "id": "90d1ad27-fb32-499f-8e01-1188f42323ba",
     "part_id": "efabee5a-d1a0-47b7-9394-f15dfc2c856a",
     "word": "folding",
-    "ipa": "/ˈfoʊldɪŋ/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -4734,7 +4734,7 @@
     "id": "04bd14b8-3ef6-42a2-97f0-5043231b985a",
     "part_id": "5988fbfa-ad6d-40a0-8d9b-59451965e993",
     "word": "go-ahead",
-    "ipa": "/ˌɡoʊ əˈhɛd/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -4748,7 +4748,7 @@
     "created_at": "2026-04-23T07:47:59.123613+00:00",
     "updated_at": "2026-04-23T09:18:41.621298+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/g/go-/go-ahead/go-ahead__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -4757,7 +4757,7 @@
     "id": "4f646ea6-a63a-4a81-8580-b823a89e2d34",
     "part_id": "6463f180-0f83-441e-b026-800849e7efea",
     "word": "acclaimed",
-    "ipa": "/əˈkleɪmd/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -4771,7 +4771,7 @@
     "created_at": "2026-03-16T08:08:25.979826+00:00",
     "updated_at": "2026-03-16T08:08:25.979826+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/acc/acclaimed/acclaimed__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -4780,7 +4780,7 @@
     "id": "4269b8b5-b4f4-4164-9478-d19072dde3c4",
     "part_id": "1862b0b6-44b7-47a9-b6bc-3f541c20f196",
     "word": "Consequently",
-    "ipa": "/ˈkɑːnsəˌkwɛntli/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -4794,7 +4794,7 @@
     "created_at": "2026-03-15T09:29:57.824191+00:00",
     "updated_at": "2026-03-20T04:47:00.721557+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/consequently-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -4803,7 +4803,7 @@
     "id": "b37abf33-636d-44ad-b584-5b2a7f655f9a",
     "part_id": "6463f180-0f83-441e-b026-800849e7efea",
     "word": "in bulk",
-    "ipa": "/ɪn/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -4817,7 +4817,7 @@
     "created_at": "2026-03-16T13:30:26.355691+00:00",
     "updated_at": "2026-03-16T13:30:26.355691+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/in-us-stressed.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -4826,7 +4826,7 @@
     "id": "e93cdda1-6459-488a-b740-4891d384686a",
     "part_id": "efabee5a-d1a0-47b7-9394-f15dfc2c856a",
     "word": "wearing",
-    "ipa": "/ˈwɛɹɪŋ/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -4849,7 +4849,7 @@
     "id": "41ba5af3-5d76-4f9c-9ba9-4bc07f1576c9",
     "part_id": "1862b0b6-44b7-47a9-b6bc-3f541c20f196",
     "word": "Specification",
-    "ipa": "/ˌspɛsɪfɪˈkeɪʃən/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -4863,7 +4863,7 @@
     "created_at": "2026-03-15T09:46:46.427408+00:00",
     "updated_at": "2026-03-15T09:46:46.427408+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/spe/specification/specification__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -4887,7 +4887,7 @@
     "created_at": "2026-03-14T15:20:05.295594+00:00",
     "updated_at": "2026-03-14T15:20:05.295594+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/fallen-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -4896,7 +4896,7 @@
     "id": "ebfa59cd-6115-425a-83e6-fe2d72189c22",
     "part_id": "9e993d08-4fa6-489f-8ac7-bbcc9507b59b",
     "word": "As soon as",
-    "ipa": "/æz suːn æz/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -4910,7 +4910,7 @@
     "created_at": "2026-05-03T08:20:50.046177+00:00",
     "updated_at": "2026-05-03T08:20:50.046177+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/as-1-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -4919,7 +4919,7 @@
     "id": "038aef51-f679-41e3-a2e5-2e546eed065b",
     "part_id": "7f528cd9-7bd9-45f3-b237-552a3c7ce697",
     "word": "intense",
-    "ipa": "/ɪnˈtɛns/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -4933,7 +4933,7 @@
     "created_at": "2026-05-06T02:34:08.465906+00:00",
     "updated_at": "2026-05-06T02:34:08.465906+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/intense-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -4956,7 +4956,7 @@
     "created_at": "2026-02-09T14:18:09.634334+00:00",
     "updated_at": "2026-02-09T14:18:09.634334+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/office-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -4965,7 +4965,7 @@
     "id": "e331a882-6339-47ca-bc48-2d7cb6b14f64",
     "part_id": "ef4b210b-66b1-4827-aaa8-6d61549aa357",
     "word": "walking away",
-    "ipa": "/ˈwɔkɪŋ/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -4979,7 +4979,7 @@
     "created_at": "2026-03-10T10:01:40.953665+00:00",
     "updated_at": "2026-03-10T10:01:40.953665+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/walking-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -4988,7 +4988,7 @@
     "id": "a7913287-0398-4055-8b4a-a1b8edc17f32",
     "part_id": "43ade795-45b4-456e-a086-bff5d924b194",
     "word": "pride",
-    "ipa": "/pɹaɪd/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -5002,7 +5002,7 @@
     "created_at": "2026-03-13T09:55:15.884475+00:00",
     "updated_at": "2026-03-13T09:55:15.884475+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/pride-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -5011,7 +5011,7 @@
     "id": "f5094624-faad-4908-9c93-a8b498602109",
     "part_id": "6463f180-0f83-441e-b026-800849e7efea",
     "word": "unseasonable",
-    "ipa": "/ˌʌnˈsiːzənəbəl/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -5025,7 +5025,7 @@
     "created_at": "2026-03-16T08:15:15.62273+00:00",
     "updated_at": "2026-03-16T08:15:15.62273+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/u/uns/unseasonable/unseasonable__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -5034,7 +5034,7 @@
     "id": "6fcaa37a-9cea-441c-925d-3e1879b458e5",
     "part_id": "a1349c0f-1649-4b09-bb35-ac250a47d28a",
     "word": "seem, appear",
-    "ipa": "/siːm, əˈpɪər/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -5048,7 +5048,7 @@
     "created_at": "2026-04-15T07:30:48.361647+00:00",
     "updated_at": "2026-04-15T07:30:48.361647+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/seem-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -5057,7 +5057,7 @@
     "id": "558cf350-6783-44a0-8697-eaab7017abac",
     "part_id": "1862b0b6-44b7-47a9-b6bc-3f541c20f196",
     "word": "Walk-in customer",
-    "ipa": "/ˈwɔːk ɪn ˈkʌstəmər/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -5071,7 +5071,7 @@
     "created_at": "2026-03-14T14:17:22.689371+00:00",
     "updated_at": "2026-03-14T14:17:22.689371+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/w/wal/walk-in/walk-in__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -5080,7 +5080,7 @@
     "id": "7f8b4614-0e5b-4e2d-ade9-102b5afadf7c",
     "part_id": "b0fb534a-728f-4f55-b7c2-9b3a3875532b",
     "word": "holding",
-    "ipa": "[ˈhoʊɫdɪŋ]",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -5103,7 +5103,7 @@
     "id": "fd62e176-1c19-4f4e-bfca-b80866e58afe",
     "part_id": "1e1dd1e1-d762-417c-9a61-fc0d7440ef6e",
     "word": "signing",
-    "ipa": "/ˈsaɪnɪŋ/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -5117,7 +5117,7 @@
     "created_at": "2026-03-12T02:52:56.445289+00:00",
     "updated_at": "2026-03-12T02:52:56.445289+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/sign-au.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -5126,7 +5126,7 @@
     "id": "b7207e64-fe2c-400a-8a98-b896d2ae419c",
     "part_id": "9e993d08-4fa6-489f-8ac7-bbcc9507b59b",
     "word": "Rather than",
-    "ipa": "/ˈɹæðɚ/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -5140,7 +5140,7 @@
     "created_at": "2026-04-15T07:19:12.005082+00:00",
     "updated_at": "2026-04-15T07:19:12.005082+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/rather-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -5163,7 +5163,7 @@
     "created_at": "2026-05-05T13:32:49.533621+00:00",
     "updated_at": "2026-05-05T13:32:49.533621+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/risk-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -5186,7 +5186,7 @@
     "created_at": "2026-03-21T04:41:45.949316+00:00",
     "updated_at": "2026-03-21T04:41:45.949316+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/bacon-au.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -5209,7 +5209,7 @@
     "created_at": "2026-04-26T12:51:53.615398+00:00",
     "updated_at": "2026-04-26T12:52:33.038853+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/accomplish-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -5232,7 +5232,7 @@
     "created_at": "2026-05-05T13:24:52.824185+00:00",
     "updated_at": "2026-05-05T13:24:52.824185+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/str/strategy/strategy__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -5241,7 +5241,7 @@
     "id": "0ef646d6-e124-4b23-98e2-41c4ebf761f0",
     "part_id": "b0fb534a-728f-4f55-b7c2-9b3a3875532b",
     "word": "handing over",
-    "ipa": "/ˈhændɪŋ/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -5255,7 +5255,7 @@
     "created_at": "2026-03-10T01:10:43.649879+00:00",
     "updated_at": "2026-03-10T01:10:43.649879+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/hand-uk.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -5264,7 +5264,7 @@
     "id": "3cfc8324-472d-469f-b03d-d4493269a285",
     "part_id": "6463f180-0f83-441e-b026-800849e7efea",
     "word": "distinguish",
-    "ipa": "/dɪsˈtɪŋɡwɪʃ/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -5278,7 +5278,7 @@
     "created_at": "2026-03-16T08:17:16.393661+00:00",
     "updated_at": "2026-03-16T08:17:16.393661+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/distinguish-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -5287,7 +5287,7 @@
     "id": "621c4d45-6fce-4f8d-ba0b-619339318ff4",
     "part_id": "6463f180-0f83-441e-b026-800849e7efea",
     "word": "Savory",
-    "ipa": "/ˈseɪvəɹi/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -5310,7 +5310,7 @@
     "id": "7ac3bc33-ce71-48ec-9674-f34457159de0",
     "part_id": "43ade795-45b4-456e-a086-bff5d924b194",
     "word": "stated",
-    "ipa": "/ˈsteɪtɪd/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -5324,7 +5324,7 @@
     "created_at": "2026-03-14T08:30:59.957282+00:00",
     "updated_at": "2026-03-14T08:30:59.957282+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/stated-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -5333,7 +5333,7 @@
     "id": "c6bfda4c-92aa-440f-9e3f-f6b2d8c65ab0",
     "part_id": "43ade795-45b4-456e-a086-bff5d924b194",
     "word": "sew",
-    "ipa": "/soʊ/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -5347,7 +5347,7 @@
     "created_at": "2026-03-13T10:24:40.211075+00:00",
     "updated_at": "2026-03-13T10:24:40.211075+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/sew-1-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -5356,7 +5356,7 @@
     "id": "2614eba8-e5f6-492b-9335-1162a058ff25",
     "part_id": "43ade795-45b4-456e-a086-bff5d924b194",
     "word": "filing ",
-    "ipa": "/faɪ.lɪŋ/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -5370,7 +5370,7 @@
     "created_at": "2026-02-15T10:05:55.619326+00:00",
     "updated_at": "2026-02-15T10:05:55.619326+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/filing-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -5379,7 +5379,7 @@
     "id": "387bca3d-b6fe-46d5-ad21-637312bfd718",
     "part_id": "efabee5a-d1a0-47b7-9394-f15dfc2c856a",
     "word": "putting on",
-    "ipa": "[ˈpʰʊɾɪŋ]",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -5417,7 +5417,7 @@
     "created_at": "2026-04-15T06:24:14.999683+00:00",
     "updated_at": "2026-04-15T06:24:14.999683+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/int/intervention/intervention__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": [
@@ -5430,7 +5430,7 @@
     "id": "6f9acb5f-09f3-4ac8-a2c4-bf869bc50701",
     "part_id": "ef4b210b-66b1-4827-aaa8-6d61549aa357",
     "word": "lying down",
-    "ipa": "/ˈlaɪ.ɪŋ/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -5453,7 +5453,7 @@
     "id": "cb5db83c-7374-4da8-bc60-b8008bf7a3ae",
     "part_id": "034c4a4a-4ff2-434f-b2f4-2704b6733d29",
     "word": "Assessment",
-    "ipa": "/əˈsɛsmənt/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -5467,7 +5467,7 @@
     "created_at": "2026-03-19T07:13:26.259285+00:00",
     "updated_at": "2026-03-19T07:13:26.259285+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/ass/assessment/assessment__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -5490,7 +5490,7 @@
     "created_at": "2026-03-09T06:56:59.430332+00:00",
     "updated_at": "2026-03-09T06:56:59.430332+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/dat/dataset/dataset__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -5499,7 +5499,7 @@
     "id": "70f3b630-c73a-43fc-bd63-20f325a7ac98",
     "part_id": "1862b0b6-44b7-47a9-b6bc-3f541c20f196",
     "word": "Pros and cons",
-    "ipa": "/pɹəʊz/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -5513,7 +5513,7 @@
     "created_at": "2026-03-19T15:21:25.181471+00:00",
     "updated_at": "2026-03-19T15:21:25.181471+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pro/pros/pros__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -5536,7 +5536,7 @@
     "created_at": "2026-05-05T13:35:42.350532+00:00",
     "updated_at": "2026-05-05T13:35:42.350532+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/sus/sustainability/sustainability__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -5559,7 +5559,7 @@
     "created_at": "2026-03-21T03:31:53.788137+00:00",
     "updated_at": "2026-03-21T03:31:53.788137+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/additional-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -5568,7 +5568,7 @@
     "id": "cbfbb6d7-3b86-497f-aac0-9d7c9460707b",
     "part_id": "1862b0b6-44b7-47a9-b6bc-3f541c20f196",
     "word": "Commitment",
-    "ipa": "/kəˈmɪtmənt/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -5582,7 +5582,7 @@
     "created_at": "2026-03-15T08:48:57.428148+00:00",
     "updated_at": "2026-03-15T08:48:57.428148+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/com/commitment/commitment__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -5591,7 +5591,7 @@
     "id": "173d962c-e4aa-4ff8-a71a-451c3f3f64a2",
     "part_id": "6463f180-0f83-441e-b026-800849e7efea",
     "word": "enlist",
-    "ipa": "/ɪnˈlɪst/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -5605,7 +5605,7 @@
     "created_at": "2026-03-16T06:45:17.279351+00:00",
     "updated_at": "2026-03-16T06:45:17.279351+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/enl/enlist/enlist__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -5628,7 +5628,7 @@
     "created_at": "2026-03-19T07:36:03.057855+00:00",
     "updated_at": "2026-03-19T07:36:03.057855+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/intrigue-uk.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -5637,7 +5637,7 @@
     "id": "64506637-89bf-4067-937b-68071596f903",
     "part_id": "b0fb534a-728f-4f55-b7c2-9b3a3875532b",
     "word": "pointing",
-    "ipa": "/ˈpɔɪntɪŋ/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -5660,7 +5660,7 @@
     "id": "fa626a20-3901-4d74-abbe-bcdf0dcabce2",
     "part_id": "034c4a4a-4ff2-434f-b2f4-2704b6733d29",
     "word": "Appetizer",
-    "ipa": "/ˈæpɪtaɪzər/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -5674,7 +5674,7 @@
     "created_at": "2026-03-19T07:06:35.376576+00:00",
     "updated_at": "2026-03-19T07:06:35.376576+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/appetizer-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -5683,7 +5683,7 @@
     "id": "656d4ea3-c5eb-4a89-b896-ce614cba982b",
     "part_id": "43ade795-45b4-456e-a086-bff5d924b194",
     "word": "fablic",
-    "ipa": "/ˈfæbrɪk/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -5697,7 +5697,7 @@
     "created_at": "2026-03-13T10:22:30.251269+00:00",
     "updated_at": "2026-03-13T10:22:30.251269+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/fab/fablic/fablic__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -5706,7 +5706,7 @@
     "id": "fdd0d099-503c-4d9b-9f9b-5a3d4f0628fc",
     "part_id": "1862b0b6-44b7-47a9-b6bc-3f541c20f196",
     "word": "long-term customers",
-    "ipa": "/ˌlɔːŋˈtɜːrm ˈkʌstəmərz/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -5720,7 +5720,7 @@
     "created_at": "2026-03-15T08:48:04.583285+00:00",
     "updated_at": "2026-03-15T08:48:04.583285+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/l/lon/long-term/long-term__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -5729,7 +5729,7 @@
     "id": "9667e11c-0e10-4bd4-8975-c23d5f25dfc6",
     "part_id": "034c4a4a-4ff2-434f-b2f4-2704b6733d29",
     "word": "Fulfill",
-    "ipa": "/fəˈfɪl/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -5743,7 +5743,7 @@
     "created_at": "2026-03-19T08:10:26.047263+00:00",
     "updated_at": "2026-03-19T08:10:26.047263+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/fulfill-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -5752,7 +5752,7 @@
     "id": "bd23e020-5d23-4b70-98fb-37c46d39b6c5",
     "part_id": "7f528cd9-7bd9-45f3-b237-552a3c7ce697",
     "word": "urgently",
-    "ipa": "/ˈɜːrdʒəntli/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -5766,7 +5766,7 @@
     "created_at": "2026-05-06T02:11:10.068286+00:00",
     "updated_at": "2026-05-06T02:11:10.068286+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/u/urg/urgently/urgently__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -5775,7 +5775,7 @@
     "id": "02197733-7f1a-418e-a9bf-3ce47bf4b6c6",
     "part_id": "1862b0b6-44b7-47a9-b6bc-3f541c20f196",
     "word": "Eye-catching",
-    "ipa": "/ˈaɪˌkætʃɪŋ/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -5789,7 +5789,7 @@
     "created_at": "2026-03-15T08:47:04.079003+00:00",
     "updated_at": "2026-03-15T08:47:04.079003+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/eye/eye-catching/eye-catching__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -5798,7 +5798,7 @@
     "id": "decec6fd-6dfc-4b27-b12e-b320eb95734e",
     "part_id": "034c4a4a-4ff2-434f-b2f4-2704b6733d29",
     "word": "spreadsheet",
-    "ipa": "/ˈsprɛdʃiːt/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -5812,7 +5812,7 @@
     "created_at": "2026-03-18T04:42:55.246331+00:00",
     "updated_at": "2026-03-18T04:42:55.246331+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/spr/spreadsheet/spreadsheet__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -5821,7 +5821,7 @@
     "id": "acc0034b-b32d-41e0-9fca-c5be8839575f",
     "part_id": "6463f180-0f83-441e-b026-800849e7efea",
     "word": "fast-paced",
-    "ipa": "/ˌfæst ˈpeɪst/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -5835,7 +5835,7 @@
     "created_at": "2026-03-16T13:53:09.4714+00:00",
     "updated_at": "2026-03-16T13:53:09.4714+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/fas/fast-paced/fast-paced__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -5844,7 +5844,7 @@
     "id": "116fea20-31fd-41a2-9a73-87c323bc4715",
     "part_id": "43ade795-45b4-456e-a086-bff5d924b194",
     "word": "urging",
-    "ipa": "/ˈɝd͡ʒɪŋ/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -5858,7 +5858,7 @@
     "created_at": "2026-03-13T11:01:18.740081+00:00",
     "updated_at": "2026-03-13T11:01:18.740081+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/urging-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -5867,7 +5867,7 @@
     "id": "f53fefcc-aee5-44aa-a5fe-b6481b00aeb4",
     "part_id": "6463f180-0f83-441e-b026-800849e7efea",
     "word": "Irresponsible",
-    "ipa": "/ɪrəˈspɑnsɪbəl/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -5881,7 +5881,7 @@
     "created_at": "2026-03-16T08:14:12.804302+00:00",
     "updated_at": "2026-03-16T08:14:12.804302+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/irr/irresponsible/irresponsible__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -5890,7 +5890,7 @@
     "id": "4873d157-486f-4234-8565-91e5c33df8a7",
     "part_id": "034c4a4a-4ff2-434f-b2f4-2704b6733d29",
     "word": "Glimpse",
-    "ipa": "/ɡlɪmps/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -5904,7 +5904,7 @@
     "created_at": "2026-03-19T13:21:15.620574+00:00",
     "updated_at": "2026-03-19T13:21:15.620574+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/glimpse-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -5927,7 +5927,7 @@
     "created_at": "2026-03-02T17:08:23.858546+00:00",
     "updated_at": "2026-03-02T17:08:23.858546+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/tra/transportation/transportation__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -5951,7 +5951,7 @@
     "created_at": "2026-03-04T05:05:27.13975+00:00",
     "updated_at": "2026-03-04T05:05:27.13975+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/jogging-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -5974,7 +5974,7 @@
     "created_at": "2026-05-05T13:31:52.659186+00:00",
     "updated_at": "2026-05-05T13:31:52.659186+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/investment-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -5997,7 +5997,7 @@
     "created_at": "2026-03-19T10:58:16.802091+00:00",
     "updated_at": "2026-03-19T10:58:16.802091+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/hello-au.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -6006,7 +6006,7 @@
     "id": "f53f6eea-565b-498a-be2a-2dea22fa0d4d",
     "part_id": "7f528cd9-7bd9-45f3-b237-552a3c7ce697",
     "word": "All + danh từ số nhiều / không đếm được",
-    "ipa": "/ɔl/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -6020,7 +6020,7 @@
     "created_at": "2026-05-06T02:13:44.105015+00:00",
     "updated_at": "2026-05-06T02:13:44.105015+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/all-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -6043,7 +6043,7 @@
     "created_at": "2026-05-05T13:24:52.832188+00:00",
     "updated_at": "2026-05-05T13:24:52.832188+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/str/strategy/strategy__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -6066,7 +6066,7 @@
     "created_at": "2026-03-21T04:42:15.59379+00:00",
     "updated_at": "2026-03-21T04:42:15.59379+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/dur/durable/durable__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -6154,7 +6154,7 @@
     "created_at": "2026-03-16T15:16:39.646341+00:00",
     "updated_at": "2026-03-16T15:16:39.646341+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/apron-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -6700,7 +6700,7 @@
     "created_at": "2026-03-21T04:41:53.772143+00:00",
     "updated_at": "2026-03-21T04:41:53.772143+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/blackboard-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -6723,7 +6723,7 @@
     "created_at": "2026-02-16T10:49:22.499185+00:00",
     "updated_at": "2026-02-16T10:49:22.499185+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/apologize-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -6984,7 +6984,7 @@
     "created_at": "2026-03-14T15:05:35.421302+00:00",
     "updated_at": "2026-03-19T04:05:12.628428+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/cre/credential/credential__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -7333,7 +7333,7 @@
     "created_at": "2026-03-21T07:40:28.045562+00:00",
     "updated_at": "2026-03-21T07:40:28.045562+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/alcoholic-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -7421,7 +7421,7 @@
     "created_at": "2026-03-21T12:27:52.548236+00:00",
     "updated_at": "2026-03-21T12:27:52.548236+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/announce-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -7476,7 +7476,7 @@
     "created_at": "2026-04-10T12:53:52.849936+00:00",
     "updated_at": "2026-04-10T12:53:52.849936+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/lounge-uk.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [
       {
@@ -7505,7 +7505,7 @@
     "created_at": "2026-03-30T13:41:42.053552+00:00",
     "updated_at": "2026-03-30T13:41:42.053552+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/hi-1-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -7840,7 +7840,7 @@
     "created_at": "2026-03-21T04:41:45.949316+00:00",
     "updated_at": "2026-03-21T04:41:45.949316+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/broccoli-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -7918,7 +7918,7 @@
     "created_at": "2026-03-19T10:58:16.802091+00:00",
     "updated_at": "2026-03-19T10:58:16.802091+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/name-1-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -8322,7 +8322,7 @@
     "created_at": "2026-02-09T14:18:09.634334+00:00",
     "updated_at": "2026-02-09T14:18:09.634334+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/agenda-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -8524,7 +8524,7 @@
     "created_at": "2026-05-06T01:37:33.314061+00:00",
     "updated_at": "2026-05-06T01:37:33.314061+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/procedure-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [
       {
@@ -8737,7 +8737,7 @@
     "created_at": "2026-03-12T08:36:12.567276+00:00",
     "updated_at": "2026-03-12T08:36:12.567276+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/eco/economic/economic__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -8879,7 +8879,7 @@
     "created_at": "2026-03-09T06:56:59.430332+00:00",
     "updated_at": "2026-03-09T06:56:59.430332+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/record-1-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -8989,7 +8989,7 @@
     "created_at": "2026-03-11T11:53:25.505201+00:00",
     "updated_at": "2026-03-11T11:53:25.505201+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/b/bex/be/be__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -9215,7 +9215,7 @@
     "created_at": "2026-03-04T05:05:30.16376+00:00",
     "updated_at": "2026-03-04T05:05:30.16376+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/jogging-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -9239,7 +9239,7 @@
     "created_at": "2026-03-19T13:35:52.721565+00:00",
     "updated_at": "2026-03-19T13:35:52.721565+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/entering-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -9387,7 +9387,7 @@
     "created_at": "2026-04-26T13:31:45.464225+00:00",
     "updated_at": "2026-04-26T13:31:45.464225+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/risk-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": [
@@ -9626,7 +9626,7 @@
     "created_at": "2026-03-21T03:31:53.788137+00:00",
     "updated_at": "2026-03-21T03:31:53.788137+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/admit-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -9727,7 +9727,7 @@
     "created_at": "2026-03-21T03:59:38.507518+00:00",
     "updated_at": "2026-03-21T03:59:38.507518+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/commit-uk.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -9750,7 +9750,7 @@
     "created_at": "2026-02-17T11:58:27.504265+00:00",
     "updated_at": "2026-02-17T11:58:27.504265+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/browsing-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -9883,7 +9883,7 @@
     "created_at": "2026-04-15T06:26:40.405446+00:00",
     "updated_at": "2026-04-21T06:00:46.563545+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/initiative-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": [
@@ -9940,7 +9940,7 @@
     "id": "eba11ae3-75e8-4d2d-8511-94f0b639002e",
     "part_id": "c3651c78-6aa6-4a54-b657-0d017b5d941d",
     "word": "had offered",
-    "ipa": "/hæd ˈɒfərd/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -9955,7 +9955,7 @@
     "created_at": "2026-04-12T07:34:54.323098+00:00",
     "updated_at": "2026-04-12T07:34:54.323098+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/had-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -10176,7 +10176,7 @@
     "created_at": "2026-03-28T03:44:18.350741+00:00",
     "updated_at": "2026-03-28T03:44:18.350741+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/filing-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [
       {
@@ -10306,7 +10306,7 @@
     "id": "5a9e9ccf-c45d-4bbb-a332-c9ef5f91f846",
     "part_id": "f6ac719d-9cb4-46f0-9cb0-c9aedb9ad6e2",
     "word": "generously",
-    "ipa": "/ˈdʒɛnərəsli/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -10321,7 +10321,7 @@
     "created_at": "2026-04-14T14:26:20.434801+00:00",
     "updated_at": "2026-04-14T14:26:20.434801+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/generously-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -10377,7 +10377,7 @@
     "created_at": "2026-04-05T15:02:38.286077+00:00",
     "updated_at": "2026-04-05T15:02:38.286077+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/satisfied-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -10455,7 +10455,7 @@
     "created_at": "2026-03-18T12:51:11.270046+00:00",
     "updated_at": "2026-03-18T12:51:11.270046+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/b/bex/be/be__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -10580,7 +10580,7 @@
     "created_at": "2026-03-14T15:24:47.195605+00:00",
     "updated_at": "2026-03-14T15:24:47.195605+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/carpet-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -10745,7 +10745,7 @@
     "id": "4f863ef9-9e53-4433-b8ab-025c8ba2fb08",
     "part_id": "2cf35b5b-5520-47a1-a424-46a0cf990b0a",
     "word": "Set up",
-    "ipa": "/sɛt/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -10759,7 +10759,7 @@
     "created_at": "2026-04-11T03:10:36.521801+00:00",
     "updated_at": "2026-04-11T03:10:36.521801+00:00",
     "image_url": "[link]",
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/set-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [
       {
@@ -10875,7 +10875,7 @@
     "created_at": "2026-03-21T03:53:30.180587+00:00",
     "updated_at": "2026-03-21T03:53:30.180587+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/advice-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -10999,7 +10999,7 @@
     "created_at": "2026-03-21T03:53:00.994544+00:00",
     "updated_at": "2026-03-21T03:53:00.994544+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/confidence-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -11054,7 +11054,7 @@
     "created_at": "2026-03-21T04:42:15.59379+00:00",
     "updated_at": "2026-03-21T04:42:15.59379+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/edition-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -11077,7 +11077,7 @@
     "created_at": "2026-03-09T07:02:40.753919+00:00",
     "updated_at": "2026-03-09T07:02:40.753919+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/liability-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -11274,7 +11274,7 @@
     "created_at": "2026-03-09T06:43:05.04449+00:00",
     "updated_at": "2026-03-09T06:43:05.04449+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/hi-1-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -11833,7 +11833,7 @@
     "created_at": "2026-03-21T04:41:45.949316+00:00",
     "updated_at": "2026-03-21T04:41:45.949316+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/cabbage-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -11934,7 +11934,7 @@
     "created_at": "2026-03-11T11:53:25.505201+00:00",
     "updated_at": "2026-03-11T11:53:25.505201+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/b/bex/be/be__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -12003,7 +12003,7 @@
     "created_at": "2026-03-21T07:40:28.045562+00:00",
     "updated_at": "2026-03-21T07:40:28.045562+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/starving-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -12122,7 +12122,7 @@
     "created_at": "2026-03-21T04:42:15.59379+00:00",
     "updated_at": "2026-03-21T04:42:15.59379+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/element-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -12356,7 +12356,7 @@
     "created_at": "2026-03-21T04:41:53.772143+00:00",
     "updated_at": "2026-03-21T04:41:53.772143+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/uniform-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -12402,7 +12402,7 @@
     "created_at": "2026-02-17T12:01:25.586689+00:00",
     "updated_at": "2026-02-17T12:01:25.586689+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/con/cones/cones__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -12604,7 +12604,7 @@
     "created_at": "2026-03-21T03:53:00.994544+00:00",
     "updated_at": "2026-03-21T03:53:00.994544+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/despite-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -12691,7 +12691,7 @@
     "id": "2d881d18-57e0-4c7a-b8e0-24a89a729fa5",
     "part_id": "d5f96e7b-4313-49af-8b21-ee4679c5be28",
     "word": "fixtures",
-    "ipa": "/ˈfɪkstʃərz/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -12706,7 +12706,7 @@
     "created_at": "2026-03-28T03:47:16.240965+00:00",
     "updated_at": "2026-03-28T03:47:16.240965+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/f/fix/fixtures/fixtures__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -12752,7 +12752,7 @@
     "created_at": "2026-02-09T14:18:09.634334+00:00",
     "updated_at": "2026-02-09T14:18:09.634334+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/colleague-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -12876,7 +12876,7 @@
     "created_at": "2026-02-16T10:54:22.559581+00:00",
     "updated_at": "2026-02-16T10:54:22.559581+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/possible-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -12922,7 +12922,7 @@
     "created_at": "2026-03-21T03:53:30.180587+00:00",
     "updated_at": "2026-03-21T03:53:30.180587+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/annual-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -12969,7 +12969,7 @@
     "created_at": "2026-03-21T12:31:08.144462+00:00",
     "updated_at": "2026-03-21T12:31:08.144462+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/efficiency.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -13038,7 +13038,7 @@
     "created_at": "2026-03-21T03:31:53.788137+00:00",
     "updated_at": "2026-03-21T03:31:53.788137+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/agree-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -13093,7 +13093,7 @@
     "created_at": "2026-03-21T03:59:38.507518+00:00",
     "updated_at": "2026-03-21T03:59:38.507518+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/con/conform/conform__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -14248,7 +14248,7 @@
     "created_at": "2026-03-12T08:36:12.567276+00:00",
     "updated_at": "2026-03-12T08:36:12.567276+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/growth-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -14647,7 +14647,7 @@
     "created_at": "2026-05-06T01:37:33.314061+00:00",
     "updated_at": "2026-05-06T01:37:33.314061+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/col/collate/collate__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [
       {
@@ -14919,7 +14919,7 @@
     "created_at": "2026-03-09T06:56:59.430332+00:00",
     "updated_at": "2026-03-09T06:56:59.430332+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/field-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -14975,7 +14975,7 @@
     "created_at": "2026-03-14T15:17:48.432059+00:00",
     "updated_at": "2026-03-14T15:17:48.432059+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/justify-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -15022,7 +15022,7 @@
     "created_at": "2026-03-19T13:37:02.675838+00:00",
     "updated_at": "2026-03-19T13:37:02.675838+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/lying-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -15329,7 +15329,7 @@
     "created_at": "2026-03-09T07:02:40.753919+00:00",
     "updated_at": "2026-03-09T07:02:40.753919+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/equ/equity/equity__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -15352,7 +15352,7 @@
     "created_at": "2026-03-02T17:08:23.858546+00:00",
     "updated_at": "2026-03-02T17:08:23.858546+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/motorbike-uk.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -15619,7 +15619,7 @@
     "created_at": "2026-04-26T13:31:49.122207+00:00",
     "updated_at": "2026-04-26T13:31:49.122207+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/risk-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": [
@@ -15772,7 +15772,7 @@
     "created_at": "2026-04-15T11:12:23.990347+00:00",
     "updated_at": "2026-04-15T11:12:23.990347+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/windowsill-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [
       {
@@ -15962,7 +15962,7 @@
     "created_at": "2026-03-09T06:43:05.04449+00:00",
     "updated_at": "2026-03-09T06:43:05.04449+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/good%20morning-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -16018,7 +16018,7 @@
     "created_at": "2026-03-17T15:52:15.807265+00:00",
     "updated_at": "2026-03-17T15:52:15.807265+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/drawer-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -16027,7 +16027,7 @@
     "id": "8de1ac05-a0a2-4da5-9d75-21fedd17ca64",
     "part_id": "c3651c78-6aa6-4a54-b657-0d017b5d941d",
     "word": "temporary worker",
-    "ipa": "/ˈtɛmpəˌɹɛɹi/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -16042,7 +16042,7 @@
     "created_at": "2026-04-12T07:41:33.983375+00:00",
     "updated_at": "2026-04-12T07:41:33.983375+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/temporary-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -16170,7 +16170,7 @@
     "id": "20d24ce9-0411-4cee-89e3-8c70e80f47ba",
     "part_id": "f6ac719d-9cb4-46f0-9cb0-c9aedb9ad6e2",
     "word": "progressively",
-    "ipa": "/prəˈɡrɛsɪvli/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -16185,7 +16185,7 @@
     "created_at": "2026-04-14T14:33:46.882022+00:00",
     "updated_at": "2026-04-14T14:33:46.882022+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pro/progressively/progressively__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -16369,7 +16369,7 @@
     "created_at": "2026-03-18T12:51:11.270046+00:00",
     "updated_at": "2026-03-18T12:51:11.270046+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/b/bex/be/be__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -16393,7 +16393,7 @@
     "created_at": "2026-04-05T15:06:40.744041+00:00",
     "updated_at": "2026-04-05T15:06:40.744041+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/moreover-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [
       {
@@ -16685,7 +16685,7 @@
     "created_at": "2026-03-04T05:06:27.865572+00:00",
     "updated_at": "2026-03-04T05:06:27.865572+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/lying-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -16827,7 +16827,7 @@
     "id": "e160ed6c-1270-4800-9841-25c2727d897d",
     "part_id": "2cf35b5b-5520-47a1-a424-46a0cf990b0a",
     "word": "Get up",
-    "ipa": "/ɡɛt ʌp/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -16841,7 +16841,7 @@
     "created_at": "2026-04-11T03:10:36.521801+00:00",
     "updated_at": "2026-04-11T03:10:36.521801+00:00",
     "image_url": "[link]",
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/get%20up-au.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [
       {
@@ -17026,7 +17026,7 @@
     "created_at": "2026-03-19T10:58:16.802091+00:00",
     "updated_at": "2026-03-19T10:58:16.802091+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/people-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -17215,7 +17215,7 @@
     "created_at": "2026-03-14T15:25:09.276959+00:00",
     "updated_at": "2026-03-14T15:25:09.276959+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/rolled-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -17261,7 +17261,7 @@
     "created_at": "2026-03-30T13:41:42.053552+00:00",
     "updated_at": "2026-03-30T13:41:42.053552+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/good%20morning-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -17284,7 +17284,7 @@
     "created_at": "2026-04-10T12:53:52.849936+00:00",
     "updated_at": "2026-04-10T12:53:52.849936+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/eme/emerge/emerge__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [
       {
@@ -17383,7 +17383,7 @@
     "created_at": "2026-03-21T12:31:17.552779+00:00",
     "updated_at": "2026-03-21T12:31:17.552779+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/hold-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -17764,7 +17764,7 @@
     "created_at": "2026-03-21T07:40:28.045562+00:00",
     "updated_at": "2026-03-21T07:40:28.045562+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/takeaway-au.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -17929,7 +17929,7 @@
     "created_at": "2026-03-21T04:42:15.59379+00:00",
     "updated_at": "2026-03-21T04:42:15.59379+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/ele/elevator/elevator__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -18076,7 +18076,7 @@
     "created_at": "2026-02-16T10:57:07.248888+00:00",
     "updated_at": "2026-02-16T10:57:07.248888+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pen/penalized/penalized__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -18145,7 +18145,7 @@
     "created_at": "2026-03-21T04:41:53.772143+00:00",
     "updated_at": "2026-03-21T04:41:53.772143+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/cla/classmate/classmate__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -18200,7 +18200,7 @@
     "created_at": "2026-03-21T04:41:45.949316+00:00",
     "updated_at": "2026-03-21T04:41:45.949316+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/champagne-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -18278,7 +18278,7 @@
     "created_at": "2026-02-09T14:18:09.634334+00:00",
     "updated_at": "2026-02-09T14:18:09.634334+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/agreement-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -18608,7 +18608,7 @@
     "created_at": "2026-03-21T03:53:00.994544+00:00",
     "updated_at": "2026-03-21T03:53:00.994544+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/e/emp/emphasize/emphasize__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -18632,7 +18632,7 @@
     "created_at": "2026-03-28T03:47:23.162002+00:00",
     "updated_at": "2026-03-28T03:47:23.162002+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/ceiling-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": [
@@ -18905,7 +18905,7 @@
     "created_at": "2026-03-04T05:06:29.448929+00:00",
     "updated_at": "2026-03-04T05:06:29.448929+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/lying-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -18928,7 +18928,7 @@
     "created_at": "2026-03-21T03:59:38.507518+00:00",
     "updated_at": "2026-03-21T03:59:38.507518+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/confront-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -18974,7 +18974,7 @@
     "created_at": "2026-03-21T03:31:53.788137+00:00",
     "updated_at": "2026-03-21T03:31:53.788137+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/announce-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -19346,7 +19346,7 @@
     "created_at": "2026-03-21T03:53:30.180587+00:00",
     "updated_at": "2026-03-21T03:53:30.180587+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/appear-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -19809,7 +19809,7 @@
     "id": "e8cf66ef-0f3b-48d4-91e1-128314106126",
     "part_id": "bd14a8c8-86e6-4ba2-9894-639ba2985058",
     "word": "catering",
-    "ipa": "/ˈkeɪt(ə)ɹɪŋ/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -19824,7 +19824,7 @@
     "created_at": "2026-02-18T15:13:53.931748+00:00",
     "updated_at": "2026-02-18T15:13:53.931748+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/cater-1-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -20301,7 +20301,7 @@
     "created_at": "2026-03-12T08:36:12.567276+00:00",
     "updated_at": "2026-03-12T08:36:12.567276+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/r/rec/recession/recession__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -20750,7 +20750,7 @@
     "created_at": "2026-05-06T01:37:33.314061+00:00",
     "updated_at": "2026-05-06T01:37:33.314061+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/correspondence-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [
       {
@@ -20862,7 +20862,7 @@
     "created_at": "2026-03-02T17:08:23.858546+00:00",
     "updated_at": "2026-03-02T17:08:23.858546+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/bicycle-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -20908,7 +20908,7 @@
     "created_at": "2026-03-11T11:53:25.505201+00:00",
     "updated_at": "2026-03-11T11:53:25.505201+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/b/bex/be/be__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -21028,7 +21028,7 @@
     "created_at": "2026-03-19T17:28:07.74569+00:00",
     "updated_at": "2026-03-19T17:28:07.74569+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/tenure-uk.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -21170,7 +21170,7 @@
     "created_at": "2026-03-09T06:56:59.430332+00:00",
     "updated_at": "2026-03-09T06:56:59.430332+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/a/att/attribute/attribute__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -21216,7 +21216,7 @@
     "created_at": "2026-03-09T07:02:40.753919+00:00",
     "updated_at": "2026-03-09T07:02:40.753919+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/capital-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -21309,7 +21309,7 @@
     "created_at": "2026-03-19T13:40:01.350508+00:00",
     "updated_at": "2026-03-19T13:40:01.350508+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/fallen-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -21356,7 +21356,7 @@
     "created_at": "2026-04-26T13:32:00.89787+00:00",
     "updated_at": "2026-04-26T13:32:00.89787+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/risk-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": [
@@ -21527,7 +21527,7 @@
     "created_at": "2026-04-15T11:13:37.781461+00:00",
     "updated_at": "2026-04-15T11:13:37.781461+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/stool-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [
       {
@@ -21767,7 +21767,7 @@
     "created_at": "2026-03-09T06:43:05.04449+00:00",
     "updated_at": "2026-03-09T06:43:05.04449+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/good-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -21822,7 +21822,7 @@
     "id": "e6d96ffc-c595-41d1-bf29-4bfeabbf68e2",
     "part_id": "f6ac719d-9cb4-46f0-9cb0-c9aedb9ad6e2",
     "word": "diligently",
-    "ipa": "/ˈdɪlɪdʒəntli/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -21837,7 +21837,7 @@
     "created_at": "2026-04-14T14:33:57.500164+00:00",
     "updated_at": "2026-04-14T14:33:57.500164+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/d/dil/diligently/diligently__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -21846,7 +21846,7 @@
     "id": "4eaedb2e-f7b3-4b83-9a44-68d27231cb79",
     "part_id": "c3651c78-6aa6-4a54-b657-0d017b5d941d",
     "word": "finalizing the payroll",
-    "ipa": "/ˈfaɪnəlaɪzɪŋ ðə ˈpeɪroʊl/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -21861,7 +21861,7 @@
     "created_at": "2026-04-12T07:48:35.139662+00:00",
     "updated_at": "2026-04-12T07:48:35.139662+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/finalize-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -21884,7 +21884,7 @@
     "created_at": "2026-04-10T12:53:52.849936+00:00",
     "updated_at": "2026-04-10T12:53:52.849936+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/retreat-1-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [
       {
@@ -21946,7 +21946,7 @@
     "created_at": "2026-03-14T15:25:56.940919+00:00",
     "updated_at": "2026-03-14T15:25:56.940919+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/prospective-uk.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -22056,7 +22056,7 @@
     "id": "1064775b-c702-463f-bef8-61d544f7423b",
     "part_id": "2cf35b5b-5520-47a1-a424-46a0cf990b0a",
     "word": "Look for",
-    "ipa": "/lʊk fɔːr/",
+    "ipa": null,
     "audio_url": null,
     "meanings": [
       {
@@ -22070,7 +22070,7 @@
     "created_at": "2026-04-11T03:10:36.521801+00:00",
     "updated_at": "2026-04-11T03:10:36.521801+00:00",
     "image_url": "[link]",
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/l/loo/look/look__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [
       {
@@ -22099,7 +22099,7 @@
     "created_at": "2026-03-18T12:51:11.270046+00:00",
     "updated_at": "2026-03-18T12:51:11.270046+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/register-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -22155,7 +22155,7 @@
     "created_at": "2026-04-05T15:08:32.873087+00:00",
     "updated_at": "2026-04-05T15:08:32.873087+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/besides-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [
       {
@@ -22347,7 +22347,7 @@
     "created_at": "2026-03-14T15:25:52.833644+00:00",
     "updated_at": "2026-03-14T15:25:52.833644+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/piled-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -22512,7 +22512,7 @@
     "created_at": "2026-03-19T10:58:16.802091+00:00",
     "updated_at": "2026-03-19T10:58:16.802091+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/family-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -22897,7 +22897,7 @@
     "created_at": "2026-03-30T13:41:42.053552+00:00",
     "updated_at": "2026-03-30T13:41:42.053552+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/good-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -23259,7 +23259,7 @@
     "created_at": "2026-02-09T14:18:09.634334+00:00",
     "updated_at": "2026-02-09T14:18:09.634334+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/training-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -23282,7 +23282,7 @@
     "created_at": "2026-03-12T08:36:12.567276+00:00",
     "updated_at": "2026-03-12T08:36:12.567276+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/i/inf/inflation/inflation__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -23580,7 +23580,7 @@
     "created_at": "2026-03-21T04:42:15.59379+00:00",
     "updated_at": "2026-03-21T04:42:15.59379+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/equipment-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -23603,7 +23603,7 @@
     "created_at": "2026-03-21T04:41:53.772143+00:00",
     "updated_at": "2026-03-21T04:41:53.772143+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/degree-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -23782,7 +23782,7 @@
     "created_at": "2026-03-21T04:41:45.949316+00:00",
     "updated_at": "2026-03-21T04:41:45.949316+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/cucumber-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -23851,7 +23851,7 @@
     "created_at": "2026-02-16T10:57:26.92478+00:00",
     "updated_at": "2026-02-16T10:57:26.92478+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/p/pun/punctuality/punctuality__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -23993,7 +23993,7 @@
     "created_at": "2026-03-21T03:53:00.994544+00:00",
     "updated_at": "2026-03-21T03:53:00.994544+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/express-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -24283,7 +24283,7 @@
     "created_at": "2026-03-28T03:47:46.637564+00:00",
     "updated_at": "2026-03-28T03:47:46.637564+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/t/til/tiles/tiles__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": [
@@ -24309,7 +24309,7 @@
     "created_at": "2026-03-21T03:59:38.507518+00:00",
     "updated_at": "2026-03-21T03:59:38.507518+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/c/con/confuse/confuse__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -24333,7 +24333,7 @@
     "created_at": "2026-03-04T05:13:53.177029+00:00",
     "updated_at": "2026-03-04T05:13:53.177029+00:00",
     "image_url": null,
-    "audio_us": "https://www.oxfordlearnersdictionaries.com/media/english/us_pron/s/she/shelves/shelves__us_1.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -24466,7 +24466,7 @@
     "created_at": "2026-03-21T03:31:53.788137+00:00",
     "updated_at": "2026-03-21T03:31:53.788137+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/apologize-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
@@ -25410,7 +25410,7 @@
     "created_at": "2026-03-21T03:53:30.180587+00:00",
     "updated_at": "2026-03-21T03:53:30.180587+00:00",
     "image_url": null,
-    "audio_us": "https://api.dictionaryapi.dev/media/pronunciations/en/applause-us.mp3",
+    "audio_us": null,
     "audio_uk": null,
     "phrases": [],
     "synonyms": []
