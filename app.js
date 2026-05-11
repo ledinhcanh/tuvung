@@ -898,8 +898,22 @@ class VocabApp {
 
     nextTopicFlashcard(isLearned) {
         const word = this.topicLearnPool[this.topicLearnIndex];
-        if (word) this.markWordLearned(word, isLearned);
-        this.topicLearnIndex++;
+        if (!word) return;
+
+        if (isLearned) {
+            // Đã thuộc: đánh dấu học và tiến sang từ kế tiếp
+            this.markWordLearned(word, true);
+            this.topicLearnIndex++;
+        } else {
+            // Xem lại: đưa từ này vào cuối pool để ôn lại sau, không đánh dấu learned
+            this.markWordLearned(word, false); // Ghi nhận trạng thái "cần ôn lại"
+            this.topicLearnPool.push(word);    // Thêm vào cuối để xem lại
+            this.topicLearnIndex++;            // Sang từ tiếp theo
+
+            // Hiển thị thông báo nhỏ
+            this.showToast('📌 Đã đánh dấu xem lại', `"${word.word}" sẽ xuất hiện lại ở cuối.`, 'info');
+        }
+
         this.renderTopicFlashcard();
     }
 
@@ -957,8 +971,22 @@ class VocabApp {
 
     nextFlashcard(isLearned) {
         const word = this.currentLearnPool[this.currentLearnIndex];
-        if (word) this.markWordLearned(word, isLearned);
-        this.currentLearnIndex++;
+        if (!word) return;
+
+        if (isLearned) {
+            // Đã thuộc: đánh dấu học và tiến sang từ kế tiếp
+            this.markWordLearned(word, true);
+            this.currentLearnIndex++;
+        } else {
+            // Xem lại: đưa từ này vào cuối pool để ôn lại sau, không đánh dấu learned
+            this.markWordLearned(word, false); // Ghi nhận trạng thái "cần ôn lại"
+            this.currentLearnPool.push(word);  // Thêm vào cuối để xem lại
+            this.currentLearnIndex++;          // Sang từ tiếp theo
+
+            // Hiển thị thông báo nhỏ
+            this.showToast('📌 Đã đánh dấu xem lại', `"${word.word}" sẽ xuất hiện lại ở cuối.`, 'info');
+        }
+
         this.renderFlashcard();
     }
 
@@ -1214,12 +1242,12 @@ class VocabApp {
             <div class="quiz-start-screen">
                 <div class="quiz-icon">🧠</div>
                 <h2 class="quiz-title font-outfit">Luyện tập từ vựng</h2>
-                <p class="quiz-desc">Kiểm tra xem bạn nhớ được bao nhiêu từ đã học</p>
+                <p class="quiz-desc">Chọn hình thức phù hợp để luyện tập hiệu quả nhất</p>
                 ${!hasEnough
-                ? `<p style="color:#f59e0b;font-weight:700;margin-bottom:1.5rem">⚠️ Bạn cần học ít nhất 4 từ trước khi làm bài kiểm tra.</p>
+                ? `<p style="color:#f59e0b;font-weight:700;margin-bottom:1.5rem">⚠️ Bạn cần học ít nhất 4 từ trước khi luyện tập.</p>
                        <button class="btn-start-quiz" onclick="app.switchTab('learn')">Bắt đầu học ngay</button>`
                 : `
-                    <div style="margin-bottom:1.5rem">
+                    <div id="quiz-count-section" style="margin-bottom:1.5rem">
                         <p style="font-weight:700;color:var(--text-secondary);margin-bottom:0.75rem">Số câu hỏi:</p>
                         <div class="quiz-config">
                             <button class="quiz-config-btn" data-quiz-count="5">5 câu</button>
@@ -1228,21 +1256,39 @@ class VocabApp {
                         </div>
                     </div>
                     <div style="margin-bottom:2rem">
-                        <p style="font-weight:700;color:var(--text-secondary);margin-bottom:0.75rem">Hình thức:</p>
-                        <div class="quiz-config">
-                            <button class="quiz-config-btn active" data-quiz-type="meaning">Chọn nghĩa đúng</button>
-                            <button class="quiz-config-btn" data-quiz-type="word">Chọn từ đúng</button>
+                        <p style="font-weight:700;color:var(--text-secondary);margin-bottom:0.75rem">Hình thức luyện tập:</p>
+                        <div class="quiz-type-cards">
+                            <button class="quiz-type-card active" data-quiz-type="meaning">
+                                <div class="quiz-type-icon">🔤→📖</div>
+                                <div class="quiz-type-label">Từ → Nghĩa</div>
+                                <div class="quiz-type-desc">Nhìn từ, chọn nghĩa đúng</div>
+                            </button>
+                            <button class="quiz-type-card" data-quiz-type="word">
+                                <div class="quiz-type-icon">📖→🔤</div>
+                                <div class="quiz-type-label">Nghĩa → Từ</div>
+                                <div class="quiz-type-desc">Nhìn nghĩa, chọn từ đúng</div>
+                            </button>
+                            <button class="quiz-type-card" data-quiz-type="typing">
+                                <div class="quiz-type-icon">⌨️</div>
+                                <div class="quiz-type-label">Điền từ</div>
+                                <div class="quiz-type-desc">Gõ từ tiếng Anh chính xác</div>
+                            </button>
+                            <button class="quiz-type-card" data-quiz-type="matching">
+                                <div class="quiz-type-icon">🔗</div>
+                                <div class="quiz-type-label">Ghép cặp</div>
+                                <div class="quiz-type-desc">Nối từ với nghĩa tương ứng</div>
+                            </button>
                         </div>
                     </div>
                     <button class="btn-start-quiz" onclick="app.startQuiz()">
-                        <i data-lucide="play"></i> Bắt đầu kiểm tra
+                        <i data-lucide="play"></i> Bắt đầu luyện tập
                     </button>
                     `
             }
             </div>
         `;
 
-        // Gắn sự kiện cho các nút config
+        // Gắn sự kiện số câu
         document.querySelectorAll('[data-quiz-count]').forEach(btn => {
             btn.addEventListener('click', () => {
                 document.querySelectorAll('[data-quiz-count]').forEach(b => b.classList.remove('active'));
@@ -1250,11 +1296,15 @@ class VocabApp {
                 this.quizConfig.count = parseInt(btn.getAttribute('data-quiz-count'));
             });
         });
+
+        // Gắn sự kiện loại quiz: ẩn số câu khi chọn matching
         document.querySelectorAll('[data-quiz-type]').forEach(btn => {
             btn.addEventListener('click', () => {
                 document.querySelectorAll('[data-quiz-type]').forEach(b => b.classList.remove('active'));
                 btn.classList.add('active');
                 this.quizConfig.type = btn.getAttribute('data-quiz-type');
+                const sec = document.getElementById('quiz-count-section');
+                if (sec) sec.style.display = this.quizConfig.type === 'matching' ? 'none' : '';
             });
         });
 
@@ -1263,13 +1313,20 @@ class VocabApp {
 
     startQuiz() {
         const learnedWords = this.words.filter(w => this.learnedIds.includes(w.id));
-        const pool = [...learnedWords].sort(() => Math.random() - 0.5).slice(0, this.quizConfig.count);
 
+        // Chế độ ghép cặp - render riêng, không cần pool trắc nghiệm
+        if (this.quizConfig.type === 'matching') {
+            this.renderMatchingGame();
+            return;
+        }
+
+        const pool = [...learnedWords].sort(() => Math.random() - 0.5).slice(0, this.quizConfig.count);
         this.quizState = {
             pool: pool,
             current: 0,
             score: 0,
-            type: this.quizConfig.type
+            type: this.quizConfig.type,
+            wrongList: [] // Lưu từ trả lời sai để hiển thị kết quả
         };
 
         this.renderQuizQuestion();
@@ -1287,78 +1344,139 @@ class VocabApp {
         const word = pool[current];
         const m = word.meanings[0] || {};
         const pct = Math.round((current / pool.length) * 100);
-
-        // Phát âm thanh tự động nếu có âm thanh (chỉ cho mode từ -> nghĩa)
-        if (type === 'meaning') {
-            setTimeout(() => {
-                this.playAudio(word.audio_us || word.audio_uk);
-            }, 300);
-        }
-
-        // Tạo đáp án sai (random từ kho từ)
-        const wrongWords = this.words
-            .filter(w => w.id !== word.id)
-            .sort(() => Math.random() - 0.5)
-            .slice(0, 3);
-
-        let options;
-        if (type === 'meaning') {
-            // Câu hỏi: từ → chọn nghĩa đúng
-            options = [
-                { text: m.meaning || '---', correct: true },
-                ...wrongWords.map(w => ({ text: w.meanings[0]?.meaning || '---', correct: false }))
-            ].sort(() => Math.random() - 0.5);
-        } else {
-            // Câu hỏi: nghĩa → chọn từ đúng
-            options = [
-                { text: word.word, correct: true },
-                ...wrongWords.map(w => ({ text: w.word, correct: false }))
-            ].sort(() => Math.random() - 0.5);
-        }
-
         const audioUrl = word.audio_us || word.audio_uk;
+
+        // Header tiến trình - dùng chung cho tất cả loại
+        const progressHTML = `
+            <div class="quiz-progress">
+                <div style="display:flex;justify-content:space-between;margin-bottom:0.75rem">
+                    <span style="font-size:0.8rem;font-weight:700;color:var(--text-muted)">Câu ${current + 1}/${pool.length}</span>
+                    <span style="font-size:0.8rem;font-weight:700;color:var(--primary)">${score} điểm</span>
+                </div>
+                <div class="modern-progress"><div class="modern-progress-bar" style="width:${pct}%"></div></div>
+            </div>`;
+
+        // --- Chế độ Điền từ (Typing) ---
+        if (type === 'typing') {
+            const exEn = m.example ? m.example.replace(/\s*\(.*?\)\s*$/, '').trim() : '';
+            // Câu ví dụ với từ bị ẩn bằng "_____"
+            const exampleHint = exEn
+                ? exEn.replace(new RegExp(word.word, 'i'), '<strong style="color:var(--primary)">_____</strong>')
+                : '';
+
+            // Ô chữ: hiển thị số ký tự dạng _ _ _ _ _
+            const letterBoxes = word.word.split('').map((ch, i) =>
+                ch === ' '
+                    ? `<span class="letter-box space"></span>`
+                    : `<span class="letter-box" id="lb-${i}">_</span>`
+            ).join('');
+
+            // Mức gợi ý hiện tại (số chữ cái đã lộ)
+            const hintLevel = this.quizState.hintLevel || 0;
+
+            container.innerHTML = `
+                <div style="max-width:680px;margin:0 auto">
+                    ${progressHTML}
+                    <div class="quiz-question-card">
+                        <div style="font-size:0.8rem;font-weight:700;color:var(--text-muted);margin-bottom:0.5rem;text-transform:uppercase;letter-spacing:0.1em">Gõ từ tiếng Anh</div>
+                        <div class="quiz-question-word font-outfit" style="font-size:1.9rem">${m.meaning || '---'}</div>
+
+                        <!-- Gợi ý 1: loại từ + số ký tự + audio -->
+                        <div class="typing-meta-row">
+                            ${m.pos ? `<span class="typing-pos-badge">${m.pos}</span>` : ''}
+                            <span class="typing-length-badge">${word.word.replace(/ /g, '').length} ký tự</span>
+                            ${audioUrl ? `<button class="typing-audio-btn" onclick="app.playAudio('${audioUrl}')" title="Nghe phát âm">
+                                <i data-lucide="volume-2"></i> Nghe
+                            </button>` : ''}
+                        </div>
+
+                        <!-- Gợi ý 2: IPA -->
+                        ${word.ipa ? `<div class="typing-ipa">🔊 ${word.ipa}</div>` : ''}
+
+                        <!-- Gợi ý 3: ô chữ số ký tự (luôn hiện) -->
+                        <div class="letter-boxes" id="letter-boxes">${letterBoxes}</div>
+
+                        <!-- Gợi ý 4: câu ví dụ (hiện nếu đã dùng hint) -->
+                        ${hintLevel >= 1 && exampleHint
+                            ? `<div class="quiz-typing-hint">💡 ${exampleHint}</div>`
+                            : ''}
+                    </div>
+
+                    <!-- Khu vực nhập -->
+                    <div class="quiz-typing-area">
+                        <input type="text" id="quiz-typing-input" class="quiz-typing-input"
+                            placeholder="Nhập từ tiếng Anh..." autocomplete="off" autocapitalize="off" spellcheck="false">
+                        <button class="btn-quiz-submit" onclick="app.submitTypingAnswer()">
+                            <i data-lucide="send"></i> Kiểm tra
+                        </button>
+                    </div>
+
+                    <!-- Nút gợi ý theo tầng -->
+                    <div class="typing-hint-bar">
+                        ${hintLevel === 0 && exampleHint
+                            ? `<button class="btn-hint-reveal" onclick="app.revealTypingHint('example')">
+                                💡 Xem câu ví dụ <span class="hint-cost">(-0 điểm thưởng)</span>
+                               </button>`
+                            : ''}
+                        ${hintLevel <= 1
+                            ? `<button class="btn-hint-reveal secondary" onclick="app.revealTypingHint('letter')">
+                                🔤 Tiết lộ 1 chữ cái <span class="hint-cost">(-0 điểm thưởng)</span>
+                               </button>`
+                            : ''}
+                    </div>
+                </div>`;
+
+            lucide.createIcons();
+
+            // Áp dụng các chữ cái đã gợi ý (nếu đang ở mức hint > 1)
+            if (hintLevel >= 2) this.applyLetterHints();
+
+            const inp = document.getElementById('quiz-typing-input');
+            inp?.focus();
+            // Cập nhật ô chữ theo thời gian thực khi gõ
+            inp?.addEventListener('input', () => app.syncLetterBoxes());
+            inp?.addEventListener('keydown', e => { if (e.key === 'Enter') app.submitTypingAnswer(); });
+            return;
+        }
+
+
+        // --- Chế độ trắc nghiệm (meaning / word) ---
+        if (type === 'meaning') setTimeout(() => this.playAudio(audioUrl), 300);
+
+        const wrongWords = this.words.filter(w => w.id !== word.id)
+            .sort(() => Math.random() - 0.5).slice(0, 3);
+
+        const options = type === 'meaning'
+            ? [{ text: m.meaning || '---', correct: true },
+               ...wrongWords.map(w => ({ text: w.meanings[0]?.meaning || '---', correct: false }))]
+               .sort(() => Math.random() - 0.5)
+            : [{ text: word.word, correct: true },
+               ...wrongWords.map(w => ({ text: w.word, correct: false }))]
+               .sort(() => Math.random() - 0.5);
 
         container.innerHTML = `
             <div style="max-width:680px;margin:0 auto">
-                <div class="quiz-progress">
-                    <div style="display:flex;justify-content:space-between;margin-bottom:0.75rem">
-                        <span style="font-size:0.8rem;font-weight:700;color:var(--text-muted)">Câu ${current + 1}/${pool.length}</span>
-                        <span style="font-size:0.8rem;font-weight:700;color:var(--primary)">${score} điểm</span>
-                    </div>
-                    <div class="modern-progress">
-                        <div class="modern-progress-bar" style="width:${pct}%"></div>
-                    </div>
-                </div>
-
+                ${progressHTML}
                 <div class="quiz-question-card">
                     ${type === 'meaning'
-                ? `<div style="font-size:0.8rem;font-weight:700;color:var(--text-muted);margin-bottom:0.5rem;text-transform:uppercase;letter-spacing:0.1em">Nghĩa của từ</div>
-                           <div class="quiz-question-word font-outfit" style="display:flex;align-items:center;justify-content:center;gap:1.5rem">
-                                ${word.word}
-                                ${audioUrl ? `<button class="quiz-audio-btn" onclick="app.playAudio('${audioUrl}')" title="Nghe phát âm">
-                                    <i data-lucide="volume-2"></i>
-                                </button>` : ''}
-                           </div>
-                           <div class="quiz-question-hint">${word.ipa || ''} • ${m.pos || ''}</div>`
-                : `<div style="font-size:0.8rem;font-weight:700;color:var(--text-muted);margin-bottom:0.5rem;text-transform:uppercase;letter-spacing:0.1em">Từ tiếng Anh của</div>
-                           <div class="quiz-question-word font-outfit">${m.meaning || '---'}</div>`
-            }
+                    ? `<div style="font-size:0.8rem;font-weight:700;color:var(--text-muted);margin-bottom:0.5rem;text-transform:uppercase;letter-spacing:0.1em">Nghĩa của từ</div>
+                       <div class="quiz-question-word font-outfit" style="display:flex;align-items:center;justify-content:center;gap:1.5rem">
+                           ${word.word}
+                           ${audioUrl ? `<button class="quiz-audio-btn" onclick="app.playAudio('${audioUrl}')" title="Nghe"><i data-lucide="volume-2"></i></button>` : ''}
+                       </div>
+                       <div class="quiz-question-hint">${word.ipa || ''} • ${m.pos || ''}</div>`
+                    : `<div style="font-size:0.8rem;font-weight:700;color:var(--text-muted);margin-bottom:0.5rem;text-transform:uppercase;letter-spacing:0.1em">Từ tiếng Anh của</div>
+                       <div class="quiz-question-word font-outfit">${m.meaning || '---'}</div>`}
                 </div>
-
                 <div class="quiz-options">
                     ${options.map(opt => `
                         <button class="quiz-option" data-correct="${opt.correct}" onclick="app.answerQuiz(this, ${opt.correct})">
                             ${opt.text}
-                        </button>
-                    `).join('')}
+                        </button>`).join('')}
                 </div>
-            </div>
-        `;
+            </div>`;
 
-        // Khởi tạo lại Lucide icons cho nội dung mới
-        if (window.lucide) {
-            lucide.createIcons();
-        }
+        lucide.createIcons();
     }
 
     answerQuiz(btn, isCorrect) {
@@ -1415,8 +1533,135 @@ class VocabApp {
     }
 
     // =====================================================================
-    //  REMINDER & NOTIFICATIONS
+    //  TYPING QUIZ - Xử lý điền từ & gợi ý
     // =====================================================================
+
+    // Tiết lộ gợi ý theo tầng
+    revealTypingHint(hintType) {
+        if (!this.quizState) return;
+
+        if (hintType === 'example') {
+            // Tầng 1: Hiện câu ví dụ
+            this.quizState.hintLevel = 1;
+        } else if (hintType === 'letter') {
+            // Tầng 2+: Tiết lộ từng chữ cái
+            this.quizState.hintLevel = (this.quizState.hintLevel || 0) + 1;
+            this.applyLetterHints();
+            return; // applyLetterHints cập nhật DOM trực tiếp, không cần re-render toàn bộ
+        }
+
+        // Re-render câu hỏi để cập nhật gợi ý mới
+        this.renderQuizQuestion();
+    }
+
+    // Áp dụng gợi ý chữ cái vào ô chữ: tiết lộ (hintLevel - 1) chữ đầu tiên
+    applyLetterHints() {
+        const word = this.quizState?.pool[this.quizState.current];
+        if (!word) return;
+        const revealCount = (this.quizState.hintLevel || 1) - 1; // số ký tự đã lộ
+        let charIdx = 0;
+        word.word.split('').forEach((ch, i) => {
+            if (ch === ' ') return;
+            const box = document.getElementById(`lb-${i}`);
+            if (box) {
+                // Chỉ lộ nếu chưa người dùng gõ đúng vào ô đó
+                box.textContent = charIdx < revealCount ? ch.toUpperCase() : '_';
+                if (charIdx < revealCount) {
+                    box.classList.add('revealed');
+                }
+            }
+            charIdx++;
+        });
+
+        // Ẩn nút "Tiết lộ chữ cái" nếu đã lộ hết
+        const totalLetters = word.word.replace(/ /g, '').length;
+        if (revealCount >= totalLetters - 1) {
+            document.querySelectorAll('.btn-hint-reveal.secondary')
+                .forEach(b => b.style.display = 'none');
+        }
+    }
+
+    // Đồng bộ ô chữ theo nội dung người dùng đang gõ
+    syncLetterBoxes() {
+        const inp = document.getElementById('quiz-typing-input');
+        const word = this.quizState?.pool[this.quizState.current];
+        if (!inp || !word) return;
+
+        const typed = inp.value;
+        let charIdx = 0;
+        word.word.split('').forEach((ch, i) => {
+            if (ch === ' ') return;
+            const box = document.getElementById(`lb-${i}`);
+            if (box && !box.classList.contains('revealed')) {
+                const typedChar = typed[charIdx];
+                box.textContent = typedChar ? typedChar.toUpperCase() : '_';
+                box.style.color = typedChar
+                    ? (typedChar.toLowerCase() === ch.toLowerCase() ? '#10b981' : '#ef4444')
+                    : '';
+            }
+            charIdx++;
+        });
+    }
+
+    // Xử lý nộp bài điền từ
+    submitTypingAnswer() {
+        const inp = document.getElementById('quiz-typing-input');
+        if (!inp) return;
+
+        const answer = inp.value.trim().toLowerCase();
+        const word = this.quizState.pool[this.quizState.current];
+        if (!word) return;
+
+        const correct = word.word.toLowerCase();
+        const isExact = answer === correct;
+        // Chấp nhận lỗi typo 1 ký tự (Levenshtein distance = 1)
+        const isClose = !isExact && this.levenshtein(answer, correct) === 1;
+        const isCorrect = isExact || isClose;
+
+        // Vô hiệu hoá input để tránh nhập thêm
+        inp.disabled = true;
+        document.querySelector('.btn-quiz-submit')?.setAttribute('disabled', '');
+
+        if (isCorrect) {
+            this.quizState.score++;
+            inp.style.borderColor = '#10b981';
+            inp.style.background = 'rgba(16,185,129,0.08)';
+            this.showToast(isExact ? 'Chính xác! ✓' : 'Gần đúng! ✓ (typo nhỏ)', `"${word.word}"`, 'success');
+        } else {
+            inp.style.borderColor = '#ef4444';
+            inp.style.background = 'rgba(239,68,68,0.08)';
+            // Hiển thị đáp án đúng bên dưới
+            const area = document.querySelector('.quiz-typing-area');
+            if (area) {
+                const hint = document.createElement('div');
+                hint.style.cssText = 'margin-top:0.75rem;color:#ef4444;font-weight:700;font-size:0.95rem;text-align:center';
+                hint.innerHTML = `Đáp án: <strong>"${word.word}"</strong>`;
+                area.appendChild(hint);
+            }
+            this.showToast('Chưa đúng!', `Đáp án: "${word.word}"`, 'warning');
+        }
+
+        // Reset hintLevel, chuyển câu tiếp sau 1.5 giây
+        setTimeout(() => {
+            this.quizState.hintLevel = 0;
+            this.quizState.current++;
+            this.renderQuizQuestion();
+        }, 1500);
+    }
+
+    // Tính Levenshtein distance để phát hiện typo nhỏ
+    levenshtein(a, b) {
+        const m = a.length, n = b.length;
+        const dp = Array.from({ length: m + 1 }, (_, i) => [i, ...Array(n).fill(0)]);
+        for (let j = 0; j <= n; j++) dp[0][j] = j;
+        for (let i = 1; i <= m; i++)
+            for (let j = 1; j <= n; j++)
+                dp[i][j] = a[i-1] === b[j-1] ? dp[i-1][j-1]
+                    : 1 + Math.min(dp[i-1][j], dp[i][j-1], dp[i-1][j-1]);
+        return dp[m][n];
+    }
+
+
     scheduleReminders() {
         if (this.reminderTimer) clearInterval(this.reminderTimer);
 
@@ -1605,6 +1850,219 @@ class VocabApp {
         if (!url || url === 'null') return;
         const audio = new Audio(url);
         audio.play().catch(() => { });
+    }
+
+    // =====================================================================
+    //  TYPING QUIZ - Xử lý điền từ
+    // =====================================================================
+    submitTypingAnswer() {
+        const inp = document.getElementById('quiz-typing-input');
+        if (!inp) return;
+
+        const answer = inp.value.trim().toLowerCase();
+        const word = this.quizState.pool[this.quizState.current];
+        if (!word) return;
+
+        const correct = word.word.toLowerCase();
+
+        // Kiểm tra khớp chính xác hoặc gần đúng (1 ký tự sai - typo tolerance)
+        const isExact = answer === correct;
+        const isClose = !isExact && this.levenshtein(answer, correct) === 1;
+        const isCorrect = isExact || isClose;
+
+        // Vô hiệu hoá input để tránh nhập thêm
+        inp.disabled = true;
+        document.querySelector('.btn-quiz-submit')?.setAttribute('disabled', '');
+
+        if (isCorrect) {
+            this.quizState.score++;
+            inp.style.borderColor = '#10b981';
+            inp.style.background = 'rgba(16,185,129,0.08)';
+            this.showToast(isExact ? 'Chính xác! ✓' : 'Gần đúng! ✓ (typo nhỏ)', `"${word.word}"`, 'success');
+        } else {
+            inp.style.borderColor = '#ef4444';
+            inp.style.background = 'rgba(239,68,68,0.08)';
+            // Hiển thị đáp án đúng bên dưới input
+            const area = document.querySelector('.quiz-typing-area');
+            if (area) {
+                const hint = document.createElement('div');
+                hint.style.cssText = 'margin-top:0.75rem;color:#ef4444;font-weight:700;font-size:0.95rem';
+                hint.textContent = `Đáp án: "${word.word}"`;
+                area.appendChild(hint);
+            }
+            this.showToast('Chưa đúng!', `Đáp án đúng: "${word.word}"`, 'warning');
+        }
+
+        // Chuyển câu tiếp sau 1.5 giây
+        setTimeout(() => {
+            this.quizState.current++;
+            this.renderQuizQuestion();
+        }, 1500);
+    }
+
+    // Tính khoảng cách Levenshtein để chấp nhận typo nhỏ
+    levenshtein(a, b) {
+        const m = a.length, n = b.length;
+        const dp = Array.from({ length: m + 1 }, (_, i) => [i, ...Array(n).fill(0)]);
+        for (let j = 0; j <= n; j++) dp[0][j] = j;
+        for (let i = 1; i <= m; i++)
+            for (let j = 1; j <= n; j++)
+                dp[i][j] = a[i-1] === b[j-1] ? dp[i-1][j-1]
+                    : 1 + Math.min(dp[i-1][j], dp[i][j-1], dp[i-1][j-1]);
+        return dp[m][n];
+    }
+
+    // =====================================================================
+    //  MATCHING GAME - Trò chơi ghép cặp từ - nghĩa
+    // =====================================================================
+    renderMatchingGame() {
+        const learnedWords = this.words.filter(w => this.learnedIds.includes(w.id));
+        if (learnedWords.length < 4) { this.renderQuizStart(); return; }
+
+        const count = Math.min(6, learnedWords.length);
+        const selected = [...learnedWords].sort(() => Math.random() - 0.5).slice(0, count);
+
+        // Xáo trộn riêng hai cột để không trùng thứ tự
+        const leftItems  = [...selected].sort(() => Math.random() - 0.5);
+        const rightItems = [...selected].sort(() => Math.random() - 0.5);
+
+        this.matchingState = {
+            words: selected,
+            leftItems,
+            rightItems,
+            selectedLeft: null,   // id từ đang chọn bên trái
+            selectedRight: null,  // id từ đang chọn bên phải
+            matched: new Set(),   // set id đã ghép đúng
+            attempts: 0,
+            startTime: Date.now()
+        };
+
+        this.renderMatchingBoard();
+    }
+
+    renderMatchingBoard() {
+        const { words, leftItems, rightItems, matched } = this.matchingState;
+        const container = document.getElementById('quiz-content');
+        container.innerHTML = `
+            <div class="matching-game">
+                <div class="matching-header">
+                    <h3 class="font-outfit">🔗 Ghép cặp từ - nghĩa</h3>
+                    <div class="matching-stats">
+                        <span>${matched.size}/${words.length} cặp</span>
+                        <span>${this.matchingState.attempts} lượt</span>
+                    </div>
+                </div>
+                <p style="font-size:0.85rem;color:var(--text-muted);text-align:center;margin-bottom:1.25rem">
+                    Chọn một từ bên trái rồi chọn nghĩa tương ứng bên phải
+                </p>
+                <div class="matching-board">
+                    <div class="matching-col">
+                        ${leftItems.map(w => `
+                            <button class="matching-item${matched.has(w.id) ? ' matched' : ''}"
+                                data-id="${w.id}" data-side="left"
+                                onclick="app.selectMatchingItem('left','${w.id}')"
+                                ${matched.has(w.id) ? 'disabled' : ''}>
+                                ${w.word}
+                            </button>`).join('')}
+                    </div>
+                    <div class="matching-col">
+                        ${rightItems.map(w => `
+                            <button class="matching-item${matched.has(w.id) ? ' matched' : ''}"
+                                data-id="${w.id}" data-side="right"
+                                onclick="app.selectMatchingItem('right','${w.id}')"
+                                ${matched.has(w.id) ? 'disabled' : ''}>
+                                ${w.meanings[0]?.meaning || '---'}
+                            </button>`).join('')}
+                    </div>
+                </div>
+                <button onclick="app.renderQuizStart()" class="matching-quit-btn">
+                    <i data-lucide="arrow-left"></i> Chọn chế độ khác
+                </button>
+            </div>`;
+        lucide.createIcons();
+    }
+
+    selectMatchingItem(side, id) {
+        const state = this.matchingState;
+
+        if (side === 'left') {
+            // Bỏ chọn cũ, chọn mới bên trái
+            document.querySelectorAll('.matching-item[data-side="left"]')
+                .forEach(el => el.classList.remove('selected'));
+            state.selectedLeft = id;
+            document.querySelector(`.matching-item[data-side="left"][data-id="${id}"]`)
+                ?.classList.add('selected');
+        } else {
+            state.selectedRight = id;
+            document.querySelectorAll('.matching-item[data-side="right"]')
+                .forEach(el => el.classList.remove('selected'));
+            document.querySelector(`.matching-item[data-side="right"][data-id="${id}"]`)
+                ?.classList.add('selected');
+        }
+
+        // Khi đã chọn cả hai bên → kiểm tra
+        if (state.selectedLeft && state.selectedRight) {
+            state.attempts++;
+            const correct = state.selectedLeft === state.selectedRight;
+
+            if (correct) {
+                // Ghép đúng: đánh dấu matched
+                state.matched.add(state.selectedLeft);
+                document.querySelectorAll(`.matching-item[data-id="${state.selectedLeft}"]`)
+                    .forEach(el => { el.classList.add('matched'); el.classList.remove('selected'); el.disabled = true; });
+                this.showToast('✅ Đúng!', null, 'success');
+
+                // Cập nhật counter
+                const statsEl = document.querySelector('.matching-stats span');
+                if (statsEl) statsEl.textContent = `${state.matched.size}/${state.words.length} cặp`;
+
+                if (state.matched.size === state.words.length) {
+                    setTimeout(() => this.showMatchingResult(), 700);
+                }
+            } else {
+                // Sai: flash red rồi bỏ chọn
+                document.querySelectorAll('.matching-item.selected').forEach(el => {
+                    el.classList.add('wrong');
+                    setTimeout(() => el.classList.remove('wrong', 'selected'), 700);
+                });
+                this.showToast('❌ Chưa khớp!', 'Thử lại nhé!', 'warning');
+            }
+
+            state.selectedLeft = null;
+            state.selectedRight = null;
+
+            // Cập nhật lượt
+            const attemptsEl = document.querySelectorAll('.matching-stats span')[1];
+            if (attemptsEl) attemptsEl.textContent = `${state.attempts} lượt`;
+        }
+    }
+
+    showMatchingResult() {
+        const { words, attempts, startTime } = this.matchingState;
+        const secs = Math.round((Date.now() - startTime) / 1000);
+        const accuracy = Math.round((words.length / Math.max(attempts, words.length)) * 100);
+        const emoji = accuracy === 100 ? '🏆' : accuracy >= 70 ? '🎯' : '💪';
+
+        document.getElementById('quiz-content').innerHTML = `
+            <div class="quiz-result-screen">
+                <div style="font-size:4rem;margin-bottom:1rem">${emoji}</div>
+                <div class="quiz-score-big">${words.length}/${words.length}</div>
+                <div class="quiz-score-label">Đã ghép đủ tất cả ${words.length} cặp!</div>
+                <div style="display:flex;gap:2rem;justify-content:center;margin:1rem 0;color:var(--text-secondary);font-weight:600;font-size:0.9rem">
+                    <span>⏱ ${secs}s</span>
+                    <span>🎯 ${attempts} lượt</span>
+                    <span>✅ ${accuracy}% chính xác</span>
+                </div>
+                <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap">
+                    <button onclick="app.renderMatchingGame()" class="btn-primary-action">
+                        <i data-lucide="refresh-cw"></i> Chơi lại
+                    </button>
+                    <button onclick="app.renderQuizStart()" style="padding:0.875rem 2rem;background:var(--bg-card);border:1.5px solid var(--border);border-radius:var(--r-full);font-weight:700;font-size:0.9rem;cursor:pointer">
+                        Chọn chế độ khác
+                    </button>
+                </div>
+            </div>`;
+        lucide.createIcons();
     }
 }
 

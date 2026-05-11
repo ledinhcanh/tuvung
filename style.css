@@ -3521,3 +3521,433 @@ a {
     border-color: rgba(99, 102, 241, 0.3);
 }
 
+/* ===========================
+   QUIZ TYPE CARDS
+   Giao diện chọn loại bài kiểm tra dạng thẻ card
+   =========================== */
+.quiz-type-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-top: 0.5rem;
+}
+
+.quiz-type-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1.25rem 1rem;
+    border: 2px solid var(--border);
+    border-radius: var(--r-lg);
+    background: var(--bg-card);
+    cursor: pointer;
+    transition: var(--transition);
+    text-align: center;
+}
+
+.quiz-type-card:hover {
+    border-color: var(--primary);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+}
+
+/* Trạng thái được chọn - hiển thị viền và nền nổi bật */
+.quiz-type-card.active {
+    border-color: var(--primary);
+    background: linear-gradient(135deg, rgba(99,102,241,0.1), rgba(168,85,247,0.08));
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.15);
+}
+
+.quiz-type-icon {
+    font-size: 1.75rem;
+    line-height: 1;
+}
+
+.quiz-type-label {
+    font-size: 0.9rem;
+    font-weight: 800;
+    color: var(--text-primary);
+}
+
+.quiz-type-desc {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+/* Responsive cho quiz type cards trên mobile nhỏ */
+@media (max-width: 480px) {
+    .quiz-type-cards {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* ===========================
+   TYPING QUIZ - Điền từ
+   =========================== */
+.quiz-typing-hint {
+    margin-top: 0.75rem;
+    padding: 0.75rem 1rem;
+    background: rgba(99, 102, 241, 0.06);
+    border-left: 3px solid var(--primary);
+    border-radius: 0 var(--r-sm) var(--r-sm) 0;
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    font-style: italic;
+    text-align: left;
+}
+
+.quiz-typing-area {
+    display: flex;
+    gap: 0.75rem;
+    margin-top: 1.25rem;
+    align-items: stretch;
+}
+
+.quiz-typing-input {
+    flex: 1;
+    padding: 1rem 1.25rem;
+    border: 2px solid var(--border);
+    border-radius: var(--r-md);
+    font-size: 1.1rem;
+    font-weight: 600;
+    background: var(--bg-card);
+    color: var(--text-primary);
+    transition: var(--transition);
+    font-family: 'Be Vietnam Pro', 'Inter', sans-serif;
+}
+
+.quiz-typing-input:focus {
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.15);
+    outline: none;
+}
+
+.btn-quiz-submit {
+    padding: 0 1.5rem;
+    background: var(--primary-gradient);
+    color: white;
+    border-radius: var(--r-md);
+    font-weight: 700;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: var(--transition);
+    white-space: nowrap;
+    box-shadow: var(--shadow-primary);
+}
+
+.btn-quiz-submit:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(99, 102, 241, 0.4);
+}
+
+.btn-quiz-submit:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    transform: none;
+}
+
+.btn-quiz-submit svg {
+    width: 16px;
+    height: 16px;
+}
+
+/* ===========================
+   MATCHING GAME - Ghép cặp
+   =========================== */
+.matching-game {
+    max-width: 780px;
+    margin: 0 auto;
+}
+
+.matching-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+.matching-header h3 {
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: var(--text-primary);
+}
+
+.matching-stats {
+    display: flex;
+    gap: 1rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: var(--text-muted);
+}
+
+.matching-board {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.matching-col {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.matching-item {
+    padding: 0.875rem 1rem;
+    border: 2px solid var(--border);
+    border-radius: var(--r-md);
+    background: var(--bg-card);
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    text-align: center;
+    cursor: pointer;
+    transition: var(--transition);
+    line-height: 1.4;
+    min-height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.matching-item:hover:not(:disabled) {
+    border-color: var(--primary);
+    background: rgba(99, 102, 241, 0.05);
+    transform: translateY(-1px);
+}
+
+/* Đang được chọn */
+.matching-item.selected {
+    border-color: var(--primary);
+    background: linear-gradient(135deg, rgba(99,102,241,0.12), rgba(168,85,247,0.08));
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.2);
+    transform: translateY(-2px);
+}
+
+/* Đã ghép đúng */
+.matching-item.matched {
+    border-color: #10b981;
+    background: rgba(16, 185, 129, 0.08);
+    color: #059669;
+    opacity: 0.7;
+    cursor: default;
+}
+
+/* Ghép sai - flash đỏ */
+.matching-item.wrong {
+    border-color: #ef4444;
+    background: rgba(239, 68, 68, 0.1);
+    animation: shake 0.4s ease;
+}
+
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    25% { transform: translateX(-6px); }
+    75% { transform: translateX(6px); }
+}
+
+.matching-quit-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 0 auto;
+    padding: 0.75rem 1.5rem;
+    background: var(--bg-card);
+    border: 1.5px solid var(--border);
+    border-radius: var(--r-full);
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: var(--text-secondary);
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.matching-quit-btn:hover {
+    border-color: var(--primary);
+    color: var(--primary);
+}
+
+.matching-quit-btn svg {
+    width: 16px;
+    height: 16px;
+}
+
+/* Responsive matching game trên mobile */
+@media (max-width: 600px) {
+    .matching-board {
+        grid-template-columns: 1fr;
+    }
+    .matching-col:last-child {
+        border-top: 1px dashed var(--border);
+        padding-top: 1rem;
+    }
+    .quiz-typing-area {
+        flex-direction: column;
+    }
+    .btn-quiz-submit {
+        justify-content: center;
+        padding: 0.875rem;
+    }
+}
+
+/* ===========================
+   TYPING QUIZ - Gợi ý nâng cao
+   =========================== */
+
+/* Hàng meta: loại từ + số ký tự + nút nghe */
+.typing-meta-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.625rem;
+    margin-top: 0.75rem;
+    flex-wrap: wrap;
+}
+
+.typing-pos-badge {
+    padding: 3px 12px;
+    background: rgba(99, 102, 241, 0.1);
+    color: var(--primary);
+    border-radius: var(--r-full);
+    font-size: 0.75rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.typing-length-badge {
+    padding: 3px 12px;
+    background: rgba(16, 185, 129, 0.1);
+    color: #059669;
+    border-radius: var(--r-full);
+    font-size: 0.75rem;
+    font-weight: 800;
+}
+
+/* Nút nghe audio trong typing */
+.typing-audio-btn {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 4px 12px;
+    border: 1.5px solid var(--border);
+    border-radius: var(--r-full);
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--text-secondary);
+    cursor: pointer;
+    transition: var(--transition);
+    background: var(--bg-card);
+}
+
+.typing-audio-btn:hover {
+    border-color: var(--primary);
+    color: var(--primary);
+    background: rgba(99, 102, 241, 0.06);
+}
+
+.typing-audio-btn svg {
+    width: 14px;
+    height: 14px;
+}
+
+/* IPA phiên âm */
+.typing-ipa {
+    margin-top: 0.4rem;
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    font-style: italic;
+    letter-spacing: 0.03em;
+}
+
+/* Ô chữ hiển thị số ký tự */
+.letter-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    margin: 1rem 0 0.25rem;
+    flex-wrap: wrap;
+}
+
+.letter-box {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 40px;
+    border-bottom: 2.5px solid var(--border);
+    font-size: 1rem;
+    font-weight: 800;
+    color: var(--text-primary);
+    transition: var(--transition);
+    font-family: 'Be Vietnam Pro', monospace;
+    text-transform: uppercase;
+}
+
+/* Ô khoảng trắng (từ nhiều chữ) */
+.letter-box.space {
+    width: 18px;
+    border-bottom-color: transparent;
+}
+
+/* Ô chữ cái đã được gợi ý (revealed) */
+.letter-box.revealed {
+    border-bottom-color: var(--primary);
+    color: var(--primary);
+}
+
+/* Thanh nút gợi ý bên dưới input */
+.typing-hint-bar {
+    display: flex;
+    gap: 0.75rem;
+    justify-content: center;
+    margin-top: 0.875rem;
+    flex-wrap: wrap;
+}
+
+/* Nút yêu cầu gợi ý */
+.btn-hint-reveal {
+    display: flex;
+    align-items: center;
+    gap: 0.375rem;
+    padding: 0.5rem 1.125rem;
+    border: 1.5px dashed var(--primary);
+    border-radius: var(--r-full);
+    background: rgba(99, 102, 241, 0.05);
+    color: var(--primary);
+    font-size: 0.8rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.btn-hint-reveal:hover {
+    background: rgba(99, 102, 241, 0.12);
+    transform: translateY(-1px);
+}
+
+/* Nút gợi ý phụ (tiết lộ chữ cái) */
+.btn-hint-reveal.secondary {
+    border-color: var(--accent-amber);
+    background: rgba(245, 158, 11, 0.05);
+    color: #d97706;
+}
+
+.btn-hint-reveal.secondary:hover {
+    background: rgba(245, 158, 11, 0.12);
+}
+
+.hint-cost {
+    font-size: 0.7rem;
+    opacity: 0.7;
+    font-weight: 600;
+}
+
+
+
